@@ -13,3 +13,7 @@
 .services{
     text-align: center;
 }
+.gridServices{
+    border: 2px solid black;
+    padding: 2px;
+}
