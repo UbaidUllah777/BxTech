@@ -1,0 +1,15 @@
+#crouselItem{
+    height: 250px;
+}
+.carousel-inner{
+    height: 550px;
+}
+.nav-item{
+    padding-right: 20px;
+}
+.navbar-brand{
+    padding-left: 20px;
+}
+.services{
+    text-align: center;
+}
