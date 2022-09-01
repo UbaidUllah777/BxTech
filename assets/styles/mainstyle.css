@@ -20,7 +20,7 @@
 .industtriesexperties{
     background-color: black;
 }
-.industtriesexperties h1,h5, p{
+.industtriesexperties *{
     color: white;
 }
 .Allfooter p,h1,h2,h3,h4{
