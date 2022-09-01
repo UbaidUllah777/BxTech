@@ -17,3 +17,31 @@
     border: 2px solid black;
     padding: 2px;
 }
+.industtriesexperties{
+    background-color: black;
+}
+.industtriesexperties h1,h5,p{
+    color: white;
+}
+.Allfooter p,h1,h2,h3,h4,h5{
+    color: black;
+
+}
+.ourlocation{
+    padding-left: 20px;
+}
+.quickLinks{
+    list-style-type: none;
+}
+.quickLinks a{
+    text-decoration: none;
+    color: black;
+}
+.linksArrow{
+    color: green;
+    font-weight: bolder;
+}
+
+.firstFooter{
+    padding-top: 20px;
+}
