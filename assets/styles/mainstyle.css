@@ -20,10 +20,10 @@
 .industtriesexperties{
     background-color: black;
 }
-.industtriesexperties h1,h5,p{
+.industtriesexperties h1,h5, p{
     color: white;
 }
-.Allfooter p,h1,h2,h3,h4,h5{
+.Allfooter p,h1,h2,h3,h4{
     color: black;
 
 }
@@ -44,4 +44,22 @@
 
 .firstFooter{
     padding-top: 20px;
+}
+.fa-brands{
+    font-size: xx-large;
+    padding: 10px;
+    color: green;
+}
+.firstFooter{
+    background-color:rgb(192, 177, 177);
+}
+.secondFooter{
+    background-color:rgb(190, 187, 187);
+}
+.thirdFooter{
+    background-color:darkgrey;
+  
+}
+a{
+    text-decoration: none;
 }
