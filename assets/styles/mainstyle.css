@@ -63,3 +63,23 @@
 a{
     text-decoration: none;
 }
+.mapsAndForm{
+    padding-left: 20px;
+}
+
+.map-container-3{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-3 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+  .Allfooter{
+    padding-top: 20px;
+  }
