@@ -91,9 +91,7 @@ font-weight: bolder;
   ul.whyUsListHeadings p{
     font-weight: 400;
   }
-  .categweBeliveIn{
-    border: 3px solid black;
-  }
+ 
   .hwToWrkUs{
     margin-top: 20px;
     margin-left: 10px;
@@ -104,7 +102,8 @@ font-weight: bolder;
     padding-bottom: 10px;
   }
   .fxdPrice{
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 30px;
@@ -113,6 +112,8 @@ font-weight: bolder;
     box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
   }
   .ddctdTeams{
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
      margin-left: 30px;
