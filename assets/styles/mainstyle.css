@@ -83,3 +83,14 @@ a{
   .Allfooter{
     padding-top: 20px;
   }
+  ul.whyUsListHeadings li{
+font-weight: bolder;
+
+  }
+  ul.whyUsListHeadings p{
+    font-weight: 400;
+  }
+  .categweBeliveIn{
+    border: 3px solid black;
+  }
+
