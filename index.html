@@ -5,359 +5,443 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<!--FontAwesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="assets/styles/mainstyle.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!--FontAwesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#footer").load("footer.html"); 
+    });
+    </script> 
+
+
+    <link href="assets/styles/mainstyle.css" rel="stylesheet" />
     <title>BX Technologies</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse  ms-auto" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="index.html">Bx Technologies</a>
-        <ul class="navbar-nav mr-auto ms-auto mt-2 mt-lg-0 ">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home </span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="aboutus.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="projects.html">Our Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contactus.html">Contact Us</a>
-          </li>
-        </ul>
-        
-      </div>
-    </nav>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="header"></div>
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
       <div class="carousel-inner">
         <div id="crouselItem" class="carousel-item active">
-          <img src="assets/images/carousel2.jpg" class="d-block w-100" alt="...">
+          <img
+            src="assets/images/carousel2.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
         </div>
-        <div id="crouselItem"  class="carousel-item">
-          <img src="assets/images/carousel3.jpg" class="d-block w-100" alt="...">
+        <div id="crouselItem" class="carousel-item">
+          <img
+            src="assets/images/carousel3.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
         </div>
-        <div id="crouselItem"  class="carousel-item">
-          <img src="assets/images/carousel4.jpg" class="d-block w-100" alt="...">
+        <div id="crouselItem" class="carousel-item">
+          <img
+            src="assets/images/carousel4.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-<div class="row pt-5 services">
-  <div class="col-4">
-  </div>
-  <div  class="col-4">
-    <h3> Our Services</h3>
-  </div>
-  <div class="col-4">
-  </div>
-</div>
-<div class="row services">
-  <div class="col-12">
-    <p>BX Technologies (Pvt) Ltd maintains a pool of dedicated teams of software developers and engineers for different technology platforms. we offer our services for development of Android and IOS applications, full stake web applications, Desktop and enterprise level applications and Cloud applications</p>
-  </div>
-  
-</div>
-<div class="row">
-  <div class="col-12 col-sm-4  gridServices" >
-    <div class="row">
-      <div class="col-12">
-        <img src="" alt="">
-      </div>
-    </div>
-    <div class="row">
-      
-      <div class="col-12">
-        <h3>Mobile App Development</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <p>We provide Application Design, Development, Integration and Management ervices throughout the entirety of the Application lifecycle</p>
-      </div></div>
-  </div>
-  <div class="col-12 col-sm-4  gridServices" >
-    <div class="row">
-      <div class="col-12">
-        <img src="" alt="">
-      </div>
-    </div>
-    <div class="row">
-      
-      <div class="col-12">
-        <h3>Mobile App Development</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <p>We provide Application Design, Development, Integration and Management ervices throughout the entirety of the Application lifecycle</p>
-      </div></div>
-  </div>
-  <div class="col-12 col-sm-4  gridServices">
-    <div class="row">
-      <div class="col-12">
-        <img src="" alt="">
-      </div>
-    </div>
-    <div class="row">
-      
-      <div class="col-12">
-        <h3>Mobile App Development</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <p>We provide Application Design, Development, Integration and Management ervices throughout the entirety of the Application lifecycle</p>
-      </div></div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-12 col-sm-4  gridServices">
-    <div class="row">
-      <div class="col-12">
-        <img src="" alt="">
-      </div>
-    </div>
-    <div class="row">
-      
-      <div class="col-12">
-        <h3>Mobile App Development</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <p>We provide Application Design, Development, Integration and Management ervices throughout the entirety of the Application lifecycle</p>
-      </div></div>
-  </div>
-  <div class="col-12 col-sm-4  gridServices">
-    <div class="row">
-      <div class="col-12">
-        <img src="" alt="">
-      </div>
-    </div>
-    <div class="row">
-      
-      <div class="col-12">
-        <h3>Mobile App Development</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <p>We provide Application Design, Development, Integration and Management ervices throughout the entirety of the Application lifecycle</p>
-      </div></div>
-  </div>
-  <div class="col-12 col-sm-4  gridServices">
-    <div class="row">
-      <div class="col-12">
-        <img src="" alt="">
-      </div>
-    </div>
-    <div class="row">
-      
-      <div class="col-12">
-        <h3>Mobile App Development</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <p>We provide Application Design, Development, Integration and Management ervices throughout the entirety of the Application lifecycle</p>
-      </div></div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-sm-6 col-12">
-    <h2>Why BX Technologies</h2>
-    <p>Incepted in March 2019, BX Technologies (Pvt) Ltd is a Software Development, Information Technology. Our strategic Retail Pro consultants can help you automate your business operations. We provide:</p>
-  <ul>
-    <li>Strategic Retail Pro Consultancy</li>
-    <li>Custom Retail Pro Development</li>
-    <li>End-to-End Retail Pro Integration</li>
-    <li>Develop Retail Pro Custom Plugins</li>
-    <li>Retail Pro Custom Reporting Dashboards</li>
-    <li>Retail Pro Deployment & Support</li>
-  </ul>
-  </div>
-  <div class="col-sm-6 col-12">
-    <h2>We’re proud partners of</h2>
-    <img src="" alt="">
-    <p>Unify your retail operations with our
-      end-to-end Retail Pro services.</p>
-      <button>TALK To US</button>
-  </div>
-</div>
-<div class="row">
-  <div class="col-12">
-   <center> <h1>How to Work With Us?</h1></center>
-  </div>
-</div>
-<div class="row">
-  <div class="col-12">
-    <center><p>We offer two types of different engagement models for our customers to choose from.</p>
-    </center></div>
-</div>
-<div class="row">
-  <div class="col-sm-6 col-12 grdPricingModel ">
-    <div class="row">
+    <div class="row pt-5 services">
+      <div class="col-4"></div>
       <div class="col-4">
-        <img src="" alt="">
+        <h3>Our Services</h3>
       </div>
-      <div class="col-8">
-        <h3>Fixed Price</h3>
+      <div class="col-4"></div>
+    </div>
+    <div class="row services">
+      <div class="col-12">
+        <p>
+          BX Technologies (Pvt) Ltd maintains a pool of dedicated teams of
+          software developers and engineers for different technology platforms.
+          we offer our services for development of Android and IOS applications,
+          full stake web applications, Desktop and enterprise level applications
+          and Cloud applications
+        </p>
       </div>
     </div>
-      <ul>
-        <li>Works efficiently on the projects with clear, stable, and settled requirements.</li>
-      <li>The cost of the project is fixed and discussed in the discovery phase or before the project starts.</li>
-    <li>Only pre-discussed ‘milestones’ of the project are charged, we expect the payment once it is finished.</li>  
-    </ul>
-    
-  </div>
-  <div class="col-sm-6 col-12 grdPricingModel ">
     <div class="row">
-      <div class="col-4">
-        <img src="" alt="">
+      <div class="col-12 col-sm-4 gridServices">
+        <div class="row">
+          <div class="col-12">
+            <img src="" alt="" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h3>Mobile App Development</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p>
+              We provide Application Design, Development, Integration and
+              Management ervices throughout the entirety of the Application
+              lifecycle
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="col-8">
-        <h3>Fixed Price</h3>
+      <div class="col-12 col-sm-4 gridServices">
+        <div class="row">
+          <div class="col-12">
+            <img src="" alt="" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h3>Mobile App Development</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p>
+              We provide Application Design, Development, Integration and
+              Management ervices throughout the entirety of the Application
+              lifecycle
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-4 gridServices">
+        <div class="row">
+          <div class="col-12">
+            <img src="" alt="" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h3>Mobile App Development</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p>
+              We provide Application Design, Development, Integration and
+              Management ervices throughout the entirety of the Application
+              lifecycle
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-      <ul>
-        <li>Works efficiently on the projects with clear, stable, and settled requirements.</li>
-      <li>The cost of the project is fixed and discussed in the discovery phase or before the project starts.</li>
-    <li>Only pre-discussed ‘milestones’ of the project are charged, we expect the payment once it is finished.</li>  
-    </ul>
-    
-  </div>
-</div>
-<div class="row industtriesexperties" >
-  <div class="row">
-    <div class="col-12"><center>
-      <h1>Industries we're experts in</h1><br>
-      <p>We have enough expertise in the implementation of digital solutions across several industerial domains. Our domain of expertise not only limited to the mentioned industerials areas. BX technologies always try to adopt agile practices and methods. Being a truly Agile based company we embrace ourselves to accept new challenges and to deliver customers the highest value of their envisioned ideas. </p>
-    </center></div>
-  </div>
-  <div class="row ">
-    <div class="col-sm-4 col-12">
-      <center> <img src="" alt=""><br>
-      <h5>E-commerce Full Stack Solutions</h5><br>
-      <p>We are capable of delivering interactive and user friendly Web and Mobile applications tailored towards E-commerece industry using verying number of  development tools and technologies and development frameworks</p>
-    </center> 
+    <div class="row">
+      <div class="col-12 col-sm-4 gridServices">
+        <div class="row">
+          <div class="col-12">
+            <img src="" alt="" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h3>Mobile App Development</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p>
+              We provide Application Design, Development, Integration and
+              Management ervices throughout the entirety of the Application
+              lifecycle
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-4 gridServices">
+        <div class="row">
+          <div class="col-12">
+            <img src="" alt="" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h3>Mobile App Development</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p>
+              We provide Application Design, Development, Integration and
+              Management ervices throughout the entirety of the Application
+              lifecycle
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-4 gridServices">
+        <div class="row">
+          <div class="col-12">
+            <img src="" alt="" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h3>Mobile App Development</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p>
+              We provide Application Design, Development, Integration and
+              Management ervices throughout the entirety of the Application
+              lifecycle
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-sm-4 col-12">
-      <center> <img src="" alt=""><br>
-      <h5>Services Industry</h5><br>
-      <p> The nature of business of services sector varies significantly from one business to another, which requires custom solutions. Thanks to domain knowledge and expertise of our engineers and developers, we have have delivered several solutions to service sector clients. the solutions are crafted with care and keeping the requirments & business value at front.</p>
-    </center> 
+    <div class="row">
+      <div class="col-sm-6 col-12">
+        <h2>Why BX Technologies</h2>
+        <p>
+          Incepted in March 2019, BX Technologies (Pvt) Ltd is a Software
+          Development, Information Technology. Our strategic Retail Pro
+          consultants can help you automate your business operations. We
+          provide:
+        </p>
+        <ul>
+          <li>Strategic Retail Pro Consultancy</li>
+          <li>Custom Retail Pro Development</li>
+          <li>End-to-End Retail Pro Integration</li>
+          <li>Develop Retail Pro Custom Plugins</li>
+          <li>Retail Pro Custom Reporting Dashboards</li>
+          <li>Retail Pro Deployment & Support</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-12">
+        <h2>We’re proud partners of</h2>
+        <img src="" alt="" />
+        <p>
+          Unify your retail operations with our end-to-end Retail Pro services.
+        </p>
+        <button>TALK To US</button>
+      </div>
     </div>
-    <div class="col-sm-4 col-12">
-      <center> <img src="" alt=""><br>
-      <h5>Telecommunication and IoT's</h5><br>
-      <p>IoT,s and smart devices are considered a promising technology for end-to-end connectivity of digital products. However, the implementation and development of IoT,s based solutions prosses different set of challenges and complexities as compared to the traditional software development. BX technologies engineers have both the capacity and well to develop and deploy  complex IoT,s solution by esuring security and interoperability</p>
-    </center> 
+    <div class="row">
+      <div class="col-12">
+        <center><h1>How to Work With Us?</h1></center>
+      </div>
     </div>
- </div>
- <div class="row ">
-   <div class="col-sm-4 col-12">
-     <center> <img src="" alt=""><br>
-     <h5>Custom Software Development</h5><br>
-     <p>Generic Software products and commerical-of-the-shelf(COTS) is not mean to fit into every business case and deliver the expected value to customers. Over the years BX technologies has delivered several custom software solutions to clients around the world. </p>
-   </center> 
-   </div>
-   <div class="col-sm-4 col-12">
-     <center> <img src="" alt=""><br>
-     <h5> E-Learning</h5><br>
-     <p>Education domain has seen a paradigm shift over the last couple of decades. E-learning have advanced technologically to the point where generic software solutions can no longer meet its specific needs. BX Technologies has been actively aiding organizations in the education sectors to gain stability and seamlessly provide a classroom environment to students.</p>
-   </center> 
-   </div>
-   <div class="col-sm-4 col-12">
-     <center><img src="" alt=""><br>
-     <h5>Health Care</h5><br>
-     <p>Health Care is one of the most prominent sector which recieves a greater attention of advance ICT applications. BX technologies is actively helping heath care sector in thier transformation to digital paltforms</p>
-   </center> 
-   </div>
-</div>
-</div>
-
-<div class="Allfooter">
-<div class="row firstFooter">
-  <div class="col-1"></div>
-    <div class="col-sm-4 col-12 ourlocation">
-      <h3>Our Locations</h3><br>
-      <p>Germany<br>
-        Vision PS GmbH Hansa Str 03, <br>
-        47058 Duisburg, NRW,<br>
-        Pakistan<br>
-        Roshan Center, Blue Area, Islamabad <br>
-        Phone: +92 3159116035 <br>
-        Email: lemonadeflirt@gmail.com</p>
+    <div class="row">
+      <div class="col-12">
+        <center>
+          <p>
+            We offer two types of different engagement models for our customers
+            to choose from.
+          </p>
+        </center>
+      </div>
     </div>
-    <div class="col-sm-3 col-12 usefullLinks">
-      <h3>Quick Links</h3><br>
-      <ul class="quickLinks">
-        <a href="index.html"> <li> Home</li></a>
-        <a href="aboutus.html"><li>  About us</li></a>
-       <a href="services.html"> <li> Services</li></a>
-       <a href="projects.html"> <li> Projects</li></a>
-       <a href="privacypolicy.html"> <li> Privacy Policy</li></a>
-       <a href="imprint.html"> <li> Imprint</li></a>
-      </ul>
-      
+    <div class="row">
+      <div class="col-sm-6 col-12 grdPricingModel">
+        <div class="row">
+          <div class="col-4">
+            <img src="" alt="" />
+          </div>
+          <div class="col-8">
+            <h3>Fixed Price</h3>
+          </div>
+        </div>
+        <ul>
+          <li>
+            Works efficiently on the projects with clear, stable, and settled
+            requirements.
+          </li>
+          <li>
+            The cost of the project is fixed and discussed in the discovery
+            phase or before the project starts.
+          </li>
+          <li>
+            Only pre-discussed ‘milestones’ of the project are charged, we
+            expect the payment once it is finished.
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-12 grdPricingModel">
+        <div class="row">
+          <div class="col-4">
+            <img src="" alt="" />
+          </div>
+          <div class="col-8">
+            <h3>Fixed Price</h3>
+          </div>
+        </div>
+        <ul>
+          <li>
+            Works efficiently on the projects with clear, stable, and settled
+            requirements.
+          </li>
+          <li>
+            The cost of the project is fixed and discussed in the discovery
+            phase or before the project starts.
+          </li>
+          <li>
+            Only pre-discussed ‘milestones’ of the project are charged, we
+            expect the payment once it is finished.
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="col-sm-3 col-12 ourServices">
-      <h3>Our Services</h3><br>
-      <ul class="quickLinks">
-        <a href="services.html"> <li>Mobile App Development</li></a>
-        <a href=""> Full Stack web Development </li></a> 
-        <a href=""><li>E-commerce Application Development</li></a>
-        <a href=""><li>Didicated Software Testing</li></a>
-        <a href=""><li>Cyber Security</li></a>
-        <a href=""><li>Cloud Depolyment & Management</li></a>
-      </ul>
+    <div class="row industtriesexperties">
+      <div class="row">
+        <div class="col-12">
+          <center>
+            <h1>Industries we're experts in</h1>
+            <br />
+            <p>
+              We have enough expertise in the implementation of digital
+              solutions across several industerial domains. Our domain of
+              expertise not only limited to the mentioned industerials areas. BX
+              technologies always try to adopt agile practices and methods.
+              Being a truly Agile based company we embrace ourselves to accept
+              new challenges and to deliver customers the highest value of their
+              envisioned ideas.
+            </p>
+          </center>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 col-12">
+          <center>
+            <img src="" alt="" /><br />
+            <h5>E-commerce Full Stack Solutions</h5>
+            <br />
+            <p>
+              We are capable of delivering interactive and user friendly Web and
+              Mobile applications tailored towards E-commerece industry using
+              verying number of development tools and technologies and
+              development frameworks
+            </p>
+          </center>
+        </div>
+        <div class="col-sm-4 col-12">
+          <center>
+            <img src="" alt="" /><br />
+            <h5>Services Industry</h5>
+            <br />
+            <p>
+              The nature of business of services sector varies significantly
+              from one business to another, which requires custom solutions.
+              Thanks to domain knowledge and expertise of our engineers and
+              developers, we have have delivered several solutions to service
+              sector clients. the solutions are crafted with care and keeping
+              the requirments & business value at front.
+            </p>
+          </center>
+        </div>
+        <div class="col-sm-4 col-12">
+          <center>
+            <img src="" alt="" /><br />
+            <h5>Telecommunication and IoT's</h5>
+            <br />
+            <p>
+              IoT,s and smart devices are considered a promising technology for
+              end-to-end connectivity of digital products. However, the
+              implementation and development of IoT,s based solutions prosses
+              different set of challenges and complexities as compared to the
+              traditional software development. BX technologies engineers have
+              both the capacity and well to develop and deploy complex IoT,s
+              solution by esuring security and interoperability
+            </p>
+          </center>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 col-12">
+          <center>
+            <img src="" alt="" /><br />
+            <h5>Custom Software Development</h5>
+            <br />
+            <p>
+              Generic Software products and commerical-of-the-shelf(COTS) is not
+              mean to fit into every business case and deliver the expected
+              value to customers. Over the years BX technologies has delivered
+              several custom software solutions to clients around the world.
+            </p>
+          </center>
+        </div>
+        <div class="col-sm-4 col-12">
+          <center>
+            <img src="" alt="" /><br />
+            <h5>E-Learning</h5>
+            <br />
+            <p>
+              Education domain has seen a paradigm shift over the last couple of
+              decades. E-learning have advanced technologically to the point
+              where generic software solutions can no longer meet its specific
+              needs. BX Technologies has been actively aiding organizations in
+              the education sectors to gain stability and seamlessly provide a
+              classroom environment to students.
+            </p>
+          </center>
+        </div>
+        <div class="col-sm-4 col-12">
+          <center>
+            <img src="" alt="" /><br />
+            <h5>Health Care</h5>
+            <br />
+            <p>
+              Health Care is one of the most prominent sector which recieves a
+              greater attention of advance ICT applications. BX technologies is
+              actively helping heath care sector in thier transformation to
+              digital paltforms
+            </p>
+          </center>
+        </div>
+      </div>
     </div>
-  
-  <div class="col-1"></div>
-</div>
-<div class="row secondFooter">
-  <div class="col-12"><center>
-    <a href="https://twitter.com/i/flow/login"> <i class="fa-brands fa-twitter"></i></a>
-    <a href="https://www.facebook.com/">  <i class="fa-brands fa-facebook"></i></a>
-    <a href="https://www.linkedin.com/signup"><i class="fa-brands fa-linkedin-in"></i></a>
-    <a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram"></i></a> </center>
-  </div>
-</div>
-<div class="row thirdFooter">
-  <div class="col-12"><center>
-    <p>© Copyright BX Technologies. All Rights Reserved</p></center>
-  </div></div>
-</div>  
 
+    <div id="footer"></div>
 
-
-
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
- </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -4,41 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
+
     <!--FontAwesome-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link href="assets/styles/mainstyle.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="assets/styles/mainstyle.css" rel="stylesheet" />
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse  ms-auto" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="index.html">Bx Technologies</a>
-        <ul class="navbar-nav mr-auto ms-auto mt-2 mt-lg-0 ">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home </span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="aboutus.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="projects.html">Our Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contactus.html">Contact Us</a>
-          </li>
-        </ul>
-        
-      </div>
-    </nav>
-
-
+    <div id="header"></div>
 
     <div class="row">
       <div class="col-12">
@@ -315,64 +310,17 @@
       </div>
     </div>
 
+    <div id="footer"></div>
 
-
-
-
-    <div class="Allfooter">
-      <div class="row firstFooter">
-        <div class="col-1"></div>
-          <div class="col-sm-4 col-12 ourlocation">
-            <h3>Our Locations</h3><br>
-            <p>Germany<br>
-              Vision PS GmbH Hansa Str 03, <br>
-              47058 Duisburg, NRW,<br>
-              Pakistan<br>
-              Roshan Center, Blue Area, Islamabad <br>
-              Phone: +92 3159116035 <br>
-              Email: lemonadeflirt@gmail.com</p>
-          </div>
-          <div class="col-sm-3 col-12 usefullLinks">
-            <h3>Quick Links</h3><br>
-            <ul class="quickLinks">
-              <a href="index.html"> <li> Home</li></a>
-              <a href="aboutus.html"><li>  About us</li></a>
-             <a href="services.html"> <li> Services</li></a>
-             <a href="projects.html"> <li> Projects</li></a>
-             <a href="privacypolicy.html"> <li> Privacy Policy</li></a>
-             <a href="imprint.html"> <li> Imprint</li></a>
-            </ul>
-            
-          </div>
-          <div class="col-sm-3 col-12 ourServices">
-            <h3>Our Services</h3><br>
-            <ul class="quickLinks">
-              <a href="services.html"> <li>Mobile App Development</li></a>
-              <a href=""> Full Stack web Development </li></a> 
-              <a href=""><li>Ecomerice Application Development</li></a>
-              <a href=""><li>Didicated Software Testing</li></a>
-              <a href=""><li>Cyber Security</li></a>
-              <a href=""><li>Cloud Depolyment & Management</li></a>
-            </ul>
-          </div>
-        
-        <div class="col-1"></div>
-      </div>
-      <div class="row secondFooter">
-        <div class="col-12"><center>
-          <a href="https://twitter.com/i/flow/login"> <i class="fa-brands fa-twitter"></i></a>
-          <a href="https://www.facebook.com/">  <i class="fa-brands fa-facebook"></i></a>
-          <a href="https://www.linkedin.com/signup"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram"></i></a> </center>
-        </div>
-      </div>
-      <div class="row thirdFooter">
-        <div class="col-12"><center>
-          <p>© Copyright BX Technologies. All Rights Reserved</p></center>
-        </div></div>
-      </div> 
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
-       
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
