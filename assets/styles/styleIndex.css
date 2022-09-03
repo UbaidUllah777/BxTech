@@ -1,0 +1,32 @@
+.gridServices img{
+    height: 50px;
+    width: 50px;
+}
+.gridServices{
+    
+    background-color: #FDFDFD;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
+    padding: 12px;
+    margin-left: 10px;
+   
+}
+.gridServices:hover{
+    transition: transform .2s;
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 2px 2px 12px rgba(8, 208, 31, 0.439);
+}
+.rowGrid{
+    padding-left: 40px; 
+    padding-top: 20px;
+}
+.whyAndproudRow{
+    padding-top: 20px;
+    align-items: center;
+}
+.serviceshr {
+    border: 2px solid rgb(6, 130, 22); border-radius: px;
+    width: 200px;
+    margin-top: 5px;
+}
