@@ -132,3 +132,12 @@ font-weight: bolder;
     box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
     padding-bottom: 10px;
   }
+.bxLogo{
+    height: 70px;
+    width: 100px;
+    display: block;
+    max-width: 100px;
+    
+    
+    
+}
