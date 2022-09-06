@@ -138,7 +138,7 @@ font-weight: bolder;
     display: block;
     max-width: 100px;  
 }
-.active, .btn:hover {
+.activee, .btn:hover {
     background-color: #666;
     color: rgb(134, 5, 5);
     

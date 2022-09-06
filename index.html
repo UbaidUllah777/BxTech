@@ -34,6 +34,18 @@
         $("#footer").load("footer.html");
       });
     </script>
+    <script>
+      $(function () {
+        var current = location.pathname;
+        $("#nav li a").each(function () {
+          var $this = $(this);
+          // if the current path is like this link, make it active
+          if ($this.attr("href").indexOf(current) !== -1) {
+            $this.addClass("activee");
+          }
+        });
+      });
+    </script>
 
     <link href="assets/styles/mainstyle.css" rel="stylesheet" />
     <title>BX Technologies</title>
@@ -479,7 +491,5 @@
       integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
       crossorigin="anonymous"
     ></script>
-
-    <script src="assets/scripts/comonScript.js" defer></script>
   </body>
 </html>
