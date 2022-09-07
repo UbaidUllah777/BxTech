@@ -116,3 +116,18 @@ font-size: 24px;
 font-weight: bold;
 color: green;
     }
+
+.ourProcess  li {
+    color: green;
+    font-size: larger;
+}
+.ourProcess  p{
+    color: black;
+    
+    font-size: medium;
+
+}
+.ourProcess h1{
+    color: #28c23e;
+    padding-bottom: 5px;
+}
