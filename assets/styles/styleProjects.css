@@ -118,8 +118,8 @@
     outline: 0;
     padding: 7px 0;
     background: transparent;
-    transition: border-color 0.2s;
-    color:white;
+    transition: border-color 0.5s;
+    color:rgb(13, 13, 13);
 }
 .projetsSelection option{
     background: rgba(108, 151, 238, 0.679);
@@ -189,12 +189,20 @@ label{
     box-shadow: none;
   }
   
-  /* demo */
-  .formBody  {
+
+ .formBody  {
     font-family: "Poppins", sans-serif;
-    
-    align-items: center;
+    border-radius: 5px;
     min-height: 100vh;
     font-size: 1.5rem;
-    background-color: rgb(188, 212, 244);}
+}
+.TellUsAbout{
+    background-color: #FDFDFD;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
+    padding: 12px;
+    margin: 20px;
+    margin-left: 10px;
+}
+
   
