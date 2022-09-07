@@ -1,95 +1,130 @@
-.firstDescription{
-    margin-top: 20px;
-    margin-left: 10px;
-   margin-right: 10px;
-    background-color: #FDFDFD;
-    border-radius: 10px;
-    box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
-    padding-bottom: 10px;
+.firstDescription {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
+  padding-bottom: 10px;
 }
-.readyToDiscuss{
-    padding-top: 40px;
-    margin-top: 40px;
-    padding-bottom: 40px;
-    background-color: darkgrey;
-}
-.techStack{
-    padding: 10px;
-}
-.techStockOne{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 30px;
-}
-.techStockOne:hover{
-    border-radius: 10px;
-    box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
-    padding-bottom: 10px;
-    cursor: pointer;
-}
-.techStockTwo{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 30px;
-}
-.techStockTwo:hover{
-    border-radius: 10px;
-    box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
-    padding-bottom: 10px;
-    cursor: pointer;
-}
-.ourServiceElement{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 30px;
-}
-.ourServiceElement:hover{
-    border-radius: 10px;
-    box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
-    padding-bottom: 10px;
-    cursor: pointer;
-}
-.headerContainer{
-    background-color: rgb(233, 240, 238);
-}
-.headerContainer p{
-font-size: 24px;
- font-weight: 300;
-  color: #3d463e;
-}
-.headerContainer h1{
- 
-    font-size:2.1rem;
-    line-height:60px;
-}
-.serviceHeaderText{
-    padding-top: 10%;
-    padding-left: 40px;
-    padding-right: 20px;
-
-}
-.serviceHeaderimg img{
-         padding-top: 10%;
-        max-width: 100%;
-        height: auto;
-        width: auto\9; /* ie8 */
-   
-}
-
-
-.btnGetStarted{
-   border-radius: 100px;
-  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+#btnGetIntouch {
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
   background-color: #28c23e;
   cursor: pointer;
   display: inline-block;
-  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+#btnGetIntouch:hover {
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.readyToDiscuss {
+  padding-top: 40px;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(233, 240, 238);
+}
+.techStack {
+  padding: 10px;
+}
+.techStockOne {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fdfdfd;
+  padding: 12px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.techStockOne:hover {
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.techStockTwo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fdfdfd;
+  padding: 12px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.techStockTwo:hover {
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.techStockTwo img:hover {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.ourServiceElement {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fdfdfd;
+  padding: 12px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.ourServiceElement:hover {
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.headerContainer {
+  background-color: rgb(233, 240, 238);
+}
+.headerContainer p {
+  font-size: 24px;
+  font-weight: 300;
+  color: #3d463e;
+}
+.headerContainer h1 {
+  font-size: 2.1rem;
+  line-height: 60px;
+}
+.serviceHeaderText {
+  padding-top: 10%;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+.serviceHeaderimg img {
+  padding-top: 10%;
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+.btnGetStarted {
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  background-color: #28c23e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
   padding: 7px 20px;
   text-align: center;
   text-decoration: none;
@@ -102,41 +137,58 @@ font-size: 24px;
 }
 
 .btnGetStarted:hover {
-  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
   transform: scale(1.05) rotate(-1deg);
 }
-.ourServiceElement img{
-    height: 50px;
-    width: 50px;
-    margin-left: 20px;
+
+.techStack h1,
+h3 {
+  color: #28c23e;
+  padding-bottom: 5px;
+}
+.readyToDiscuss h1 {
+  color: #28c23e;
+  padding-bottom: 5px;
 }
 
-.navItemServices a{
-        font-size:medium;
-font-weight: bold;
-color: green;
-    }
+.ourServiceElement img {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+}
 
-.ourProcess  li {
-    color: green;
-    font-size: larger;
+.navItemServices a {
+  font-size: medium;
+  font-weight: bold;
+  color: green;
 }
-.ourProcess  p{
-    color: black;
-    
-    font-size: medium;
 
+.ourProcess li {
+  color: green;
+  font-size: larger;
 }
-.ourProcess h1{
-    color: #28c23e;
-    padding-bottom: 5px;
+.ourProcess p {
+  color: black;
+
+  font-size: medium;
 }
-.ourServices h1,h5{
-    color: #28c23e;
+.ourProcess h1 {
+  color: #28c23e;
+  padding-bottom: 5px;
 }
-.ourServiceElement p{
-   display: block;
-   margin-left: 10px;
-   margin-right: 10px;
-   padding-top: 5px;
+.ourServices h1,
+h5 {
+  color: #28c23e;
+}
+.ourServiceElement p {
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 5px;
+}
+.ourProcess {
+  background-color: rgb(233, 240, 238);
 }

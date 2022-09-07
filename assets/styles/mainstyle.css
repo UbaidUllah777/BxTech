@@ -1,144 +1,154 @@
 body {
-    font-family: 'Nunito';
+  font-family: "Nunito";
 }
 
-
-#crouselItem{
-    height: 250px;
+#crouselItem {
+  height: 250px;
 }
 
-.nav-item{
-    padding-right: 20px;
+.nav-item {
+  padding-right: 20px;
 }
-.navbar-brand{
-    padding-left: 20px;
+.navbar-brand {
+  padding-left: 20px;
 }
-.services{
-    text-align: center;
-}
-
-.industtriesexperties{
-    background-color: black;
-}
-.industtriesexperties *{
-    color: white;
-}
-.Allfooter *{
-    color: black;
-
-}
-.ourlocation{
-    padding-left: 20px;
-}
-.quickLinks{
-    list-style-type: none;
-}
-.quickLinks a{
-    text-decoration: none;
-    color: black;
-}
-.linksArrow{
-    color: green;
-    font-weight: bolder;
+.services {
+  text-align: center;
 }
 
-.firstFooter{
-    padding-top: 20px;
+.industtriesexperties {
+  background-color: #98afc7;
 }
-.fa-brands{
-    font-size: xx-large;
-    padding: 10px;
-    color: green;
+.industtriesexperties * {
+  color: white;
 }
-.firstFooter{
-    background-color:rgb(192, 177, 177);
+.Allfooter * {
+  color: black;
 }
-.secondFooter{
-    background-color:rgb(190, 187, 187);
+.ourlocation {
+  padding-left: 20px;
 }
-.thirdFooter{
-    background-color:darkgrey;
-  
+.quickLinks {
+  list-style-type: none;
 }
-a{
-    text-decoration: none;
+.quickLinks a {
+  text-decoration: none;
+  color: black;
 }
-.mapsAndForm{
-    padding-left: 20px;
+.linksArrow {
+  color: green;
+  font-weight: bolder;
 }
 
-.map-container-3{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-  }
-  .map-container-3 iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-  }
-  .Allfooter{
-    padding-top: 20px;
-  }
-
-  ul.whyUsListHeadings li{
-font-weight: bolder;
-
-  }
-  ul.whyUsListHeadings p{
-    font-weight: 400;
-  }
- 
-  
-  .fxdPrice{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 30px;
-    background-color: #FDFDFD;
-    border-radius: 10px;
-    box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
-  }
-  .ddctdTeams{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-     margin-left: 30px;
-    background-color: #FDFDFD;
-    border-radius: 10px;
-    box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
-  }
-  .FAQS{
-    margin-top: 20px;
-    margin-left: 10px;
-   margin-right: 10px;
-    background-color: #FDFDFD;
-    border-radius: 10px;
-    box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
-    padding-bottom: 10px;
-  }
-.bxLogo{
-    height: 70px;
-    width: 100px;
-    display: block;
-    max-width: 100px;  
+.firstFooter {
+  padding-top: 20px;
 }
-.activee, .btn:hover {
-    background-color: #666;
-    color: rgb(134, 5, 5);
-    
-  }
-  .row {
-    --bs-gutter-x: 0;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: calc(-.5 * var(--bs-gutter-x));
-    margin-left: calc(-.5 * var(--bs-gutter-x));
+.fa-brands {
+  font-size: xx-large;
+  padding: 10px;
+  color: green;
+}
+.navbar-custom {
+  background-color: rgb(229, 250, 249);
+}
+.firstFooter {
+  background-color: #00b5f1;
+}
+.secondFooter {
+  background-color: rgb(190, 187, 187);
+}
+.thirdFooter {
+  background-color: darkgrey;
+}
+a {
+  text-decoration: none;
+}
+.mapsAndForm {
+  padding-left: 20px;
+}
+
+.map-container-3 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container-3 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.Allfooter {
+  padding-top: 20px;
+}
+
+ul.whyUsListHeadings li {
+  font-weight: bolder;
+}
+ul.whyUsListHeadings p {
+  font-weight: 400;
+}
+
+.fxdPrice {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
+}
+.ddctdTeams {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
+}
+.FAQS {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
+  padding-bottom: 10px;
+}
+.bxLogo {
+  height: 70px;
+  width: 100px;
+  display: block;
+  max-width: 100px;
+}
+.activee,
+.btn:hover {
+  background-color: #666;
+  color: rgb(134, 5, 5);
+}
+.row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.fa-brands:hover {
+  transform: scale(1.08) rotate(-1deg);
+}
+.copyrightCol {
+  display: block;
+  padding-top: 20px;
+}
+.socialIconsCol {
+  display: block;
+  padding-top: 5px;
 }
