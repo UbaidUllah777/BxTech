@@ -65,7 +65,7 @@ cursor: pointer;
 
 }
 .h1Ourservices{
-    
+    color: #28c23e;
     padding:0 0%;
   }
   
@@ -104,4 +104,13 @@ cursor: pointer;
   .industtriesexperties{
     
     padding-top: 40px;
+  }
+
+  .gridServices h3{
+    color: #28c23e;
+  }
+  .gridServices:hover h3{
+    
+      color:#00B5F1;
+    
   }
