@@ -6,9 +6,7 @@ body {
 #crouselItem{
     height: 250px;
 }
-.carousel-inner{
-    height: 550px;
-}
+
 .nav-item{
     padding-right: 20px;
 }
@@ -135,3 +133,12 @@ font-weight: bolder;
     color: rgb(134, 5, 5);
     
   }
+  .row {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
