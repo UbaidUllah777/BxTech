@@ -72,7 +72,7 @@ font-size: 24px;
     padding-top: 10%;
     padding-left: 40px;
     padding-right: 20px;
-    
+
 }
 .serviceHeaderimg img{
          padding-top: 10%;
@@ -130,4 +130,13 @@ color: green;
 .ourProcess h1{
     color: #28c23e;
     padding-bottom: 5px;
+}
+.ourServices h1,h5{
+    color: #28c23e;
+}
+.ourServiceElement p{
+   display: block;
+   margin-left: 10px;
+   margin-right: 10px;
+   padding-top: 5px;
 }
