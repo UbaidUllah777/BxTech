@@ -1,0 +1,29 @@
+
+ <div class="row whyAndproudRow">
+      <div class="col-sm-5 whyAndProudGrid col-10">
+        <h2>Why BX Technologies</h2>
+        <p>
+          Incepted in March 2019, BX Technologies (Pvt) Ltd is a Software
+          Development, Information Technology. Our strategic Retail Pro
+          consultants can help you automate your business operations. We
+          provide:
+        </p>
+        <ul>
+          <li>Strategic Retail Pro Consultancy</li>
+          <li>Custom Retail Pro Development</li>
+          <li>End-to-End Retail Pro Integration</li>
+          <li>Develop Retail Pro Custom Plugins</li>
+          <li>Retail Pro Custom Reporting Dashboards</li>
+          <li>Retail Pro Deployment & Support</li>
+        </ul>
+      </div>
+
+      <div class="col-sm-5 whyAndProudGrid col-10">
+        <h2>We're proud partners of</h2>
+        <img src="" alt="" />
+        <p>
+          Unify your retail operations with our end-to-end Retail Pro services.
+        </p>
+        <button id="btnTalkToUs">TALK To US</button>
+      </div>
+    </div>

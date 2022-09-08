@@ -1,85 +1,118 @@
-
-.gridServices img{
-    height: 50px;
-    width: 50px;
+.gridServices img {
+  height: 50px;
+  width: 50px;
 }
-.gridServices{
-     display: block;
+.gridServices {
+  display: block;
   margin-left: auto;
   margin-right: auto;
-    background-color: #FDFDFD;
-    border-radius: 10px;
-    box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
-    padding: 12px;
-    margin-left:30px;
-    margin-top: 10px;
-   
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
+  padding: 12px;
+  margin-left: 30px;
+  margin-top: 10px;
 }
-.whyAndProudGrid{
-    display: block;
+.grdPricingModel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+  margin-left: 30px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  border-top: none;
+  border-bottom: none;
+  border-left: 1px solid #00b5f1;
+  border-right: 1px solid #00b5f1;
+}
+.BxFactsGrid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 12px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.BxFactsGrid h2 {
+  color: #28c23e;
+}
+.BxFactsGrid h5 {
+  font-weight: 700;
+}
+
+.whyChooseBxImg {
+  width: 110%;
+  height: auto;
+  padding-top: 8%;
+}
+
+.whyAndProudGrid {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
-  background-color: #FDFDFD;
   border-radius: 10px;
   padding: 10px;
-  border-left: 1px solid green;
-  border-right: 1px solid green;
   height: fit-content;
-  
-  
 }
-.whyAndProudGrid:hover{box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
-cursor: pointer;
+/* .whyAndProudGrid:hover {
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  cursor: pointer;
+} */
 
+.gridServices:hover {
+  transition: transform 0.2s;
+  transform: scale(1.01);
+  cursor: pointer;
+  box-shadow: 2px 2px 12px rgba(8, 208, 31, 0.439);
 }
-
-.gridServices:hover{
-    transition: transform .2s;
-    transform: scale(1.01);
-    cursor: pointer;
-    box-shadow: 2px 2px 12px rgba(8, 208, 31, 0.439);
+.rowGrid {
+  padding-left: 0px;
+  padding-top: 20px;
 }
-.rowGrid{
-    padding-left: 0px; 
-    padding-top: 20px;
-}
-.whyAndproudRow{
- 
-    align-items: center;
-    padding-bottom: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: rgb(229, 250, 249);
+.whyAndproudRow {
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(229, 250, 249);
 }
 .serviceshr {
-    border: 2px solid rgb(6, 130, 22); border-radius: px;
-    width: 220px;
-    margin-top: 5px;
+  border: 2px solid rgb(6, 130, 22);
+  border-radius: px;
+  width: 220px;
+  margin-top: 5px;
 }
-.projectItemS h1{
-    padding-top: 10px;
+.projectItemS h1 {
+  padding-top: 10px;
 }
 .carousel-inner {
-   height: 20%;
-
+  height: 20%;
 }
-.h1Ourservices{
-    color: #28c23e;
-    padding:0 0%;
-  }
-  
-  
-  .h1Ourservices hr{
-     width:80%;
-    }
-  #btnTalkToUs{
-    border-radius: 100px;
-  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+.h1Ourservices {
+  color: #28c23e;
+  padding: 0 0%;
+}
+
+.h1Ourservices hr {
+  width: 80%;
+}
+#btnTalkToUs {
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
   background-color: #28c23e;
   cursor: pointer;
   display: inline-block;
-  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
   padding: 7px 20px;
   text-align: center;
   text-decoration: none;
@@ -90,36 +123,54 @@ cursor: pointer;
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-#btnTalkToUs:hover{
-    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
-    transform: scale(1.05) rotate(-1deg);
-  }
-  
-  .fullServiceRow{
-    padding-bottom: 40px;
-  }
-  .howToWorkWithUs{
-    padding-top: 40px;
-  }
-  .industtriesexperties{
-    
-    padding-top: 40px;
-  }
+#btnTalkToUs:hover {
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
 
-  .gridServices h3{
-    color: #28c23e;
-  }
-  .gridServices:hover h3{
-    
-      color:#00B5F1;
-    
-  }
-  .howToWorkWithUs img{
-    height: 60px;
-    width: 60px;
-    margin-left: 40px;
-  }
-  .howToWorkWithUs h1, h3{
-    color:#28c23e;
-  }
-  
+.fullServiceRow {
+  padding-bottom: 40px;
+}
+.howToWorkWithUs {
+  padding-top: 40px;
+}
+.industtriesexperties {
+  margin-top: 40px;
+}
+
+.gridServices h3 {
+  color: #28c23e;
+}
+.gridServices:hover h3 {
+  color: #00b5f1;
+}
+.howToWorkWithUs img {
+  height: 60px;
+  width: 60px;
+  margin-left: 40px;
+}
+.howToWorkWithUs h1,
+h3 {
+  color: #28c23e;
+}
+
+.industriesGrid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 10px;
+  border-left: 1px solid #00b5f1;
+  border-right: 1px solid #00b5f1;
+  margin-bottom: 10px;
+}
+.industtriesexperties h1 {
+  color: #28c23e;
+}
+.industtriesexperties h5 {
+  color: #28c23e;
+}
