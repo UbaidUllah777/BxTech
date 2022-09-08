@@ -114,3 +114,12 @@ cursor: pointer;
       color:#00B5F1;
     
   }
+  .howToWorkWithUs img{
+    height: 60px;
+    width: 60px;
+    margin-left: 40px;
+  }
+  .howToWorkWithUs h1, h3{
+    color:#28c23e;
+  }
+  
