@@ -1,13 +1,22 @@
 body {
   font-family: "Nunito";
 }
-.wholeBody {
-  padding-top: 110px;
+/* .wholeBody {
+  padding-top: 20%;
+} */
+@media only screen and (max-width: 950px) {
+  .wholeBody {
+    padding-top: 10%;
+  }
 }
 
-#crouselItem {
-  height: 250px;
+@media only screen and (max-width: 600px) {
+  .wholeBody {
+    padding-top: 20%;
+  }
 }
+
+
 .navbar {
   top: 0;
   z-index: 999;

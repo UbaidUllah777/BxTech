@@ -1,3 +1,9 @@
+.navItemHome a {
+  font-size: medium;
+  font-weight: bold;
+  color: green;
+}
+
 .gridServices img {
   height: 50px;
   width: 50px;
@@ -92,9 +98,20 @@
 .projectItemS h1 {
   padding-top: 10px;
 }
-.carousel-inner {
-  height: 20%;
-}
+
+ /* .w-100 {
+  width: 100% !important;
+  height: 75vh;
+}  */
+
+/* @media only screen and (max-width: 576px) {
+  .carousel .carousel-inner .item{
+     max-height: 100px;
+  }
+} */
+.carousel{ max-height: 500px; overflow: hidden; }
+carousel-inner {     position: relative;     width: 100%;     overflow: hidden; }
+
 .h1Ourservices {
   color: #28c23e;
   padding: 0 0%;
