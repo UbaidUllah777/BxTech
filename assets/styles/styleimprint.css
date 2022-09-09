@@ -1,0 +1,15 @@
+.imprintpage h1,
+h3 {
+  color: #28c23e;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.bxTechLogo img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 50px;
+}
+.imprintBanner {
+  max-width: 100%;
+  height: auto;
+}
