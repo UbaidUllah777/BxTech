@@ -40,7 +40,7 @@
   color: #28c23e;
 }
 .BxFactsGrid h5 {
-  font-weight: 700;
+  font-weight: 200;
 }
 
 .whyChooseBxImg {
@@ -173,4 +173,8 @@ h3 {
 }
 .industtriesexperties h5 {
   color: #28c23e;
+}
+.industtriesexperties img {
+  width: 60px;
+  height: 60px;
 }
