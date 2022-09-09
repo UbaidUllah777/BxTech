@@ -1,6 +1,6 @@
 const btnGetStarted = document.querySelector(".btnGetStarted");
 
-const element = document.getElementById("footer");
+const element = document.getElementById("emptyRow");
 
 const FnGetstarted = () => {
   element.scrollIntoView();

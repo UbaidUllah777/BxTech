@@ -195,3 +195,182 @@ h3 {
   width: 60px;
   height: 60px;
 }
+
+
+
+
+
+
+
+
+
+
+/* FORM STYle */
+.TellUsAbout h1 {
+  color: #28c23e;
+}
+
+.atchFileIcon {
+  float: right;
+  margin-right: 6px;
+  margin-top: -30px;
+  position: relative;
+  z-index: 2;
+}
+.frmSigleField {
+  padding-left: 5px;
+  padding-top: 25px;
+}
+
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 100%;
+}
+.projetsSelection {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.5s;
+  color: rgb(13, 13, 13);
+}
+.projetsSelection option {
+  background: rgba(108, 151, 238, 0.679);
+  border-radius: 10px;
+}
+
+.projetsSelection:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+}
+
+label {
+  font-size: 1.5rem;
+  color: #1f1e1e;
+}
+.form_input {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form_input:placeholder-shown ~ .form__label {
+  font-size: 1.1rem;
+  cursor: text;
+  top: 20px;
+  background-color: #9b9b9b;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #100f0f;
+}
+
+.form_input:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+}
+.form_input:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #11998e;
+  font-weight: 700;
+}
+
+/* reset input */
+.form_input:required,
+.form_input:invalid {
+  box-shadow: none;
+}
+
+.frmSigleField input {
+  color: #100f0f;
+}
+.frmSigleField textarea {
+  color: #100f0f;
+}
+.TellUsAbout {
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
+  padding: 12px;
+  margin: 20px;
+  margin-top: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.demo-bg {
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.formBody {
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  min-height: 100vh;
+  font-size: 1.5rem;
+
+  position: relative;
+}
+
+.btnSubmitForm {
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  background-color: #28c23e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 20px;
+}
+
+.btnSubmitForm:hover {
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.capatchaGrid img {
+  height: auto;
+  max-width: 100%;
+}

@@ -14,3 +14,16 @@ for (i = 0; i < faq.length; i++) {
     }
   });
 }
+
+// By click Scroll into view :Start
+const btnGetStarted = document.querySelector(".btnGetStarted");
+
+const element = document.getElementById("emptyRow");
+
+const FnGetstarted = () => {
+  element.scrollIntoView();
+};
+
+btnGetStarted.addEventListener("click", FnGetstarted);
+
+// By click Scroll into view :END
