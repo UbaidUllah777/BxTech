@@ -66,7 +66,7 @@
 
     <div class="allProjectItems">
       <div class="row projectItemS">
-        <div class="col-sm-3 col-12 projectIteM">
+        <div class="col-sm-3 col-10 projectIteM">
           <div class="row projectIteM-Image">
             <div class="col-12">
               <img src="assets/images/projects/1.png" alt="" />
@@ -85,7 +85,7 @@
           </div>
         </div>
 
-        <div class="col-sm-3 col-12 projectIteM">
+        <div class="col-sm-3 col-10 projectIteM">
           <div class="row projectIteM-Image">
             <div class="col-12">
               <img src="assets/images/projects/2.jpg" alt="" />
@@ -104,7 +104,7 @@
           </div>
         </div>
 
-        <div class="col-sm-3 col-12 projectIteM">
+        <div class="col-sm-3 col-10 projectIteM">
           <div class="row projectIteM-Image">
             <div class="col-12">
               <img src="assets/images/projects/3.webp" alt="" />
@@ -125,7 +125,7 @@
       </div>
 
       <div class="row projectItemS">
-        <div class="col-sm-3 col-12 projectIteM">
+        <div class="col-sm-3 col-10 projectIteM">
           <div class="row projectIteM-Image">
             <div class="col-12">
               <img src="assets/images/projects/4.png" alt="" />
@@ -144,7 +144,7 @@
           </div>
         </div>
 
-        <div class="col-sm-3 col-12 projectIteM">
+        <div class="col-sm-3 col-10 projectIteM">
           <div class="row projectIteM-Image">
             <div class="col-12">
               <img src="assets/images/projects/5.png" alt="" />
@@ -163,7 +163,7 @@
           </div>
         </div>
 
-        <div class="col-sm-3 col-12 projectIteM">
+        <div class="col-sm-3 col-10 projectIteM">
           <div class="row projectIteM-Image">
             <div class="col-12">
               <img src="assets/images/projects/1.png " alt="" />
@@ -198,10 +198,16 @@
         <div class="col-1"></div>
         <div class="col-10 formBody">
           <div class="row">
-            <div class="col-sm-10 col-12">
+            <div class="col-sm-10 col-12 frmSigleField" style="width: 100%">
               <div class="form__group field">
-                <label for="projetsSelection">Interest area...:</label><br />
-                <select name="projetsSelection" class="projetsSelection">
+                <label for="projetsSelection" style="opacity: 0.7"
+                  >Interest area...:</label
+                ><br />
+                <select
+                  name="projetsSelection"
+                  class="projetsSelection"
+                  style="max-width: 100%"
+                >
                   <option value="csd">Custom Software Development</option>
                   <option value="mad">Mobile App Development</option>
                   <option value="wad">Web App Development</option>
@@ -215,23 +221,77 @@
               </div>
             </div>
           </div>
+          <br />
           <div class="row">
-            <div class="col-sm-6 col-12">
+            <div class="col-sm-6 col-12 frmSigleField">
               <input
                 type="input"
                 class="form_input"
-                placeholder="Name"
-                name="name"
-                id="name"
+                placeholder="First Name"
+                name="Fname"
+                id="Fname"
                 required
               />
-              <label for="name" class="form__label">Name</label>
             </div>
-            <div class="col-sm-6 col-12"></div>
+            <div class="col-sm-6 col-12 frmSigleField">
+              <input
+                type="input"
+                class="form_input"
+                placeholder="Last Name"
+                name="lastName"
+                id="lastName"
+                required
+              />
+            </div>
           </div>
-          <div class="row"></div>
-          <div class="row"></div>
-          <div class="row"></div>
+          <br />
+          <div class="row">
+            <div class="col-sm-6 col-12 frmSigleField">
+              <input
+                type="input"
+                class="form_input"
+                placeholder="Email"
+                name="email"
+                id="email"
+                required
+              />
+            </div>
+            <div class="col-sm-6 col-12 frmSigleField">
+              <input
+                type="input"
+                class="form_input"
+                placeholder="Attach your file"
+                name="atchFile"
+                id="atchFile"
+                required
+              /><span class="fa-solid fa-paperclip atchFileIcon"></span>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col-sm-10 col-12 frmSigleField" style="width: 100%">
+              <textarea
+                type="input"
+                class="form_input"
+                placeholder="Project Details"
+                name="projectDetails"
+                id="projectDetails"
+                rows="2"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 col-12"></div>
+            <div class="col-sm-4 col-12"></div>
+            <div class="col-sm-4 col-12 capatchaCol">
+              <div class="capatchaGrid">
+                <img src="assets/images/capacha.png" alt="" />
+              </div>
+              <br />
+              <button class="btnSubmitForm">Submit</button>
+            </div>
+          </div>
         </div>
         <div class="col-1"></div>
       </div>
