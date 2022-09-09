@@ -4,7 +4,7 @@ body {
 /* .wholeBody {
   padding-top: 20%;
 } */
-@media only screen and (max-width: 950px) {
+@media only screen and (min-width: 601px) {
   .wholeBody {
     padding-top: 10%;
   }
@@ -15,6 +15,10 @@ body {
     padding-top: 20%;
   }
 }
+.nav-item a:hover{
+  transform: scale(1.2);
+}
+
 
 
 .navbar {

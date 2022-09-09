@@ -1,3 +1,9 @@
+.navItemAboutUs a {
+    font-size: medium;
+    font-weight: bold;
+    color: green;
+  }
+
 .faq-heading{
     border-bottom: #777;
     padding: 20px 60px;

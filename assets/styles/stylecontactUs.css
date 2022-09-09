@@ -1,3 +1,8 @@
 .mapframe{
     border-radius: 20px;
 }
+.navItemContactUs a{
+    font-size: medium;
+    font-weight: bold;
+    color: green;
+}
