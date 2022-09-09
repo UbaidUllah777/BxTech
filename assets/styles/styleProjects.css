@@ -196,12 +196,6 @@ label {
   box-shadow: none;
 }
 
-.formBody {
-  font-family: "Poppins", sans-serif;
-  border-radius: 5px;
-  min-height: 100vh;
-  font-size: 1.5rem;
-}
 .frmSigleField input {
   color: #100f0f;
 }
@@ -209,23 +203,31 @@ label {
   color: #100f0f;
 }
 .TellUsAbout {
-  /* background-image: url("../images/formBG.jpg"); */
   border-radius: 10px;
   box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
   padding: 12px;
   margin: 20px;
+  margin-top: 130px;
   margin-left: 10px;
   overflow: hidden;
   position: relative;
 }
 
 .demo-bg {
-  opacity: 0.5;
+  opacity: 0.3;
   position: absolute;
   left: 0;
   top: 0;
+  height: 100%;
   width: 100%;
-  height: auto;
+}
+.formBody {
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  min-height: 100vh;
+  font-size: 1.5rem;
+
+  position: relative;
 }
 
 .btnSubmitForm {
