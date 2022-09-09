@@ -1,9 +1,14 @@
 .imprintpage h1,
-h3 {
+h3,
+h5 {
   color: #28c23e;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: bold;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
 .bxTechLogo img {
   max-width: 100%;
   height: auto;
@@ -12,4 +17,22 @@ h3 {
 .imprintBanner {
   max-width: 100%;
   height: auto;
+}
+.imprintpage p {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.disclaimer {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.disclaimer p {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.wholeBody {
+  background-color: rgb(233, 240, 238);
 }

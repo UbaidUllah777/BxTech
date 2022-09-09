@@ -1,7 +1,7 @@
 .navItemHome a {
   font-size: medium;
   font-weight: bold;
-  color: green;
+  color: #28c23e;
 }
 
 .gridServices img {
@@ -99,7 +99,7 @@
   padding-top: 10px;
 }
 
- /* .w-100 {
+/* .w-100 {
   width: 100% !important;
   height: 75vh;
 }  */
@@ -109,8 +109,15 @@
      max-height: 100px;
   }
 } */
-.carousel{ max-height: 500px; overflow: hidden; }
-carousel-inner {     position: relative;     width: 100%;     overflow: hidden; }
+.carousel {
+  max-height: 500px;
+  overflow: hidden;
+}
+carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
 
 .h1Ourservices {
   color: #28c23e;
