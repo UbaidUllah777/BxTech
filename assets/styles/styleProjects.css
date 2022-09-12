@@ -24,20 +24,14 @@
 .projectIteM img {
   padding-top: 10%;
   max-width: 90%;
-  height: auto;
-  width: auto\9; /* ie8 */
+  height: auto; 
+  padding-left: 20%;
 }
 .btnGetStarted {
   border-radius: 10px;
   box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
 }
-.projectIteM {
-  background-color: #fdfdfd;
-  border-radius: 10px;
-  box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
-  padding: 12px;
-  margin-left: 30px;
-}
+
 .projectItemS {
   padding-top: 50px;
   text-align: center;
@@ -47,25 +41,28 @@
   justify-content: center;
 }
 .allProjectItems {
-  padding-top: 10px;
+  padding: 10px;
   max-width: 100%;
 }
 .projectItemS h1 {
   margin-top: 10px;
 }
 .projectIteM img {
-  opacity: 0.9;
-}
-.projectIteM {
-  margin-right: 50px;
-  margin-top: 50px;
+  opacity: 0.7;
 }
 
-.projectIteM img:hover {
+
+/* .projectIteM img:hover {
   opacity: 1;
-  transform: scale(1.05) rotate(-1deg);
+  transform: scale(1.04) rotate(-1deg);
   cursor: pointer;
   -webkit-transition: transform 0.3s ease-in-out;
+} */
+.projectIteM:hover 
+{   opacity: 1;
+  transform: scale(1.04) rotate(-1deg);
+  cursor: pointer;
+  -webkit-transition: transform 0.3s ease-in-out; 
 }
 
 .btnGetStarted {
@@ -267,4 +264,26 @@ label {
 .capatchaGrid img {
   height: auto;
   max-width: 100%;
+}
+/* ////////////////// */
+.items-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(20rem, 1fr));
+}
+.projectIteM {
+  margin: 0 0 20px 10px;
+  padding: 0 0 10px 0;
+  height: auto;
+  background-color: #FFFF;
+  position: relative;
+  box-shadow: 2px 2px 12px rgb(47 47 47 / 40%); 
+  border-radius: 10px;
+
+}
+  
+.projectIteM p{
+  padding: 15px;
+  
+  text-align: justify;
+  text-justify: inter-word;
 }

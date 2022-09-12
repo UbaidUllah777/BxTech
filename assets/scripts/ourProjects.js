@@ -1,28 +1,25 @@
 //Vendor Section :Start
-const ElAllProjectItemsContainer = document.querySelector(".allProjectItems");
+const ElAllProjectItemsContainer = document.querySelector(".items-container");
 //Vendor Section :ENDS
 
 // Redering Our Projects :Start
 const FnRenderOurProjects = () => {
-  if (ElAllProjectItemsContainer) {
-    ElAllProjectItemsContainer.innerHTML += `
-    <div class="row projectItemS">
-  
-    </div>
+  // if (ElAllProjectItemsContainer) {
+  //   ElAllProjectItemsContainer.innerHTML += `
 
-    `;
-  }
-  const ElProject = document.querySelector(".projectItemS");
+  //   `;
+  // }
+  //const ElProject = document.querySelector(".projectItemS");
   let counter = 0;
   for (const singleProject of projectsByBxTech) {
     // console.log(singleProject);
     // console.log(`${singleProject.images[0].image1}`);
 
-    if (counter < 3) {
-      if (ElProject) {
-        ElProject.innerHTML += `
-
-        <div class="col-sm-3 col-10 projectIteM">
+    if (counter < projectsByBxTech.length) {
+      if (ElAllProjectItemsContainer) {
+        ElAllProjectItemsContainer.innerHTML += `
+        <div class="item-box projectIteM" >
+        <div class="col-sm-12 col-10 ">
       <div class="row projectIteM-Image">
             <div class="col-12">
               <img
@@ -45,7 +42,7 @@ const FnRenderOurProjects = () => {
             </div>
             </div>
         </div>
-
+        </div>
       `;
       }
     }
@@ -203,9 +200,9 @@ const projectsByBxTech = [
     projName: "4th Project name",
     projShortDescp: "This is Short description of My 4th Project",
     projFullDescrp: "This is Full Description of my 4th Project",
-    imgages: [
+    images: [
       {
-        image1: "",
+        image1: "assets/images/projects images/hastageImage1.png",
         image2: "",
         image3: "",
         image4: "",
@@ -245,9 +242,9 @@ const projectsByBxTech = [
     projName: "5th Project Name",
     projShortDescp: "This is Short description of My 5th Project",
     projFullDescrp: "This is Full Description of my 5th Project",
-    imgages: [
+    images: [
       {
-        image1: "",
+        image1: "assets/images/projects images/gardenImage1.png",
         image2: "",
         image3: "",
         image4: "",
@@ -287,9 +284,9 @@ const projectsByBxTech = [
     projName: "6th project Name",
     projShortDescp: "This is Short description of My 6th Project",
     projFullDescrp: "This is Full Description of my 6th Project",
-    imgages: [
+    images: [
       {
-        image1: "",
+        image1: "assets/images/projects images/iledscreenImage1.png",
         image2: "",
         image3: "",
         image4: "",
@@ -323,6 +320,90 @@ const projectsByBxTech = [
       },
     ],
     clientDesc: "This is Our 6th Client",
+  },
+  {
+    id: 6,
+    projName: "Hydro Sensing",
+    projShortDescp: "This is Short description of My 7th Project",
+    projFullDescrp: "This is Full Description of my 7th Project",
+    images: [
+      {
+        image1: "assets/images/projects images/hydroSensingImage1.png",
+        image2: "",
+        image3: "",
+        image4: "",
+      },
+    ],
+    servicesProvided: [
+      {
+        service1: "",
+        service2: "",
+        service3: "",
+        service4: "",
+        service5: "",
+        service6: "",
+      },
+    ],
+    industryVertical: [
+      {
+        indusrty1: "",
+        indusrty2: "",
+        indusrty3: "",
+        indusrty4: "",
+      },
+    ],
+    technologiesUsed: [
+      {
+        technology1: "",
+        technology2: "",
+        technology3: "",
+        technology4: "",
+        technology5: "",
+      },
+    ],
+    clientDesc: "This is Our 7th Client",
+  },
+  {
+    id: 7,
+    projName: "Ma Faheem",
+    projShortDescp: "This is Short description of My 8th Project",
+    projFullDescrp: "This is Full Description of my 8th Project",
+    images: [
+      {
+        image1: "assets/images/projects images/mafaheemImage1.png",
+        image2: "",
+        image3: "",
+        image4: "",
+      },
+    ],
+    servicesProvided: [
+      {
+        service1: "",
+        service2: "",
+        service3: "",
+        service4: "",
+        service5: "",
+        service6: "",
+      },
+    ],
+    industryVertical: [
+      {
+        indusrty1: "",
+        indusrty2: "",
+        indusrty3: "",
+        indusrty4: "",
+      },
+    ],
+    technologiesUsed: [
+      {
+        technology1: "",
+        technology2: "",
+        technology3: "",
+        technology4: "",
+        technology5: "",
+      },
+    ],
+    clientDesc: "This is Our 8th Client",
   },
 ];
 
