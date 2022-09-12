@@ -99,6 +99,7 @@ body {
   background-color: #00b5f1;
 }
 .firstFooter p {
+  /* color: black; */
   color: white;
 }
 .firstFooter a li {
@@ -106,7 +107,8 @@ body {
   width: fit-content;
 }
 .firstFooter h3 {
-  color: green;
+  /* color: #28c23e; */
+  color: black;
   font-weight: 800;
 }
 .secondFooter {
