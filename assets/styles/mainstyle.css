@@ -15,11 +15,9 @@ body {
     padding-top: 20%;
   }
 }
-.nav-item a:hover{
+.nav-item a:hover {
   transform: scale(1.2);
 }
-
-
 
 .navbar {
   top: 0;
@@ -53,19 +51,30 @@ body {
 .ourlocation {
   padding-left: 20px;
 }
+.ourlocation h5 {
+  color: white;
+  text-align: center;
+}
+.ourlocation p {
+  text-align: center;
+}
+.ourlocation img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
 .quickLinks {
   list-style-type: none;
 }
 .quickLinks a {
   text-decoration: none;
   color: rgb(244, 236, 236);
- width:fit-content;
+  width: fit-content;
 }
 .quickLinks a:hover {
- color: #2cf100;
- cursor: pointer;
- font-weight: 500;
-
+  color: #2cf100;
+  cursor: pointer;
+  font-weight: 500;
 }
 .linksArrow {
   color: green;
@@ -74,7 +83,10 @@ body {
 
 .firstFooter {
   padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
 .fa-brands {
   font-size: xx-large;
   padding: 10px;
@@ -197,9 +209,7 @@ ul.whyUsListHeadings p {
   padding-top: 5px;
 }
 
-
-
 /* Common Form Styles */
-.atchFileIcon:hover{
-cursor: pointer;
+.atchFileIcon:hover {
+  cursor: pointer;
 }
