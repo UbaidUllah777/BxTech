@@ -1,3 +1,93 @@
+.Wholeproject{
+    
+    margin-left: 10px;
+    margin-left: 10px;
+}
 .pageHeading h1{
     color: #28c23e;
+    padding-bottom: 20px;
+}
+.projectSnaps{
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.carousel{
+
+    border-radius: 20px;    
+}
+.projectName{
+    text-align: center;
+   
+}
+.projectDetails{
+    
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+.projectDetails h5{
+    
+    font-size: x-large;
+    font-weight: bolder;
+    color:black;
+    padding-left: 5px;
+}
+.projectDetails h5 span{
+    color: #000101;
+    font-size: medium;
+
+}
+.spCategory{
+    background-color: #00b5f1;
+    border-radius: 20px;
+    height: 35px;
+    white-space:nowrap;
+    padding-inline: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    display:inline-block; 
+    padding-top: 5px;
+    color: white;
+    
+}
+.myServices{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#IdustryVerticalId{
+    padding-top: 20px;
+}
+.iVCategory{
+    background-color: #00b5f1;
+    border-radius: 20px;
+    height: 35px;
+    white-space:nowrap;
+    padding-inline: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    display:inline-block; 
+    padding-top: 5px;
+    color: white;
+}
+.myIdustryVertical{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#TechnologyUsedId{
+    
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.projectDetails h2{
+color: #28c23e;
+font-weight: bold;
 }
