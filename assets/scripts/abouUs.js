@@ -16,7 +16,7 @@ for (i = 0; i < faq.length; i++) {
 }
 
 // By click Scroll into view :Start
-const btnGetStarted = document.querySelector(".btnGetStarted");
+const btnGetStarted = document.getElementById("btnGetStarted");
 
 const element = document.getElementById("emptyRow");
 

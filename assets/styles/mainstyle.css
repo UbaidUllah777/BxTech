@@ -58,7 +58,14 @@ body {
 }
 .quickLinks a {
   text-decoration: none;
-  color: black;
+  color: rgb(244, 236, 236);
+ width:fit-content;
+}
+.quickLinks a:hover {
+ color: #2cf100;
+ cursor: pointer;
+ font-weight: 500;
+
 }
 .linksArrow {
   color: green;
@@ -84,6 +91,7 @@ body {
 }
 .firstFooter a li {
   color: white;
+  width: fit-content;
 }
 .firstFooter h3 {
   color: green;
@@ -187,4 +195,11 @@ ul.whyUsListHeadings p {
 .socialIconsCol {
   display: block;
   padding-top: 5px;
+}
+
+
+
+/* Common Form Styles */
+.atchFileIcon:hover{
+cursor: pointer;
 }

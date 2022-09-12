@@ -381,3 +381,6 @@ label {
   height: auto;
   max-width: 100%;
 }
+.atchFileIcon:hover{
+  cursor: pointer;
+}
