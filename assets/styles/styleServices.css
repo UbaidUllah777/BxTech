@@ -193,10 +193,6 @@ h5 {
   background-color: rgb(233, 240, 238);
 }
 
-
-
-
-
 /* FORM STYle */
 .TellUsAbout h1 {
   color: #28c23e;
@@ -365,4 +361,11 @@ label {
 .capatchaGrid img {
   height: auto;
   max-width: 100%;
+}
+
+body p {
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 5px;
+  padding-right: 5px;
 }
