@@ -7,24 +7,26 @@ const FnRenderOurProjects = () => {
   if (ElAllProjectItemsContainer) {
     ElAllProjectItemsContainer.innerHTML += `
     <div class="row projectItemS">
-    <div class="col-sm-3 col-10 projectIteM">
-    </div>
+  
     </div>
 
     `;
   }
-  const ElProject = document.querySelector(".projectIteM");
+  const ElProject = document.querySelector(".projectItemS");
   let counter = 0;
   for (const singleProject of projectsByBxTech) {
+    // console.log(singleProject);
     // console.log(`${singleProject.images[0].image1}`);
 
-    if (counter <= 3) {
+    if (counter < 3) {
       if (ElProject) {
         ElProject.innerHTML += `
+
+        <div class="col-sm-3 col-10 projectIteM">
       <div class="row projectIteM-Image">
             <div class="col-12">
               <img
-                src="${singleProject.images[counter].image1}"
+                src="${singleProject.images[0].image1}"
                 alt="${singleProject.projName}"
               />
             </div>
@@ -41,7 +43,9 @@ const FnRenderOurProjects = () => {
                ${singleProject.projShortDescp}
               </p>
             </div>
-          </div>
+            </div>
+        </div>
+
       `;
       }
     }
@@ -73,7 +77,7 @@ const projectsByBxTech = [
     projFullDescrp: "This is Full Description of my First Project",
     images: [
       {
-        image1: "assets/images/projects images/hastage image 1.png",
+        image1: "assets/images/projects images/hastageImage1.png",
         image2: "",
         image3: "",
         image4: "",
@@ -114,9 +118,9 @@ const projectsByBxTech = [
     projShortDescp:
       "Website for garden services and bookings in munster Germany",
     projFullDescrp: "This is Full Description of my second Project",
-    imgages: [
+    images: [
       {
-        image1: "assets/images/projects images/garden image 1",
+        image1: "assets/images/projects images/gardenImage1.png",
         image2: "",
         image3: "",
         image4: "",
@@ -153,12 +157,13 @@ const projectsByBxTech = [
   },
   {
     id: 2,
-    projName: "3rd Project Name",
-    projShortDescp: "This is Short description of My 3rd Project ",
+    projName: "ILed Screens",
+    projShortDescp:
+      "website for the iledscreen bookings and showcasing LED screens products to customers ",
     projFullDescrp: "This is Full Description of my 3rd Project ",
-    imgages: [
+    images: [
       {
-        image1: "",
+        image1: "assets/images/projects images/iledscreenImage1.png",
         image2: "",
         image3: "",
         image4: "",
