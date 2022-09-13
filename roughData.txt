@@ -27,3 +27,191 @@
         <button id="btnTalkToUs">TALK To US</button>
       </div>
     </div>
+
+
+
+
+
+    ?////////////////////////////////////////
+    project
+    ///////////////////////////////////////
+    
+      <!-- <div class="row projectItemS">
+        <div class="col-sm-3 col-10 projectIteM">
+          <div class="row projectIteM-Image">
+            <div class="col-12">
+              <img
+                src="assets/images/projects images/hastage image 1.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="row projectIteM-Title">
+            <div class="col-12">
+              <br />
+              <center><h5>HastageThai Massage</h5></center>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 projectIteM-Desc">
+              <p>
+                Website for managing operations and bookings at hastage thai
+                massage center Duisburg Germany.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-10 projectIteM">
+          <div class="row projectIteM-Image">
+            <div class="col-12">
+              <img
+                src="assets/images/projects images/garden image 1.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="row projectIteM-Title">
+            <div class="col-12">
+              <br />
+              <center><h5>Gardening Services</h5></center>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 projectIteM-Desc">
+              <p>Website for garden services and bookings in munster Germany</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-10 projectIteM">
+          <div class="row projectIteM-Image">
+            <div class="col-12">
+              <img
+                src="assets/images/projects images/iledscreen image 1.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="row projectIteM-Title">
+            <div class="col-12">
+              <br />
+              <center><h5>ILed Screens</h5></center>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 projectIteM-Desc">
+              <p>
+                website for the iledscreen bookings and showcasing LED screens
+                products to customers
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row projectItemS">
+        <div class="col-sm-3 col-10 projectIteM">
+          <div class="row projectIteM-Image">
+            <div class="col-12">
+              <img src="assets/images/projects/4.png" alt="" />
+            </div>
+          </div>
+          <div class="row projectIteM-Title">
+            <div class="col-12">
+              <br />
+              <center><h5>project 4 Title</h5></center>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 projectIteM-Desc">
+              <p>Here YOu will type some shdalshd h ldahsld ld asl</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-10 projectIteM">
+          <div class="row projectIteM-Image">
+            <div class="col-12">
+              <img src="assets/images/projects/5.png" alt="" />
+            </div>
+          </div>
+          <div class="row projectIteM-Title">
+            <div class="col-12">
+              <br />
+              <center><h5>project 5 Title</h5></center>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 projectIteM-Desc">
+              <p>Here YOu will type some shdalshd h ldahsld ld asl</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-10 projectIteM">
+          <div class="row projectIteM-Image">
+            <div class="col-12">
+              <img src="assets/images/projects/1.png " alt="" />
+            </div>
+          </div>
+          <div class="row projectIteM-Title">
+            <div class="col-12">
+              <br />
+              <center><h5>project 6 Title</h5></center>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 projectIteM-Desc">
+              <p>Here YOu will type some shdalshd h ldahsld ld asl</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+
+
+
+
+      ////////////////////////////////////
+      Services
+      ///////////////////////////////////
+        <div class="col-sm-5 col-12 techStockOne">
+              <div class="row">
+                <div class="col-4">
+                  <img src="" alt="" />
+                </div>
+                <div class="col-8">
+                  <h3>Web Applications</h3>
+                </div>
+              </div>
+              <br />
+              <div class="col-12">
+                <p>
+                  We offer a wide range of technologies to deliver exquisitely,
+                  robust web app solutions for our clients.
+                </p>
+                <br />
+              </div>
+
+              <div class="row">
+                <div class="col-md-2 col-4">
+                  <img src="assets/images/angular.svg" alt="" />
+                </div>
+                <div class="col-md-2 col-4">
+                  <img src="assets/images/JS.png" alt="" />
+                </div>
+                <div class="col-md-2 col-4">
+                  <img src="assets/images/Bootstrap_.svg" alt="" />
+                </div>
+                <div class="col-md-2 col-4">
+                  <img src="assets/images/jquery-vertical.svg" alt="" />
+                </div>
+                <div class="col-md-2 col-4">
+                  <img src="assets/images/react.svg" alt="" />
+                </div>
+                <div class="col-md-2 col-4">
+                  <img src="assets/images/rails.svg" alt="" />
+                </div>
+              </div>
+            </div>

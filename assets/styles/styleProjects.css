@@ -58,12 +58,14 @@
   cursor: pointer;
   -webkit-transition: transform 0.3s ease-in-out;
 } */
-.projectIteM:hover 
+.projectIteM:hover img  
 {   opacity: 1;
-  transform: scale(1.04) rotate(-1deg);
+  transform: scale(1.02) rotate(-1deg);
   cursor: pointer;
   -webkit-transition: transform 0.3s ease-in-out; 
 }
+
+
 
 .btnGetStarted {
   border-radius: 100px;
