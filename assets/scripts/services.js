@@ -274,4 +274,91 @@ btnMobApp.addEventListener("click", function () {
     }
   }
 });
+btnwebApp.addEventListener("click", function () {
+  const elementId = btnwebApp.id;
+
+  for (const singleService of allServices) {
+    if (singleService.id === elementId) {
+      FnRenderTechStactTwo(singleService.id);
+      break;
+    }
+  }
+});
+
+btDatabases.addEventListener("click", function () {
+  const elementId = btDatabases.id;
+
+  for (const singleService of allServices) {
+    if (singleService.id === elementId) {
+      FnRenderTechStactTwo(singleService.id);
+      break;
+    }
+  }
+});
+
+btnBigData.addEventListener("click", function () {
+  const elementId = btnBigData.id;
+
+  for (const singleService of allServices) {
+    if (singleService.id === elementId) {
+      FnRenderTechStactTwo(singleService.id);
+      break;
+    }
+  }
+});
+
+btnIOTs.addEventListener("click", function () {
+  const elementId = btnIOTs.id;
+
+  for (const singleService of allServices) {
+    if (singleService.id === elementId) {
+      FnRenderTechStactTwo(singleService.id);
+      break;
+    }
+  }
+});
+
+btnBlockChain.addEventListener("click", function () {
+  const elementId = btnBlockChain.id;
+
+  for (const singleService of allServices) {
+    if (singleService.id === elementId) {
+      FnRenderTechStactTwo(singleService.id);
+      break;
+    }
+  }
+});
+
+btnSwTesting.addEventListener("click", function () {
+  const elementId = btnSwTesting.id;
+
+  for (const singleService of allServices) {
+    if (singleService.id === elementId) {
+      FnRenderTechStactTwo(singleService.id);
+      break;
+    }
+  }
+});
+
+btnCloudMngmnt.addEventListener("click", function () {
+  const elementId = btnCloudMngmnt.id;
+
+  for (const singleService of allServices) {
+    if (singleService.id === elementId) {
+      FnRenderTechStactTwo(singleService.id);
+      break;
+    }
+  }
+});
+
+btnVersionControl.addEventListener("click", function () {
+  const elementId = btnVersionControl.id;
+
+  for (const singleService of allServices) {
+    if (singleService.id === elementId) {
+      FnRenderTechStactTwo(singleService.id);
+      break;
+    }
+  }
+});
 // Services Stact : END
