@@ -95,6 +95,14 @@ body {
 .navbar-custom {
   background-color: rgb(229, 250, 249);
 }
+
+.usefullLinks a {
+  padding-left: 45px;
+}
+.usefullLinks hr {
+  width: 200px;
+}
+
 .firstFooter {
   background-color: #00b5f1;
 }
@@ -109,7 +117,8 @@ body {
 .firstFooter h3 {
   /* color: #28c23e; */
   color: black;
-  font-weight: 800;
+  font-weight: 500;
+  padding-left: 30px;
 }
 .secondFooter {
   background-color: #13b3e8e4;
