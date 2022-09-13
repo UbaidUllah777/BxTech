@@ -66,6 +66,146 @@ const allServices = [
       },
     ],
   },
+  {
+    id: "btDatabases",
+    serviceHeading: "Databases",
+    servicesDetails:
+      "We have exceptional experience in creating native, hybrid, and cross-platform mobile applications.",
+    servicesImages: [
+      {
+        image1: "/assets/images/MbA1redux.svg",
+        image2: "/assets/images/MbA2Swift_logo_color.svg",
+        image3: "/assets/images/MbA3lockup.svg",
+        image4: "/assets/images/mbA4nativescript.svg",
+        image5: "/assets/images/Mb5flutter-logo.svg",
+        image6: "/assets/images/mbA6download.svg",
+        image7: "",
+        image8: "",
+        image9: "",
+        image10: "",
+      },
+    ],
+  },
+  {
+    id: "btnBigData",
+    serviceHeading: "Big Data",
+    servicesDetails:
+      "We have exceptional experience in creating native, hybrid, and cross-platform mobile applications.",
+    servicesImages: [
+      {
+        image1: "/assets/images/MbA1redux.svg",
+        image2: "/assets/images/MbA2Swift_logo_color.svg",
+        image3: "/assets/images/MbA3lockup.svg",
+        image4: "/assets/images/mbA4nativescript.svg",
+        image5: "/assets/images/Mb5flutter-logo.svg",
+        image6: "/assets/images/mbA6download.svg",
+        image7: "",
+        image8: "",
+        image9: "",
+        image10: "",
+      },
+    ],
+  },
+  {
+    id: "btnIOTs",
+    serviceHeading: "Internet Of Things",
+    servicesDetails:
+      "We have exceptional experience in creating native, hybrid, and cross-platform mobile applications.",
+    servicesImages: [
+      {
+        image1: "/assets/images/MbA1redux.svg",
+        image2: "/assets/images/MbA2Swift_logo_color.svg",
+        image3: "/assets/images/MbA3lockup.svg",
+        image4: "/assets/images/mbA4nativescript.svg",
+        image5: "/assets/images/Mb5flutter-logo.svg",
+        image6: "/assets/images/mbA6download.svg",
+        image7: "",
+        image8: "",
+        image9: "",
+        image10: "",
+      },
+    ],
+  },
+  {
+    id: "btnBlockChain",
+    serviceHeading: "BlockChain",
+    servicesDetails:
+      "We have exceptional experience in creating native, hybrid, and cross-platform mobile applications.",
+    servicesImages: [
+      {
+        image1: "/assets/images/MbA1redux.svg",
+        image2: "/assets/images/MbA2Swift_logo_color.svg",
+        image3: "/assets/images/MbA3lockup.svg",
+        image4: "/assets/images/mbA4nativescript.svg",
+        image5: "/assets/images/Mb5flutter-logo.svg",
+        image6: "/assets/images/mbA6download.svg",
+        image7: "",
+        image8: "",
+        image9: "",
+        image10: "",
+      },
+    ],
+  },
+  {
+    id: "btnSwTesting",
+    serviceHeading: "Software Testing",
+    servicesDetails:
+      "We have exceptional experience in creating native, hybrid, and cross-platform mobile applications.",
+    servicesImages: [
+      {
+        image1: "/assets/images/MbA1redux.svg",
+        image2: "/assets/images/MbA2Swift_logo_color.svg",
+        image3: "/assets/images/MbA3lockup.svg",
+        image4: "/assets/images/mbA4nativescript.svg",
+        image5: "/assets/images/Mb5flutter-logo.svg",
+        image6: "/assets/images/mbA6download.svg",
+        image7: "",
+        image8: "",
+        image9: "",
+        image10: "",
+      },
+    ],
+  },
+  {
+    id: "btnCloudMngmnt",
+    serviceHeading: "Cloud Management",
+    servicesDetails:
+      "We have exceptional experience in creating native, hybrid, and cross-platform mobile applications.",
+    servicesImages: [
+      {
+        image1: "/assets/images/MbA1redux.svg",
+        image2: "/assets/images/MbA2Swift_logo_color.svg",
+        image3: "/assets/images/MbA3lockup.svg",
+        image4: "/assets/images/mbA4nativescript.svg",
+        image5: "/assets/images/Mb5flutter-logo.svg",
+        image6: "/assets/images/mbA6download.svg",
+        image7: "",
+        image8: "",
+        image9: "",
+        image10: "",
+      },
+    ],
+  },
+  {
+    id: "btnVersionControl",
+    serviceHeading: "Version Control",
+    servicesDetails:
+      "We have exceptional experience in creating native, hybrid, and cross-platform mobile applications.",
+    servicesImages: [
+      {
+        image1: "/assets/images/MbA1redux.svg",
+        image2: "/assets/images/MbA2Swift_logo_color.svg",
+        image3: "/assets/images/MbA3lockup.svg",
+        image4: "/assets/images/mbA4nativescript.svg",
+        image5: "/assets/images/Mb5flutter-logo.svg",
+        image6: "/assets/images/mbA6download.svg",
+        image7: "",
+        image8: "",
+        image9: "",
+        image10: "",
+      },
+    ],
+  },
 ];
 // Services DATA : END
 
