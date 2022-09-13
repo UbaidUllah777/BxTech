@@ -40,7 +40,7 @@ const allServices = [
       "We have exceptional experience in creating native, hybrid, and cross-platform mobile applications.",
     servicesImages: [
       {
-        image1: "/assets/images/MbA1redux.svg",
+        image1: "/assets/images/services/MbA1redux.svg",
         image2: "/assets/images/MbA2Swift_logo_color.svg",
         image3: "/assets/images/MbA3lockup.svg",
         image4: "/assets/images/mbA4nativescript.svg",
@@ -60,8 +60,8 @@ const allServices = [
       "We have exceptional experience in creating native, hybrid, and cross-platform mobile applications.",
     servicesImages: [
       {
-        image1: "/assets/images/MbA1redux.svg",
-        image2: "/assets/images/MbA2Swift_logo_color.svg",
+        image1: "assets/images/Techstackimg/android.png",
+        image2: "assets/images/Techstackimg/react.png",
         image3: "/assets/images/MbA3lockup.svg",
         image4: "/assets/images/mbA4nativescript.svg",
         image5: "/assets/images/Mb5flutter-logo.svg",

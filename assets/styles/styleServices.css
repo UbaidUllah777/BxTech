@@ -79,6 +79,11 @@
   height: 0px;
   color:#28c23e
 }
+.techStockTwo img{
+  height: 65px;
+  width: 65px;
+
+}
 
 .techStockTwo {
   display: block;
