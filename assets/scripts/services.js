@@ -13,17 +13,24 @@ const btnCloudMngmnt = document.getElementById("btnCloudMngmnt");
 const btnVersionControl = document.getElementById("btnVersionControl");
 const EltechStockTwo = document.querySelector(".techStockTwo");
 //Vendering :END
-
+//
+//
+//
+//
+//
+//
 // Form into View : START
 const FnGetstarted = () => {
   element.scrollIntoView();
 };
 
-btnGetStarted.addEventListener("click", FnGetstarted);
-
-btnGetInTouh.addEventListener("click", FnGetstarted);
 // Form into View  : END
-
+//
+//
+//
+//
+//
+//
 // Services DATA: START
 const allServices = [
   {
@@ -208,9 +215,12 @@ const allServices = [
   },
 ];
 // Services DATA : END
-
-///////////////////////////
-
+//
+//
+//
+//
+//
+//
 // Services Stact : START
 const FnRenderTechStactTwo = (elementId) => {
   EltechStockTwo.innerHTML = "";
@@ -264,6 +274,13 @@ const FnRenderTechStactTwo = (elementId) => {
     }
   }
 };
+
+// Services Stact : END
+//
+//
+//
+//
+// EVENTS : START
 btnMobApp.addEventListener("click", function () {
   const elementId = btnMobApp.id;
 
@@ -361,4 +378,8 @@ btnVersionControl.addEventListener("click", function () {
     }
   }
 });
-// Services Stact : END
+
+btnGetStarted.addEventListener("click", FnGetstarted);
+
+btnGetInTouh.addEventListener("click", FnGetstarted);
+// EVENTS : END
