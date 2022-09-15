@@ -24,7 +24,7 @@ padding: 7px;
 
 }
 @media only screen and (min-width: 601px) {
-  .  {
+  .wholeBody {
     padding-top: 8%;
   }
 }
