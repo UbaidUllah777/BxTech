@@ -353,79 +353,84 @@ const projectsByBxTech = [
     ProjectUrl: "https://braintime-tech.com/",
   },
   {
-    id: "6thprojectName",
-    projName: "6th project Name",
+    id: "hydrosendingwebiste",
+    projName: "HydroSensing Website",
     projCategory: "Web Application",
-    projShortDescp: "This is Short description of My 6th Project",
-    projFullDescrp: "This is Full Description of my 6th Project",
-    images: [
-      {
-        image1: "assets/images/projects images/iledscreenImage1.png",
-        image2: "",
-        image3: "",
-        image4: "",
-      },
-    ],
-    servicesProvided: [
-      {
-        service1: "",
-        service2: "",
-        service3: "",
-        service4: "",
-        service5: "",
-        service6: "",
-      },
-    ],
-    industryVertical: [
-      {
-        indusrty1: "",
-        indusrty2: "",
-        indusrty3: "",
-        indusrty4: "",
-      },
-    ],
-    technologiesUsed: [
-      {
-        technology1: "",
-        technology2: "",
-        technology3: "",
-        technology4: "",
-        technology5: "",
-      },
-    ],
-    clientName: "Hashtag",
-    clientDesc: "This is Our 6th Client",
-    ProjectDate: "01/March/2020",
-    ProjectDuration: "2 Months",
-    ProjectUrl: "google.com",
-  },
-  {
-    id: "HydroSensing",
-    projName: "Hydro Sensing",
-    projCategory: "Web Application",
-    projShortDescp: "This is Short description of My 7th Project",
-    projFullDescrp: "This is Full Description of my 7th Project",
+    projShortDescp:
+      "Website development and deployment for the China based environmental, water resoruces and geological engineering research and consultancy firm",
+    projFullDescrp:
+      "HydroSensing consultancy approached Bx technologies to develop a website for showcasing there business and application areas. the website provides information about the different research and development (R&D) areas where HydroSensing is actively involved",
     images: [
       {
         image1: "assets/images/projects images/hydroSensingImage1.png",
-        image2: "",
-        image3: "",
-        image4: "",
+        image2: "assets/images/projects images/hydroSensingImage2.png",
+        image3: "assets/images/projects images/hydroSensingImage3.png",
+        image4: "assets/images/projects images/hydroSensingImage4.png",
       },
     ],
     servicesProvided: [
       {
-        service1: "",
-        service2: "",
-        service3: "",
-        service4: "",
+        service1: Web_DEVELOPMENT,
+        service2: USER_INTERFACE_DESIGN,
+        service3: CLOUD_DEPLOYMENT,
+        service4: SOFTWARE_TESTING,
+        service5: SOFTWRE_ENGINEERING,
+        service6: "",
+      },
+    ],
+    industryVertical: [
+      {
+        indusrty1: CUSTOM_SOFTWARE_INDUSTRY,
+        indusrty2: SERVICES_INDUSTRY,
+        indusrty3: "",
+        indusrty4: "",
+      },
+    ],
+    technologiesUsed: [
+      {
+        technology1: JAVASCRIPT,
+        technology2: HTML,
+        technology3: MY_SQL,
+        technology4: BOOTSTRAP,
+        technology5: WORDPRESS,
+      },
+    ],
+    clientName: "HydroSensing",
+    clientDesc:
+      "HydroSensing is a China based environmental, water resoruces and geological engineering research and consultancy firm",
+    ProjectDate: "01/March/2020",
+    ProjectDuration: "2 Months",
+    ProjectUrl: "https://hydrosensing4u.com",
+  },
+  {
+    id: "jabtco",
+    projName: "Jabtco ecommerce website",
+    projCategory: "Web Application",
+    projShortDescp:
+      "Complete ecommerce solution for Jabtco chemicals manufacturing company based in Islambad, Pakistan",
+    projFullDescrp:
+      "Bx Technologies developed complete ecommerce solution for Jabtco chemical manufacturing and distribution company based in islamabad, pakistan. With the development and deployment of the website application, Jabtco experience an upward trend in the sales. The website enabled Jabtco to sell there products online. ",
+    images: [
+      {
+        image1: "assets/images/projects images/jabtcoimage2.png",
+        image2: "assets/images/projects images/jabtcoimage3.png",
+        image3: "assets/images/projects images/jabtcoimage4.png",
+        image4: "assets/images/projects images/jabtcoimage1.png",
+      },
+    ],
+    servicesProvided: [
+      {
+        service1: Web_DEVELOPMENT,
+        service2: PRODUCT_MANAGEMENT,
+        service3: USER_INTERFACE_DESIGN,
+        service4: SOFTWARE_TESTING,
         service5: "",
         service6: "",
       },
     ],
     industryVertical: [
       {
-        indusrty1: "",
+        indusrty1: ECOMMERECE_INDUSTRY,
         indusrty2: "",
         indusrty3: "",
         indusrty4: "",
@@ -433,18 +438,19 @@ const projectsByBxTech = [
     ],
     technologiesUsed: [
       {
-        technology1: "",
-        technology2: "",
-        technology3: "",
-        technology4: "",
+        technology1: HTML,
+        technology2: BOOTSTRAP,
+        technology3: JAVASCRIPT,
+        technology4: SELENIUM,
         technology5: "",
       },
     ],
-    clientName: "Hashtag",
-    clientDesc: "This is Our 7th Client",
+    clientName: "Jabtco",
+    clientDesc:
+      "Jabtco is a chemicals manufacturing company based in Islambad, Pakistan. the Company specialize in cleaning products and detergents",
     ProjectDate: "01/March/2020",
-    ProjectDuration: "2 Months",
-    ProjectUrl: "google.com",
+    ProjectDuration: "3 Months",
+    ProjectUrl: "https://jabtco.com",
   },
   {
     id: "MaFaheem",

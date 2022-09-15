@@ -35,9 +35,10 @@ const FnGetstarted = () => {
 const allServices = [
   {
     id: "btnwebApp",
-    serviceHeading: "WEB Applications",
+    serviceHeading: "Web Applications",
+    headingImg: "assets/images/web application development.png",
     servicesDetails:
-      "We have exceptional experience in creating native, hybrid, and cross-platform mobile applications.",
+      "Bx Technologies web application development team has exceptional experience in wide range of web development technologies and frameworks. we are capable of delivering robust, scalable and user friendly web applications. ",
     servicesImages: [
       {
         image1: "assets/images/Techstackimg/angularjs.png",
@@ -58,8 +59,9 @@ const allServices = [
   {
     id: "btnMobApp",
     serviceHeading: "Mobile Applications",
+    headingImg: "assets/images/mobile-development.png",
     servicesDetails:
-      "We have exceptional experience in creating native, hybrid, and cross-platform mobile applications.",
+      " Our mobile application development engineers and developers always welcome complex and technical mobile application development tasks. we use wide range of mobile app technologies for developing native, hybrid, and cross-platform mobile applications.",
     servicesImages: [
       {
         image1: "assets/images/Techstackimg/android.png",
@@ -78,8 +80,9 @@ const allServices = [
   {
     id: "btDatabases",
     serviceHeading: "Databases",
+    headingImg: "assets/images/databaseSystem.png",
     servicesDetails:
-      "We have exceptional experience in creating native, hybrid, and cross-platform mobile applications.",
+      "We use and employ diverse range of Databases (i.e. SQL and NoSQL) for handling the most precious data for business value  behind the seens.",
     servicesImages: [
       {
         image1: "assets/images/Techstackimg/mongodb.png",
@@ -97,10 +100,33 @@ const allServices = [
     ],
   },
   {
+    id: "btnSwTesting",
+    serviceHeading: "Software Testing",
+    headingImg: "assets/images/didicated software testing.png",
+    servicesDetails:
+      "To ensure the quality and build confidence on any software solution we develop,Bx technologies uses variety of testing tools and framework for automated and manuel testing.  ",
+    servicesImages: [
+      {
+        image1: "assets/images/Techstackimg/cucumber.png",
+        image2: "assets/images/Techstackimg/mocha.png",
+        image3: "assets/images/Techstackimg/crashlytics.png",
+        image4: "assets/images/Techstackimg/appium.png",
+        image5: "assets/images/Techstackimg/testNG.png",
+        image6: "assets/images/Techstackimg/Fabrictest.png",
+        image7: "assets/images/Techstackimg/Junit.png",
+        image8: "assets/images/Techstackimg/postman.png",
+        image9: "assets/images/Techstackimg/selenium.png",
+        image10: "assets/images/Techstackimg/iTools.png",
+        image11: "assets/images/Techstackimg/saucelabs.png",
+      },
+    ],
+  },
+  {
     id: "btnBigData",
     serviceHeading: "Big Data",
+    headingImg: "assets/images/big-data.png",
     servicesDetails:
-      "We have exceptional experience in creating native, hybrid, and cross-platform mobile applications.",
+      "Data is sometimes referred to 21 ist century oil. To manage, process, transform and obtian actionable information and insights we use several tools and technology to expose hidden pattrens in the data. ",
     servicesImages: [
       {
         image1: "assets/images/Techstackimg/spark.png",
@@ -119,8 +145,9 @@ const allServices = [
   {
     id: "btnIOTs",
     serviceHeading: "Internet Of Things",
+    headingImg: "assets/images/internet-of-things.png",
     servicesDetails:
-      "We have exceptional experience in creating native, hybrid, and cross-platform mobile applications.",
+      "Internet of things which is commonly referred to as IoT's. we use a wide range of tools and technologys to implement IoT's based applications.",
     servicesImages: [
       {
         image1: "/assets/images/MbA1redux.svg",
@@ -139,8 +166,9 @@ const allServices = [
   {
     id: "btnBlockChain",
     serviceHeading: "BlockChain",
+    headingImg: "assets/images/blockchain  and IoTs.png",
     servicesDetails:
-      "We have exceptional experience in creating native, hybrid, and cross-platform mobile applications.",
+      "To develop secure, robust, interoperable and scalable Blockchain technology based applications, we incorporate tools and frameworks didicated to Blockchain technology.  ",
     servicesImages: [
       {
         image1: "/assets/images/MbA1redux.svg",
@@ -157,31 +185,11 @@ const allServices = [
     ],
   },
   {
-    id: "btnSwTesting",
-    serviceHeading: "Software Testing",
-    servicesDetails:
-      "We have exceptional experience in creating native, hybrid, and cross-platform mobile applications.",
-    servicesImages: [
-      {
-        image1: "assets/images/Techstackimg/cucumber.png",
-        image2: "assets/images/Techstackimg/mocha.png",
-        image3: "assets/images/Techstackimg/crashlytics.png",
-        image4: "assets/images/Techstackimg/appium.png",
-        image5: "assets/images/Techstackimg/testNG.png",
-        image6: "assets/images/Techstackimg/Fabrictest.png",
-        image7: "assets/images/Techstackimg/Junit.png",
-        image8: "assets/images/Techstackimg/postman.png",
-        image9: "assets/images/Techstackimg/selenium.png",
-        image10: "assets/images/Techstackimg/iTools.png",
-        image11: "assets/images/Techstackimg/saucelabs.png",
-      },
-    ],
-  },
-  {
     id: "btnCloudMngmnt",
     serviceHeading: "Cloud Management",
+    headingImg: "assets/images/cloud.png",
     servicesDetails:
-      "We have exceptional experience in creating native, hybrid, and cross-platform mobile applications.",
+      "Application deployment and managment on the Cloud platforms and Cloud Server requires the use of specilized softwares and tools. in order to manage and maintian our CI/CD pipelines we makes use of several didicated software solutions that helps in seemless and smooth CI/CD operations.",
     servicesImages: [
       {
         image1: "assets/images/Techstackimg/docker.png",
@@ -200,8 +208,9 @@ const allServices = [
   {
     id: "btnVersionControl",
     serviceHeading: "Version Control",
+    headingImg: "assets/images/git.png",
     servicesDetails:
-      "We have exceptional experience in creating native, hybrid, and cross-platform mobile applications.",
+      "In todays complex software development environments, virson control is the most fundamental and necessary tools to keep track of changes mades to codebase by the developers. at BX technologies we use multiple version control systems acording to the client and project needs",
     servicesImages: [
       {
         image1: "assets/images/Techstackimg/git.png",
@@ -236,7 +245,7 @@ const FnRenderTechStactTwo = (elementId) => {
         EltechStockTwo.innerHTML = `
       <div class="row">
                     <div class="col-4">
-                      <img src="" alt="" />
+                      <img src="${singleService.headingImg}" alt="" />
                     </div>
                     <div class="col-8">
                       <h3>${singleService.serviceHeading}</h3>
