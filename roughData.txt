@@ -215,3 +215,89 @@
                 </div>
               </div>
             </div>
+
+
+
+
+            //////////////////////////////////
+            Project Details
+            ///////////////////////////////////
+
+                <div class="row" id="projectNameId">
+            <div class="col-12">
+              <center>
+                <h2><span class="projectName">Mc Mobiles.com </span></h2>
+              </center>
+              <center><hr style="width: 70%" /></center>
+            </div>
+          </div>
+          <div class="row" id="ProjectCategoryId">
+            <div class="col-12">
+              <h5>
+                Category : <span class="ProjectCategory"> Mobile Apps</span>
+              </h5>
+            </div>
+          </div>
+
+          <div class="row" id="ProjectClientId">
+            <div class="col-12">
+              <h5>Client : <span class="ProjectClient"> MI Combiles</span></h5>
+            </div>
+          </div>
+
+          <div class="row" id="ProjectDateId">
+            <div class="col-12">
+              <h5>
+                Project Date : <span class="ProjectDate"> 01 March, 2020</span>
+              </h5>
+            </div>
+          </div>
+
+          <div class="row" id="ProjectDurationId">
+            <div class="col-12">
+              <h5>
+                Project Duration :
+                <span class="ProjectDuration"> 1 Month</span>
+              </h5>
+            </div>
+          </div>
+
+          <div class="row" id="ProjectUrlId">
+            <div class="col-12">
+              <h5>
+                Project URL :
+                <span class="ProjectUrl"
+                  ><a href=" MICmobiles.com"> MICmobiles.com</a></span
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="row" id="servicsProvided">
+            <div class="col-12 myServices">
+              <h2>Services Provided</h2>
+              <center><hr style="width: 90%" /></center>
+              <br />
+              <span class="spCategory">UI/UX Design</span>
+              <span class="spCategory"> Custom Software Development</span>
+              <span class="spCategory">Web App Development</span>
+              <span class="spCategory">Software Engineering</span>
+            </div>
+          </div>
+          <div class="row" id="IdustryVerticalId">
+            <div class="col-12 myIdustryVertical">
+              <h2>Industry Vertical</h2>
+              <center><hr style="width: 90%" /></center>
+              <br />
+              <span class="iVCategory">eLearning</span>
+            </div>
+          </div>
+
+          <div class="row" id="TechnologyUsedId">
+            <div class="col-12 myTechnologyUsed">
+              <h2>Technologies Used</h2>
+              <center><hr style="width: 90%" /></center>
+              <br />
+              <span class="iVCategory">eLearning</span>
+            </div>
+          </div>
+        </div>

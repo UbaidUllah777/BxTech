@@ -1,8 +1,9 @@
 //Vendor Section :Start
 const ElAllProjectItemsContainer = document.querySelector(".items-container");
 //Vendor Section :ENDS
-
 // variables section : Start
+var clickedProject = [];
+
 const SYSTEMS_ANALYSIS_DESIGN = "System Analysis & Design";
 const USER_INTERFACE_DESIGN = "UI/UX Design";
 const SOFTWRE_ENGINEERING = "Software Engineering";
@@ -45,17 +46,8 @@ const MEAN_STACK = "Mean Stack";
 // variables section : Ends
 // Redering Our Projects :Start
 const FnRenderOurProjects = () => {
-  // if (ElAllProjectItemsContainer) {
-  //   ElAllProjectItemsContainer.innerHTML += `
-
-  //   `;
-  // }
-  //const ElProject = document.querySelector(".projectItemS");
   let counter = 0;
   for (const singleProject of projectsByBxTech) {
-    // console.log(singleProject);
-    // console.log(`${singleProject.images[0].image1}`);
-
     if (counter < projectsByBxTech.length) {
       if (ElAllProjectItemsContainer) {
         ElAllProjectItemsContainer.innerHTML += `
@@ -72,7 +64,8 @@ const FnRenderOurProjects = () => {
           <div class="row projectIteM-Title">
             <div class="col-12">
               <br />
-              <center><h5>${singleProject.projName}</h5></center>
+              <center><a  onclick="return FnGetProjectForProjectDetails('${singleProject.id}');"><h6  class="clckForMoreDetail">More Details...</h6></a></center>
+              <center><h6  class="projectName">${singleProject.projName}</h6></center>
             </div>
           </div>
           <div class="row">
@@ -100,16 +93,17 @@ const element = document.getElementById("emptyRow");
 const FnGetstarted = () => {
   element.scrollIntoView();
 };
-
-btnGetStarted.addEventListener("click", FnGetstarted);
-
+if (btnGetStarted) {
+  btnGetStarted.addEventListener("click", FnGetstarted);
+}
 // By click Scroll into view :END
 // DataBase Of Our Projects :Start
 
 const projectsByBxTech = [
   {
-    id: 0,
+    id: "HashTagThaiMassage",
     projName: "HashTag Thai Massage",
+    projCategory: "Web Application",
     projShortDescp:
       " Website for managing operations and bookings at hastage thai massage center Duisburg Germany.",
     projFullDescrp:
@@ -149,12 +143,17 @@ const projectsByBxTech = [
         technology5: "",
       },
     ],
+    clientName: "Hashtag",
     clientDesc:
       "Hashtag Thai Massage is popular Thai massage service providers based in duisburg Germany",
+    ProjectDate: "01/March/2020",
+    ProjectDuration: "2 Months",
+    ProjectUrl: "google.com",
   },
   {
-    id: 1,
+    id: "GardeningServices",
     projName: "Gardening Services",
+    projCategory: "Web Application",
     projShortDescp:
       "Website for garden services and bookings in munster Germany",
     projFullDescrp:
@@ -194,12 +193,17 @@ const projectsByBxTech = [
         technology5: "",
       },
     ],
+    clientName: "Hashtag",
     clientDesc:
       "Hausmeisterservice muensterland is a garden maintainenece and caretaker service provider in munsterland Germany",
+    ProjectDate: "01/March/2020",
+    ProjectDuration: "2 Months",
+    ProjectUrl: "google.com",
   },
   {
-    id: 2,
+    id: "ILedScreens",
     projName: "ILed Screens",
+    projCategory: "Web Application",
     projShortDescp:
       "website for the iledscreen bookings and showcasing LED screens products to customers ",
     projFullDescrp:
@@ -232,19 +236,24 @@ const projectsByBxTech = [
     ],
     technologiesUsed: [
       {
-        technology1: bootstrap,
+        technology1: BOOTSTRAP,
         technology2: REACT,
         technology3: MONGODB,
         technology4: JAVASCRIPT,
         technology5: "",
       },
     ],
+    clientName: "Hashtag",
     clientDesc:
       "Iled Screen is an led screen manufacturer and supplier based in Shenzhen China",
+    ProjectDate: "01/March/2020",
+    ProjectDuration: "2 Months",
+    ProjectUrl: "google.com",
   },
   {
-    id: 3,
+    id: "4thProjectname",
     projName: "4th Project name",
+    projCategory: "Web Application",
     projShortDescp: "This is Short description of My 4th Project",
     projFullDescrp: "This is Full Description of my 4th Project",
     images: [
@@ -282,11 +291,16 @@ const projectsByBxTech = [
         technology5: "",
       },
     ],
+    clientName: "Hashtag",
     clientDesc: "This is Our 4th Client",
+    ProjectDate: "01/March/2020",
+    ProjectDuration: "2 Months",
+    ProjectUrl: "google.com",
   },
   {
-    id: 4,
+    id: "5thProjectName",
     projName: "5th Project Name",
+    projCategory: "Web Application",
     projShortDescp: "This is Short description of My 5th Project",
     projFullDescrp: "This is Full Description of my 5th Project",
     images: [
@@ -324,11 +338,16 @@ const projectsByBxTech = [
         technology5: "",
       },
     ],
+    clientName: "Hashtag",
     clientDesc: "This is Our 5th Client",
+    ProjectDate: "01/March/2020",
+    ProjectDuration: "2 Months",
+    ProjectUrl: "google.com",
   },
   {
-    id: 5,
+    id: "6thprojectName",
     projName: "6th project Name",
+    projCategory: "Web Application",
     projShortDescp: "This is Short description of My 6th Project",
     projFullDescrp: "This is Full Description of my 6th Project",
     images: [
@@ -366,11 +385,16 @@ const projectsByBxTech = [
         technology5: "",
       },
     ],
+    clientName: "Hashtag",
     clientDesc: "This is Our 6th Client",
+    ProjectDate: "01/March/2020",
+    ProjectDuration: "2 Months",
+    ProjectUrl: "google.com",
   },
   {
-    id: 6,
+    id: "HydroSensing",
     projName: "Hydro Sensing",
+    projCategory: "Web Application",
     projShortDescp: "This is Short description of My 7th Project",
     projFullDescrp: "This is Full Description of my 7th Project",
     images: [
@@ -408,11 +432,16 @@ const projectsByBxTech = [
         technology5: "",
       },
     ],
+    clientName: "Hashtag",
     clientDesc: "This is Our 7th Client",
+    ProjectDate: "01/March/2020",
+    ProjectDuration: "2 Months",
+    ProjectUrl: "google.com",
   },
   {
-    id: 7,
+    id: "MaFaheem",
     projName: "Ma Faheem",
+    projCategory: "Web Application",
     projShortDescp: "This is Short description of My 8th Project",
     projFullDescrp: "This is Full Description of my 8th Project",
     images: [
@@ -450,7 +479,11 @@ const projectsByBxTech = [
         technology5: "",
       },
     ],
+    clientName: "Hashtag",
     clientDesc: "This is Our 8th Client",
+    ProjectDate: "01/March/2020",
+    ProjectDuration: "2 Months",
+    ProjectUrl: "google.com",
   },
 ];
 
@@ -459,3 +492,23 @@ const projectsByBxTech = [
 // Functions Calls : START
 FnRenderOurProjects();
 // Functions Calls : ENDS
+
+//Going to Project Details : START
+const FnGetProjectForProjectDetails = (projectId) => {
+  for (const singleProject of projectsByBxTech) {
+    if (singleProject.id === projectId) {
+      clickedProject = [];
+      //clickedProject.push(singleProject);
+      clickedProject = singleProject;
+      FnsetProject(clickedProject);
+      break;
+    }
+  }
+  window.location.href = "ViewProjectDetails.html";
+};
+
+const FnsetProject = (projectId) => {
+  sessionStorage.setItem("projId", JSON.stringify(projectId));
+};
+
+//Going to Project Details : END
