@@ -6,15 +6,20 @@ body {
 } */
 @media only screen and (min-width: 601px) {
   .wholeBody {
-    padding-top: 10%;
+    padding-top: 6%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .wholeBody {
-    padding-top: 20%;
+    padding-top: 7%;
   }
 }
+/* @media only screen and (min-width: 600px) {
+  .wholeBody {
+    padding-top: 10%;
+  }
+} */
 .nav-item a:hover {
   transform: scale(1.2);
 }
