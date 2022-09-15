@@ -9,7 +9,7 @@ const USER_INTERFACE_DESIGN = "UI/UX Design";
 const SOFTWRE_ENGINEERING = "Software Engineering";
 const Web_DEVELOPMENT = "Web App Development";
 const CUSTOM_SOFTWAE_DEVELOPMENT = "Custom Software Development";
-const CLOUD_DEPLOYMENT = "AppLication Deployment";
+const CLOUD_DEPLOYMENT = "Application Deployment";
 const DATA_ANALYSIS = "Data Analytics";
 const SOFTWARE_TESTING = "Software Testing";
 const QUALITY_ASSURENCE = "Quality Assurence";
@@ -35,6 +35,8 @@ const CODEIGNITER = "Codenigiter";
 const RUBY_ON_RIALS = "Ruby on Rails";
 const JAVA = "Java";
 const CSHARP = "C#";
+const HTML = "HTML";
+const CSS = "CSS";
 const DOT_NET_FRAMEWORK = ".Net Framework";
 const POSTMAN = "Postman";
 const SELENIUM = "Selenium";
@@ -143,12 +145,12 @@ const projectsByBxTech = [
         technology5: "",
       },
     ],
-    clientName: "Hashtag",
+    clientName: "Hashtag Thai Massage",
     clientDesc:
       "Hashtag Thai Massage is popular Thai massage service providers based in duisburg Germany",
     ProjectDate: "01/March/2020",
-    ProjectDuration: "2 Months",
-    ProjectUrl: "google.com",
+    ProjectDuration: "3 Months",
+    ProjectUrl: "https://hashtagthaimassage.com",
   },
   {
     id: "GardeningServices",
@@ -193,12 +195,12 @@ const projectsByBxTech = [
         technology5: "",
       },
     ],
-    clientName: "Hashtag",
+    clientName: "Hausmeisterservice muensterland",
     clientDesc:
       "Hausmeisterservice muensterland is a garden maintainenece and caretaker service provider in munsterland Germany",
     ProjectDate: "01/March/2020",
-    ProjectDuration: "2 Months",
-    ProjectUrl: "google.com",
+    ProjectDuration: "3 Months",
+    ProjectUrl: "https://hausmeisterservice-muensterland.de",
   },
   {
     id: "ILedScreens",
@@ -243,40 +245,42 @@ const projectsByBxTech = [
         technology5: "",
       },
     ],
-    clientName: "Hashtag",
+    clientName: "Iled Screens",
     clientDesc:
       "Iled Screen is an led screen manufacturer and supplier based in Shenzhen China",
     ProjectDate: "01/March/2020",
-    ProjectDuration: "2 Months",
-    ProjectUrl: "google.com",
+    ProjectDuration: "5 Months",
+    ProjectUrl: "https://iledscreens.com",
   },
   {
-    id: "4thProjectname",
-    projName: "4th Project name",
+    id: "helpwithoutbordersweb",
+    projName: "Help Without Borders",
     projCategory: "Web Application",
-    projShortDescp: "This is Short description of My 4th Project",
-    projFullDescrp: "This is Full Description of my 4th Project",
+    projShortDescp:
+      "Website for the chairty organization name help without borders.",
+    projFullDescrp:
+      "Help without Borders or hilfeohnegrenzen is a charity organization working in different countries around the world to provide help and support to people in need. Help without Borders needed a website to showcase their work to global audience and contributors. BX technologies developed their website in order solve there problems and issues faced by the organization. ",
     images: [
       {
-        image1: "assets/images/projects images/hastageImage1.png",
-        image2: "",
-        image3: "",
-        image4: "",
+        image1: "assets/images/projects images/helfeohenPprojectImage1.png",
+        image2: "assets/images/projects images/helfeohenPprojectImage2.png",
+        image3: "assets/images/projects images/helfeohenPprojectImage3.png",
+        image4: "assets/images/projects images/helfeohenPprojectImage4.png",
       },
     ],
     servicesProvided: [
       {
-        service1: "",
-        service2: "",
-        service3: "",
-        service4: "",
-        service5: "",
+        service1: Web_DEVELOPMENT,
+        service2: SOFTWARE_TESTING,
+        service3: USER_INTERFACE_DESIGN,
+        service4: CLOUD_DEPLOYMENT,
+        service5: PRODUCT_MANAGEMENT,
         service6: "",
       },
     ],
     industryVertical: [
       {
-        indusrty1: "",
+        indusrty1: CUSTOM_SOFTWARE_INDUSTRY,
         indusrty2: "",
         indusrty3: "",
         indusrty4: "",
@@ -284,65 +288,69 @@ const projectsByBxTech = [
     ],
     technologiesUsed: [
       {
-        technology1: "",
-        technology2: "",
-        technology3: "",
-        technology4: "",
+        technology1: JAVASCRIPT,
+        technology2: MY_SQL,
+        technology3: SELENIUM,
+        technology4: BOOTSTRAP,
         technology5: "",
       },
     ],
-    clientName: "Hashtag",
-    clientDesc: "This is Our 4th Client",
+    clientName: "Help without Borders ",
+    clientDesc:
+      "Help without Borders or hilfeohnegrenzen is a charity organization",
     ProjectDate: "01/March/2020",
-    ProjectDuration: "2 Months",
-    ProjectUrl: "google.com",
+    ProjectDuration: "4 Months",
+    ProjectUrl: "https://hilfeohnegrenzen.de/",
   },
   {
-    id: "5thProjectName",
-    projName: "5th Project Name",
+    id: "briantimetech",
+    projName: "Braintime Professional Services website",
     projCategory: "Web Application",
-    projShortDescp: "This is Short description of My 5th Project",
-    projFullDescrp: "This is Full Description of my 5th Project",
+    projShortDescp:
+      "Website for the Bahrain based Telecommunication service provider company",
+    projFullDescrp:
+      "BX technologies developed website for Bahrain based telecommunication and infotainment system service provider company. the basic functionlity of the website is to deficts the different services provided by the company to its customers ",
     images: [
       {
-        image1: "assets/images/projects images/gardenImage1.png",
-        image2: "",
-        image3: "",
+        image1: "assets/images/projects images/brainTimeProjectImage1.png",
+        image2: "assets/images/projects images/brainTimeProjectImage2.png",
+        image3: "assets/images/projects images/braintimeprojectimage3.png",
         image4: "",
       },
     ],
     servicesProvided: [
       {
-        service1: "",
-        service2: "",
-        service3: "",
-        service4: "",
+        service1: Web_DEVELOPMENT,
+        service2: SOFTWARE_TESTING,
+        service3: CLOUD_DEPLOYMENT,
+        service4: USER_INTERFACE_DESIGN,
         service5: "",
         service6: "",
       },
     ],
     industryVertical: [
       {
-        indusrty1: "",
-        indusrty2: "",
-        indusrty3: "",
+        indusrty1: BOOTSTRAP,
+        indusrty2: JAVASCRIPT,
+        indusrty3: HTML,
         indusrty4: "",
       },
     ],
     technologiesUsed: [
       {
-        technology1: "",
+        technology1: CUSTOM_SOFTWARE_INDUSTRY,
         technology2: "",
         technology3: "",
         technology4: "",
         technology5: "",
       },
     ],
-    clientName: "Hashtag",
-    clientDesc: "This is Our 5th Client",
+    clientName: "Braintime Professional Services",
+    clientDesc:
+      "Braintime Professional Services  Bahrain based Telecommunication service provider company",
     ProjectDate: "01/March/2020",
-    ProjectDuration: "2 Months",
-    ProjectUrl: "google.com",
+    ProjectDuration: "3 Months",
+    ProjectUrl: "https://braintime-tech.com/",
   },
   {
     id: "6thprojectName",
