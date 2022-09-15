@@ -147,7 +147,7 @@ const FnRenderProjectDetails = () => {
     <h5>
       Project URL :
       <span class="ProjectUrl"
-        ><a href=" MICmobiles.com">${singleProject.ProjectUrl}</a></span
+        ><a href="${singleProject.ProjectUrl}">${singleProject.ProjectUrl}</a></span
       >
     </h5>
   </div>
