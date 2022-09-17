@@ -112,44 +112,45 @@ const FnRenderProjectDetails = () => {
   </div>
 </div>
 <div class="row" id="ProjectCategoryId">
-  <div class="col-12">
-    <h5>
-      Category : <span class="ProjectCategory"> ${singleProject.projCategory}</span>
-    </h5>
+  <div class="col-4 "> 
+  <h6 class=" row text-right">
+     Category :</h6></div>
+   <div class="col-8 ">
+         <span class="ProjectCategory row text-right"> ${singleProject.projCategory}</span>
   </div>
 </div>
 
 <div class="row" id="ProjectClientId">
-  <div class="col-12">
-    <h5>Client : <span class="ProjectClient"> ${singleProject.clientName}</span></h5>
+<div class="col-4 "> 
+<h6 class=" row text-right">
+Client : </h6></div>
+  <div class="col-8">
+    <span class="ProjectClient row text-right"> ${singleProject.clientName}</span>
   </div>
 </div>
 
-<div class="row" id="ProjectDateId">
-  <div class="col-12">
-    <h5>
-      Project Date : <span class="ProjectDate"> ${singleProject.ProjectDate}</span>
-    </h5>
-  </div>
-</div>
+
 
 <div class="row" id="ProjectDurationId">
-  <div class="col-12">
-    <h5>
-      Project Duration :
-      <span class="ProjectDuration"> ${singleProject.ProjectDuration}</span>
-    </h5>
+<div class="col-4 "> 
+<h6 class=" row text-right">
+Project Duration :</h6></div>
+  <div class="col-8">
+   
+      <span class="ProjectDuration row text-right"> ${singleProject.ProjectDuration}</span>
+  
   </div>
 </div>
 
 <div class="row" id="ProjectUrlId">
-  <div class="col-12">
-    <h5>
-      Project URL :
-      <span class="ProjectUrl"
-        ><a href="${singleProject.ProjectUrl}">${singleProject.ProjectUrl}</a></span
+<div class="col-4 "> 
+<h6 class=" row text-right">
+Project URL :</h6></div>
+  <div class="col-8">
+      <span class="ProjectUrl  row text-right"
+        ><a class=" row text-right" href="${singleProject.ProjectUrl}">${singleProject.ProjectUrl}</a></span
       >
-    </h5>
+    
   </div>
 </div>
 <div class="row" id="servicsProvided">

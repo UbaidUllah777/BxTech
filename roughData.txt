@@ -301,3 +301,17 @@
             </div>
           </div>
         </div>
+
+
+
+
+        ///////////////////
+         Project Date
+        ///////////////////
+        <div class="row" id="ProjectDateId">
+  <div class="col-12">
+    <h5>
+      Project Date : <span class="ProjectDate"> ${singleProject.ProjectDate}</span>
+    </h5>
+  </div>
+</div>
