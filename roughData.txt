@@ -315,3 +315,102 @@
     </h5>
   </div>
 </div>
+
+
+
+
+
+/////////////////
+servcies page ...servicesImages
+///////////
+<div class="col-md-2 col-4">
+                      <img src="${singleService.servicesImages[0].image1}" alt="" />
+                    </div>
+                    <div class="col-md-2 col-4">
+                      <img src="${singleService.servicesImages[0].image2}" alt="" />
+                    </div>
+                    <div class="col-md-2 col-4">
+                      <img src="${singleService.servicesImages[0].image3}" alt="" />
+                    </div>
+                    <div class="col-md-2 col-4">
+                      <img src="${singleService.servicesImages[0].image4}" alt="" />
+                    </div>
+                    <div class="col-md-2 col-4">
+                      <img src="${singleService.servicesImages[0].image5}" alt="" />
+                    </div>
+                    <div class="col-md-2 col-4">
+                      <img src="${singleService.servicesImages[0].image6}" alt="" />
+                    </div>
+
+
+////////////////////
+projectDetail page services Provided
+///////////////////
+
+<div class="col-12 myServices">
+    <h2>Services Provided</h2>
+    <center><hr style="width: 90%" /></center>
+    <br />
+    <span class="spCategory">${singleProject.servicesProvided[0].service1}</span>
+    <span class="spCategory"> ${singleProject.servicesProvided[0].service2}</span>
+    <span class="spCategory">${singleProject.servicesProvided[0].service3}</span>
+    <span class="spCategory">${singleProject.servicesProvided[0].service4}</span>
+  </div>
+
+
+  ////////////////////
+projectDetail page sIndustry Vertical
+///////////////////
+
+
+  <div class="col-12 myIdustryVertical">
+    <h2>Industry Vertical</h2>
+    <center><hr style="width: 90%" /></center>
+    <br />
+    <span class="iVCategory">${singleProject.industryVertical[0].indusrty1}</span>
+  </div>
+
+
+
+  
+  ////////////////////
+projectDetail page Technology Used
+///////////////////
+
+<div class="col-12 myTechnologyUsed">
+    <h2>Technologies Used</h2>
+    <center><hr style="width: 90%" /></center>
+    <br />
+    <span class="iVCategory">${singleProject.technologiesUsed[0].technology1}</span>
+    <span class="iVCategory">${singleProject.technologiesUsed[0].technology2}</span>
+    <span class="iVCategory">${singleProject.technologiesUsed[0].technology3}</span>
+    <span class="iVCategory">${singleProject.technologiesUsed[0].technology4}</span>
+  </div>
+
+
+
+  ///////////////////////
+  project Details Carousel images
+  //////////////////////
+
+    <div class="carousel-item active">
+          <img
+            src="${singleProject.images[0].image1}"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="${singleProject.images[0].image2}"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="${singleProject.images[0].image3}"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>

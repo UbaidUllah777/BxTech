@@ -2,7 +2,6 @@ const ElprojectSnapsCol = document.querySelector(".projectSnaps");
 const ElprojectDetails = document.querySelector(".projectDetails");
 const FnRenderProjectDetails = () => {
   let singleProject = JSON.parse(sessionStorage.getItem("projId"));
-  console.log(singleProject);
 
   ElprojectSnapsCol.innerHTML = "";
   ElprojectSnapsCol.innerHTML = `
@@ -34,29 +33,15 @@ const FnRenderProjectDetails = () => {
           data-bs-slide-to="2"
           aria-label="Slide 3"
         ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="${singleProject.images[0].image1}"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="${singleProject.images[0].image2}"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="${singleProject.images[0].image3}"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
+      
       </div>
       <button
         class="carousel-control-prev"
@@ -85,6 +70,9 @@ const FnRenderProjectDetails = () => {
     </div>
   </div>
   </div>
+
+
+
   <div class="row pt-5">
   <div class="col-12">
     <h2>Project Description</h2>
@@ -101,6 +89,33 @@ const FnRenderProjectDetails = () => {
   </div>
   </div>
   `;
+  const ElcarouselImage = document.querySelector(".carousel-inner");
+  let imageNo = 0;
+  for (singleCarouselImage of singleProject.images) {
+    if (imageNo == 0) {
+      ElcarouselImage.innerHTML = `
+      <div class="carousel-item active">
+      <img
+        src="${singleCarouselImage.image}"
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+      `;
+    } else {
+      ElcarouselImage.innerHTML += `
+      <div class="carousel-item ">
+      <img
+        src="${singleCarouselImage.image}"
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+      `;
+    }
+    imageNo = imageNo + 1;
+  }
+
   ElprojectDetails.innerHTML = "";
   ElprojectDetails.innerHTML = `   
    <div class="row" id="projectNameId">
@@ -134,7 +149,7 @@ Client : </h6></div>
 <div class="row" id="ProjectDurationId">
 <div class="col-4 "> 
 <h6 class=" row text-right">
-Project Duration :</h6></div>
+ Duration :</h6></div>
   <div class="col-8">
    
       <span class="ProjectDuration row text-right"> ${singleProject.ProjectDuration}</span>
@@ -145,7 +160,7 @@ Project Duration :</h6></div>
 <div class="row" id="ProjectUrlId">
 <div class="col-4 "> 
 <h6 class=" row text-right">
-Project URL :</h6></div>
+ URL :</h6></div>
   <div class="col-8">
       <span class="ProjectUrl  row text-right"
         ><a class=" row text-right" href="${singleProject.ProjectUrl}">${singleProject.ProjectUrl}</a></span
@@ -154,36 +169,57 @@ Project URL :</h6></div>
   </div>
 </div>
 <div class="row" id="servicsProvided">
-  <div class="col-12 myServices">
+<div class="col-12 myServices">
     <h2>Services Provided</h2>
     <center><hr style="width: 90%" /></center>
     <br />
-    <span class="spCategory">${singleProject.servicesProvided[0].service1}</span>
-    <span class="spCategory"> ${singleProject.servicesProvided[0].service2}</span>
-    <span class="spCategory">${singleProject.servicesProvided[0].service3}</span>
-    <span class="spCategory">${singleProject.servicesProvided[0].service4}</span>
   </div>
+  
 </div>
 <div class="row" id="IdustryVerticalId">
-  <div class="col-12 myIdustryVertical">
+ <div class="col-12 myIdustryVertical">
     <h2>Industry Vertical</h2>
     <center><hr style="width: 90%" /></center>
     <br />
-    <span class="iVCategory">${singleProject.industryVertical[0].indusrty1}</span>
-  </div>
+     </div>
+
+
 </div>
 
 <div class="row" id="TechnologyUsedId">
-  <div class="col-12 myTechnologyUsed">
+
+
+<div class="col-12 myTechnologyUsed">
     <h2>Technologies Used</h2>
     <center><hr style="width: 90%" /></center>
     <br />
-    <span class="iVCategory">${singleProject.technologiesUsed[0].technology1}</span>
-    <span class="iVCategory">${singleProject.technologiesUsed[0].technology2}</span>
-    <span class="iVCategory">${singleProject.technologiesUsed[0].technology3}</span>
-    <span class="iVCategory">${singleProject.technologiesUsed[0].technology4}</span>
-  </div>
+    </div>
+  
 </div>
 </div>`;
+
+  const ElservicsProvided = document.querySelector(".myServices");
+  const ElIdustryVertical = document.querySelector(".myIdustryVertical");
+  const ElTechnologyUsed = document.querySelector(".myTechnologyUsed");
+  for (singleService of singleProject.servicesProvided) {
+    ElservicsProvided.innerHTML += `
+    
+    <span class="spCategory">${singleService.service}</span>
+
+    `;
+  }
+  for (singleIndustry of singleProject.industryVertical) {
+    ElIdustryVertical.innerHTML += `
+    
+    <span class="spCategory">${singleIndustry.indusrty}</span>
+    `;
+  }
+
+  for (singleTechnology of singleProject.technologiesUsed) {
+    ElTechnologyUsed.innerHTML += `
+    <span class="iVCategory">${singleTechnology.technology}</span>
+ 
+    `;
+  }
 };
 FnRenderProjectDetails();
