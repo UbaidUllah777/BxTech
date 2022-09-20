@@ -9,3 +9,7 @@ const FnGetstarted = () => {
 
 btnGetStarted.addEventListener("click", FnGetstarted);
 // By click Scroll into view :END
+
+//Show Service Details : START
+const FnShowServiceDetail = (serviceId) => {};
+//Show Service Details : END
