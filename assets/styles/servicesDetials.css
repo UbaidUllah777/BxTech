@@ -1,4 +1,31 @@
-
-.ServiceHeadingText h1{
-    color: #28c23e;
+.ServiceHeadingText h1 {
+  color: #28c23e;
+}
+.serviceDetailConainer {
+  background-color: black;
+}
+.serviceDetailConainer * {
+  color: white;
+}
+.serviceDetailConainer span {
+  color: #fff;
+  line-height: 42px;
+  font-size: 42px;
+}
+.serviceDetailConainer p {
+  line-height: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.gridServices img {
+  height: 50px;
+  width: 50px;
+}
+.gridServices {
+  display: block;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgb(47 47 47 / 40%);
 }
