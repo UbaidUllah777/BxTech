@@ -533,8 +533,8 @@ const ElReadyDiscuss = document.querySelector(".readyToDiscuss");
 const ElWods = document.querySelector(".word");
 if (ElWods) {
   var words = [
-      "Ready to discuss a project with us?",
-      "Talk to us today for a free consultation!",
+      "Ready To Discuss a Project With Us?",
+      "Talk To Us Today For a Free Consultation!",
     ],
     part,
     i = 0,
@@ -598,7 +598,7 @@ function presentInfoModal() {
   
   
   <div class="row OurFullModal">
-  <div class="col-6 modaltLeft">
+  <div class="col-sm-6 col-12 modaltLeft">
     <div class="leftModalData">
       <h1>Ready To Become A Digital Titan In Your Niche?</h1><br>
       <p>With modern technology, unparalleled experience & a desire for innovation, our team is ready to bring your digital business idea to life.</p>
@@ -607,7 +607,7 @@ function presentInfoModal() {
     </div>
   
   </div>
-  <div class="col-6 modaltRight ">
+  <div class="col-sm-6 col-12 modaltRight ">
    <center><h1>Get In Touch With Us <hr style="max-width: 80%;"></h1> </center> <br>
  <form>
     <div class="col-12 mb-3">
@@ -625,11 +625,10 @@ function presentInfoModal() {
       <textarea class="form-control" rows="3" placeholder="Details" required></textarea>
     </div>
     <div clas="row">
-        <div class="col-6"></div>
-        <div class="col-4">
+        <div class="col-12">
         <button type="submit" class=" btnModalSubmit ">Submit</button>
         </div>
-    </row>
+    </div>
   </form>
   
     <div class="col-12"></div>

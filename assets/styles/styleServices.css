@@ -56,37 +56,35 @@
   padding-bottom: 10px;
   max-width: 100%;
   height: auto;
-
 }
 
-.techStockOne h6{
-  margin:0;
-  padding:0;
+.techStockOne h6 {
+  margin: 0;
+  padding: 0;
 }
-.techStockOne a{
+.techStockOne a {
   line-height: -1px;
 }
-.techStockOne h6:hover{
-  color:#28c23e;
+.techStockOne h6:hover {
+  color: #28c23e;
   cursor: pointer;
 }
-.h6Active{
-  color:#28c23e;
+.h6Active {
+  color: #28c23e;
   font-size: large;
 }
 .techStockOneCategActive {
-  color:#28c23e;
- font-weight: bold;
+  color: #28c23e;
+  font-weight: bold;
 }
-.techStockOne hr{
-  border: 1px solid ;
+.techStockOne hr {
+  border: 1px solid;
   height: 0px;
-  color:#28c23e
+  color: #28c23e;
 }
-.techStockTwo img{
+.techStockTwo img {
   height: 65px;
   width: 65px;
-
 }
 
 .techStockTwo {
@@ -208,10 +206,14 @@ h3 {
   color: #28c23e;
   padding-bottom: 5px;
 }
-.ourServices h1,
-h5 {
+.ourServices h1 {
   color: #28c23e;
 }
+
+/* .ourServices h5 {
+  color: #00b5f1;
+} */
+
 .ourServiceElement p {
   display: block;
   margin-left: 10px;
