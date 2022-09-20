@@ -2,7 +2,6 @@
   color: #28c23e;
 }
 .serviceDetailConainer {
- 
   background-color: rgb(229, 250, 249);
   padding: 10px;
 }
@@ -10,7 +9,6 @@
   color: black;
 }
 .serviceDetailConainer span {
- 
   line-height: 42px;
   font-size: 42px;
 }
@@ -27,7 +25,7 @@
   width: 50px;
   color: #28c23e;
 }
-.gridServices h3{
+.gridServices h3 {
   padding-top: 10px;
   font-size: large;
   font-weight: 800;
@@ -40,25 +38,19 @@
   padding-left: 5px;
   padding-right: 5px;
   margin: 5px;
- 
 }
-.gridServices *{
+.gridServices * {
   color: black;
 }
 
-
 /*Development Process:Start*/
-.developmentHeadingText h1{
-font-weight: bolder;
-
+.developmentHeadingText h1 {
+  font-weight: bolder;
 }
-.developmentGrids ul{
-  list-style: none
+.developmentGrids ul {
+  list-style: none;
 }
 /*Development Process:End*/
-
-
-
 
 /*Tech Stack Process:Start*/
 
@@ -78,37 +70,35 @@ font-weight: bolder;
   padding-bottom: 10px;
   max-width: 100%;
   height: auto;
-
 }
 
-.techStockOne h6{
-  margin:0;
-  padding:0;
+.techStockOne h6 {
+  margin: 0;
+  padding: 0;
 }
-.techStockOne a{
+.techStockOne a {
   line-height: -1px;
 }
-.techStockOne h6:hover{
-  color:#28c23e;
+.techStockOne h6:hover {
+  color: #28c23e;
   cursor: pointer;
 }
-.h6Active{
-  color:#28c23e;
+.h6Active {
+  color: #28c23e;
   font-size: large;
 }
 .techStockOneCategActive {
-  color:#28c23e;
- font-weight: bold;
+  color: #28c23e;
+  font-weight: bold;
 }
-.techStockOne hr{
-  border: 1px solid ;
+.techStockOne hr {
+  border: 1px solid;
   height: 0px;
-  color:#28c23e
+  color: #28c23e;
 }
-.techStockTwo img{
+.techStockTwo img {
   height: 65px;
   width: 65px;
-
 }
 
 .techStockTwo {
@@ -139,7 +129,6 @@ font-weight: bolder;
 
 /*Tech Stack Process:End*/
 
-
 /*Read To Discuss : START*/
 .readyToDiscuss h1 {
   padding: 5px;
@@ -153,9 +142,8 @@ font-weight: bolder;
 .word {
   margin: auto;
   color: white;
-  font: 500 normal 2.5em ;
+  font: 500 normal 2.5em;
 }
-
 
 #btnGetIntouch {
   border-radius: 100px;
@@ -184,5 +172,7 @@ font-weight: bolder;
     rgba(44, 187, 99, 0.25) 0 16px 32px;
   transform: scale(1.05) rotate(-1deg);
 }
-
+.readyToDiscImage {
+  height: auto;
+}
 /*Read To Discuss : END*/

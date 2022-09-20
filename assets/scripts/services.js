@@ -528,6 +528,8 @@ const FnAddClass = (btnId) => {
 };
 
 /* Service Details Page : Start*/
+
+const ElReadyDiscuss = document.querySelector(".readyToDiscuss");
 const ElWods = document.querySelector(".word");
 if (ElWods) {
   var words = [
