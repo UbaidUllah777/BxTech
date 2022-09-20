@@ -21,7 +21,9 @@ const EltechStockTwo = document.querySelector(".techStockTwo");
 //
 // Form into View : START
 const FnGetstarted = () => {
-  element.scrollIntoView();
+  if (element) {
+    element.scrollIntoView();
+  }
 };
 
 // Form into View  : END
@@ -485,9 +487,12 @@ btnVersionControl.addEventListener("click", function () {
   }
 });
 
-btnGetStarted.addEventListener("click", FnGetstarted);
-
-btnGetInTouh.addEventListener("click", FnGetstarted);
+if (btnGetStarted) {
+  btnGetStarted.addEventListener("click", FnGetstarted);
+}
+if (btnGetInTouh) {
+  btnGetInTouh.addEventListener("click", FnGetstarted);
+}
 // EVENTS : END
 
 const FnAddClass = (btnId) => {
@@ -521,3 +526,54 @@ const FnAddClass = (btnId) => {
 
   btnId.classList.add("h6Active");
 };
+
+/* Service Details Page : Start*/
+const ElWods = document.querySelector(".word");
+if (ElWods) {
+  var words = [
+      "Ready to discuss a project with us?",
+      "Talk to us today for a free consultation!",
+    ],
+    part,
+    i = 0,
+    offset = 0,
+    len = words.length,
+    forwards = true,
+    skip_count = 0,
+    skip_delay = 15,
+    speed = 70;
+  var wordflick = function () {
+    setInterval(function () {
+      if (forwards) {
+        if (offset >= words[i].length) {
+          ++skip_count;
+          if (skip_count == skip_delay) {
+            forwards = false;
+            skip_count = 0;
+          }
+        }
+      } else {
+        if (offset == 0) {
+          forwards = true;
+          i++;
+          offset = 0;
+          if (i >= len) {
+            i = 0;
+          }
+        }
+      }
+      part = words[i].substr(0, offset);
+      if (skip_count == 0) {
+        if (forwards) {
+          offset++;
+        } else {
+          offset--;
+        }
+      }
+      $(ElWods).text(part);
+    }, speed);
+  };
+  wordflick();
+}
+
+/* Service Details Page : END*/
