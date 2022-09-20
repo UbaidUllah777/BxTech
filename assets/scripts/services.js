@@ -624,8 +624,12 @@ function presentInfoModal() {
     <div class=" col-12 mb-3">
       <textarea class="form-control" rows="3" placeholder="Details" required></textarea>
     </div>
-    <div>
-    <button type="submit" class=" btnModalSubmit ">Submit</button>
+    <div clas="row">
+        <div class="col-6"></div>
+        <div class="col-4">
+        <button type="submit" class=" btnModalSubmit ">Submit</button>
+        </div>
+    </row>
   </form>
   
     <div class="col-12"></div>
