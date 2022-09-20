@@ -144,35 +144,139 @@
   color: white;
   font: 500 normal 2.5em;
 }
+@media only screen and (min-width: 600px) {
+  .readyToDiscussCol1 {
+    padding-top: 100px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .readyToDiscussCol1 {
+    padding-top: 50px;
+  }
+}
+
+.readyToDiscImage {
+  width: 100%;
+  height: auto;
+  padding-right: 40px;
+}
 
 #btnGetIntouch {
-  border-radius: 100px;
-  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
-    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
-    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
-    rgba(44, 187, 99, 0.15) 0 16px 32px;
-  background-color: #28c23e;
-  cursor: pointer;
   display: inline-block;
-  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
-  padding: 7px 20px;
-  text-align: center;
-  text-decoration: none;
-  transition: all 250ms;
+  outline: 0;
   border: 0;
-  font-size: 16px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+  cursor: pointer;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  will-change: box-shadow, transform;
+  background: #fcfcfd;
+  box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
+    0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+  height: 38px;
+  width: fit-content;
+  border-radius: 6px;
+  color: #36395a;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
 }
+
 #btnGetIntouch:hover {
-  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
-    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
-    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
-    rgba(44, 187, 99, 0.25) 0 16px 32px;
-  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0px 4px 8px rgb(45 35 66 / 40%),
+    0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+  transform: translateY(-2px);
 }
-.readyToDiscImage {
-  height: auto;
+#btnGetIntouch:active {
+  box-shadow: inset 0px 3px 7px #d6d6e7;
+  transform: translateY(2px);
 }
+
 /*Read To Discuss : END*/
+
+/*BackDrop : START*/
+#backdrop.visible {
+  display: block;
+  pointer-events: all;
+}
+#backdrop {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: none;
+  pointer-events: none;
+}
+.modal {
+  position: fixed;
+  top: 18vh;
+  bottom: 10vh;
+  left: 5%;
+  width: 80%;
+  z-index: 100;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 26%);
+  animation: float-in 0.9s ease-out forwards;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  overflow-y: scroll;
+  max-height: 80vh;
+
+}
+.btnModalSubmit {
+  background-color:transparent;
+  font: inherit;
+  border: 1px solid;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+  
+}
+.modaltLeft{
+  height: 100%;
+  background-color: #011945;
+  height: 80vh;
+}
+.modaltLeft *{
+  
+  color: white;
+}
+
+  @media only screen and (min-width: 600px) {
+    .leftModalData {
+      padding-top: 100px;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .leftModalData {
+      padding-top: 50px;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    form {
+      padding-top: 20px;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    form {
+      padding-top: 10px;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+  
+
+.modaltRight{
+  padding-left: 30px;
+  background-color: #f9fafb;
+
+}
+/*BackDrop : End*/

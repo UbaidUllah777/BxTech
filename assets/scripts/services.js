@@ -542,7 +542,7 @@ if (ElWods) {
     len = words.length,
     forwards = true,
     skip_count = 0,
-    skip_delay = 15,
+    skip_delay = 30,
     speed = 70;
   var wordflick = function () {
     setInterval(function () {
@@ -577,5 +577,76 @@ if (ElWods) {
   };
   wordflick();
 }
+
+// SHOWING or HIDING BOOK DETAIL: START
+
+const backdropElement = document.getElementById("backdrop");
+const modalLinkElement = document.querySelector(".info-modal");
+
+let infoModal;
+
+function toggleBackdrop() {
+  backdropElement.classList.toggle("visible");
+}
+
+function presentInfoModal() {
+  toggleBackdrop();
+
+  infoModal = document.createElement("div");
+  infoModal.classList.add("modal");
+  infoModal.innerHTML = `
+  
+  
+  <div class="row OurFullModal">
+  <div class="col-6 modaltLeft">
+    <div class="leftModalData">
+      <h1>Ready To Become A Digital Titan In Your Niche?</h1><br>
+      <p>With modern technology, unparalleled experience & a desire for innovation, our team is ready to bring your digital business idea to life.</p>
+    <br>
+    <p>Fill in this form to start the process</p>
+    </div>
+  
+  </div>
+  <div class="col-6 modaltRight ">
+   <center><h1>Get In Touch With Us <hr style="max-width: 80%;"></h1> </center> <br>
+ <form>
+    <div class="col-12 mb-3">
+      <input type="text" class="form-control" id="formName" placeholder="Name" aria-describedby="emailHelp">
+   
+    </div>
+    <div class=" col-12 mb-3">
+      <input type="text" class="form-control" placeholder="Email address" id="formEmail">
+    </div>
+    <div class=" col-12 mb-3">
+      <input type="number" class="form-control" placeholder="Contact Number" id="formContactNumber">
+    </div>
+    
+    <div class=" col-12 mb-3">
+      <textarea class="form-control" rows="3" placeholder="Details" required></textarea>
+    </div>
+    <div>
+    <button type="submit" class=" btnModalSubmit ">Submit</button>
+  </form>
+  
+    <div class="col-12"></div>
+    <div class="col-12"></div>
+  </div>
+</div>
+            
+  `;
+
+  document.body.appendChild(infoModal);
+}
+
+function hideInfoModal() {
+  toggleBackdrop();
+  document.body.removeChild(infoModal);
+}
+
+backdropElement.addEventListener("click", hideInfoModal);
+
+modalLinkElement.addEventListener("click", presentInfoModal);
+
+// SHOWING or HIDING BOOK DETAIL:End
 
 /* Service Details Page : END*/
