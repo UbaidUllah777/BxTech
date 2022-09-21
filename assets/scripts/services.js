@@ -34,6 +34,8 @@ const FnGetstarted = () => {
 //
 //
 // Services DATA: START
+
+//Service Stact Data;Start
 const allServices = [
   {
     id: "btnwebApp",
@@ -322,6 +324,1660 @@ const allServices = [
       },
       { image: "assets/images/Techstackimg/trello.png", serviceName: "trello" },
       { image: "assets/images/Techstackimg/ubuntu.png", serviceName: "ubuntu" },
+    ],
+  },
+];
+//Service Stact Data :END
+
+const ourServices = [
+  {
+    id: "SERVmobAppDev",
+    serviceName: "Mobile Application Development",
+    serviceImg: "assets/images/mobile-development.png",
+    serviceShortDesc:
+      "We provide application design, integration, and management services throughout the entirety of the application life cycle. Whether it's a consumer-facing app or a game-changing enterprise-level solution",
+    serviceLongDesc:
+      "Adopt a modernized approach towards mobile application development with Clustox – a leading mobile app development company. We deliver high-performance, feature-packed mobile experiences for mobile devices, wearables, IoT, or augmented reality gadgets. We can create new products from scratch, or adapt and customize existing applications as per your requirements. Our top-notch mobile app development services cater to cross-platform and native mobile apps – Let’s connect and see how we can help you bring your idea to reality!",
+    serviceHeading:
+      "Mobile app development services to build innovative experiences",
+    processHeading: "Agile Mobile App Development Process",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "Conduct business analysis",
+      },
+      {
+        step1Tag: "Gather information",
+      },
+      {
+        step1Tag: "Determine high-level features",
+      },
+      {
+        step1Tag: "Plan time & cost estimates",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "Create UI/UX design",
+      },
+      {
+        step2Tag: "Develop wireframe",
+      },
+      {
+        step2Tag: "Build a prototype",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "Develop User Stories",
+      },
+      {
+        step3Tag: "Start Implementation",
+      },
+      {
+        step3Tag: "Perform Unit Level Testing",
+      },
+      {
+        step3Tag: "Refactor The Code",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "Track quality assurance",
+      },
+      {
+        step4Tag: "Track DevOps and deployment",
+      },
+      {
+        step4Tag: "Product release",
+      },
+    ],
+  },
+  {
+    id: "SERVwebAppDev",
+    serviceName: "",
+    serviceImg: "",
+    serviceShortDesc: "",
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "SERVCustSoftDev",
+    serviceName: "",
+    serviceImg: "",
+    serviceShortDesc: "",
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "SERVcloudAppMng",
+    serviceName: "",
+    serviceImg: "",
+    serviceShortDesc: "",
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "SERVsoftTestQA",
+    serviceName: "",
+    serviceImg: "",
+    serviceShortDesc: "",
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "SERVcyberSecurity",
+    serviceName: "",
+    serviceImg: "",
+    serviceShortDesc: "",
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "SERVblockChainIots",
+    serviceName: "",
+    serviceImg: "",
+    serviceShortDesc: "",
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "SERVuiUxDesign",
+    serviceName: "",
+    serviceImg: "",
+    serviceShortDesc: "",
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "SERVtechConsServices",
+    serviceName: "",
+    serviceImg: "",
+    serviceShortDesc: "",
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "SERVseo",
+    serviceName: "",
+    serviceImg: "",
+    serviceShortDesc: "",
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "SERVprojManagment",
+    serviceName: "",
+    serviceImg: "",
+    serviceShortDesc: "",
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "",
+    serviceName: "",
+    serviceImg: "",
+    serviceShortDesc: "",
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+];
+const ourServiceDetails = [
+  {
+    id: "SERVmobAppDev",
+    serviceCategDetails: [
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+    ],
+
+    serviceLongDesc:
+      "Adopt a modernized approach towards mobile application development with Clustox – a leading mobile app development company. We deliver high-performance, feature-packed mobile experiences for mobile devices, wearables, IoT, or augmented reality gadgets. We can create new products from scratch, or adapt and customize existing applications as per your requirements. Our top-notch mobile app development services cater to cross-platform and native mobile apps – Let’s connect and see how we can help you bring your idea to reality!",
+    serviceHeading:
+      "Mobile app development services to build innovative experiences",
+    processHeading: "Agile Mobile App Development Process",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "Conduct business analysis",
+      },
+      {
+        step1Tag: "Gather information",
+      },
+      {
+        step1Tag: "Determine high-level features",
+      },
+      {
+        step1Tag: "Plan time & cost estimates",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "Create UI/UX design",
+      },
+      {
+        step2Tag: "Develop wireframe",
+      },
+      {
+        step2Tag: "Build a prototype",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "Develop User Stories",
+      },
+      {
+        step3Tag: "Start Implementation",
+      },
+      {
+        step3Tag: "Perform Unit Level Testing",
+      },
+      {
+        step3Tag: "Refactor The Code",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "Track quality assurance",
+      },
+      {
+        step4Tag: "Track DevOps and deployment",
+      },
+      {
+        step4Tag: "Product release",
+      },
+    ],
+  },
+  {
+    id: "SERVwebAppDev",
+    serviceCategDetails: [
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+    ],
+
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "",
+    serviceCategDetails: [
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+    ],
+
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "SERVCustSoftDev",
+    serviceCategDetails: [
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+    ],
+
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "SERVcloudAppMng",
+    serviceCategDetails: [
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+    ],
+
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "SERVsoftTestQA",
+    serviceCategDetails: [
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+    ],
+
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "SERVcyberSecurity",
+    serviceCategDetails: [
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+    ],
+
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "SERVblockChainIots",
+    serviceCategDetails: [
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+    ],
+
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "SERVuiUxDesign",
+    serviceCategDetails: [
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+    ],
+
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "SERVtechConsServices",
+    serviceCategDetails: [
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+    ],
+
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "SERVseo",
+    serviceCategDetails: [
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+    ],
+
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+  {
+    id: "SERVprojManagment",
+    serviceCategDetails: [
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+    ],
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
     ],
   },
 ];
