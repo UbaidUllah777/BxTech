@@ -212,7 +212,7 @@
   position: fixed;
   top: 18vh;
   bottom: 10vh;
-  left: 5%;
+  left: 8%;
   width: 80%;
   z-index: 100;
   background: white;
@@ -224,61 +224,77 @@
   overflow: hidden;
   overflow-y: scroll;
   max-height: 80vh;
-
 }
 .btnModalSubmit {
-  background-color:transparent;
+  background-color: transparent;
   font: inherit;
   border: 1px solid;
   cursor: pointer;
   border-radius: 5px;
   text-decoration: none;
   padding: 10px;
-  
+  float: right;
 }
-.modaltLeft{
-  height: 100%;
+.btnModalSubmit:hover {
+  transition: transform 0.2s;
+  transform: scale(1.01);
+  cursor: pointer;
+  box-shadow: 2px 2px 12px rgb(8 208 31 / 44%);
+}
+.modaltLeft {
   background-color: #011945;
   height: 80vh;
 }
-.modaltLeft *{
-  
+
+@media only screen and (min-width: 600px) {
+  .modaltLeft {
+    height: 80vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .modaltLeft {
+    height: 60vh;
+  }
+}
+
+.modaltLeft * {
   color: white;
 }
 
-  @media only screen and (min-width: 600px) {
-    .leftModalData {
-      padding-top: 100px;
-      padding-left: 5%;
-      padding-right: 5%;
-    }
+@media only screen and (min-width: 600px) {
+  .leftModalData {
+    padding-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
-  @media only screen and (max-width: 600px) {
-    .leftModalData {
-      padding-top: 50px;
-      padding-left: 5%;
-      padding-right: 5%;
-    }
+}
+@media only screen and (max-width: 600px) {
+  .leftModalData {
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
-  @media only screen and (min-width: 600px) {
-    form {
-      padding-top: 20px;
-      padding-left: 5%;
-      padding-right: 5%;
-    }
+}
+@media only screen and (min-width: 600px) {
+  form {
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
-  @media only screen and (max-width: 600px) {
-    form {
-      padding-top: 10px;
-      padding-left: 5%;
-      padding-right: 5%;
-    }
+}
+@media only screen and (max-width: 600px) {
+  form {
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
-  
+}
 
-.modaltRight{
+.modaltRight {
   padding-left: 30px;
   background-color: #f9fafb;
-
+}
+.modaltRight h1 {
+  padding-top: 20px;
 }
 /*BackDrop : End*/
