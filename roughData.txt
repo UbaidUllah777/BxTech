@@ -414,3 +414,23 @@ projectDetail page Technology Used
             alt="..."
           />
         </div>
+
+
+
+        /////////////////////
+        MAP
+        /////////////////
+         <div class="col-sm-6 mapDiv col-12">
+                <div
+                  id="map-container-google-3"
+                  class="z-depth-1-half map-container-3"
+                >
+                  <iframe
+                    class="mapframe"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26549.198961860147!2d73.06364133383791!3d33.718007782418105!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbedfa2fc5817ef06!2sBX%20Technologies!5e0!3m2!1sen!2s!4v1662144221862!5m2!1sen!2s"
+                    frameborder="0"
+                    style="border: 0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>

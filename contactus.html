@@ -91,70 +91,77 @@
             </div>
           </center>
 
-          <div class="mapsAndForm pt-5">
+          <div class="mapsAndForm pt-5 pb-5">
             <div class="row">
-              <div class="col-sm-6 mapDiv col-12">
-                <div
-                  id="map-container-google-3"
-                  class="z-depth-1-half map-container-3"
-                >
-                  <iframe
-                    class="mapframe"
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26549.198961860147!2d73.06364133383791!3d33.718007782418105!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbedfa2fc5817ef06!2sBX%20Technologies!5e0!3m2!1sen!2s!4v1662144221862!5m2!1sen!2s"
-                    frameborder="0"
-                    style="border: 0"
-                    allowfullscreen
-                  ></iframe>
+              <div class="col-sm-6 col-12 contacttLeft">
+                <div class="leftcontactData">
+                  <h1>Ready To Become A Digital Titan In Your Niche?</h1>
+                  <br />
+                  <p>
+                    With modern technology, unparalleled experience & a desire
+                    for innovation, our team is ready to bring your digital
+                    business idea to life.
+                  </p>
+                  <br />
+                  <p>Fill in this form to start the process</p>
                 </div>
               </div>
-              <div class="col-sm-6 contactForm col-12">
+
+              <div class="col-sm-6 contacttRight col-12">
+                <center>
+                  <h1>
+                    Get In Touch With Us
+                    <hr style="max-width: 80%" />
+                  </h1>
+                </center>
+                <br />
                 <form>
-                  <h5>Dalta ba hum sa waliki</h5>
-                  <div class="form-group pt-5">
-                    <label for="exampleInputEmail1">Name</label>
+                  <div class="col-12 mb-3">
                     <input
-                      type="email"
+                      type="text"
                       class="form-control"
-                      id="exampleInputEmail1"
+                      id="formName"
+                      placeholder="Name"
                       aria-describedby="emailHelp"
-                      placeholder="Enter Your Name"
                     />
                   </div>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
+                  <div class="col-12 mb-3">
                     <input
-                      type="email"
+                      type="text"
                       class="form-control"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
-                      placeholder="Enter email"
+                      placeholder="Email address"
+                      id="formEmail"
                     />
-                    <small id="emailHelp" class="form-text text-muted"
-                      >We'll never share your email with anyone else.</small
-                    >
                   </div>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1 pt-5">Subject</label>
+                  <div class="col-12 mb-3">
                     <input
-                      type="email"
+                      type="number"
                       class="form-control"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
-                      placeholder="Message"
+                      placeholder="Contact Number"
+                      id="formContactNumber"
                     />
                   </div>
 
-                  <div class="form-group form-check">
-                    <input
-                      type="checkbox"
-                      class="form-check-input"
-                      id="exampleCheck1"
-                    />
-                    <label class="form-check-label" for="exampleCheck1"
-                      >Check me out</label
-                    >
+                  <div class="col-12 mb-3">
+                    <textarea
+                      class="form-control"
+                      rows="3"
+                      placeholder="Details"
+                      required
+                    ></textarea>
                   </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <div clas="row btnSubmitContainer">
+                    <div class="col-12">
+                      <button
+                        id="btnSubmit"
+                        type="submit"
+                        class="btncontactSubmit"
+                        style="float: right"
+                      >
+                        Submit
+                      </button>
+                    </div>
+                  </div>
                 </form>
               </div>
             </div>
