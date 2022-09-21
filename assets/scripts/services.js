@@ -865,6 +865,65 @@ const ourServices = [
     ],
   },
   {
+    id: "SERVdataAnalBussInt",
+    serviceName: "",
+    serviceImg: "",
+    serviceShortDesc: "",
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+
+  {
     id: "SERVseo",
     serviceName: "",
     serviceImg: "",
@@ -924,64 +983,6 @@ const ourServices = [
   },
   {
     id: "SERVprojManagment",
-    serviceName: "",
-    serviceImg: "",
-    serviceShortDesc: "",
-    serviceLongDesc: "",
-    serviceHeading: "",
-    processHeading: "",
-    step1Heading: "Discovery",
-    processStep1: [
-      {
-        step1Tag: "",
-      },
-      {
-        step1Tag: "",
-      },
-      {
-        step1Tag: "",
-      },
-    ],
-    step2Heading: "Design",
-    processStep2: [
-      {
-        step2Tag: "",
-      },
-      {
-        step2Tag: "",
-      },
-      {
-        step2Tag: "",
-      },
-    ],
-    step3Heading: "Development",
-    processStep3: [
-      {
-        step3Tag: "",
-      },
-      {
-        step3Tag: "",
-      },
-      {
-        step3Tag: "",
-      },
-    ],
-
-    step4Heading: "Delivery",
-    processStep4: [
-      {
-        step4Tag: "",
-      },
-      {
-        step4Tag: "",
-      },
-      {
-        step4Tag: "",
-      },
-    ],
-  },
-  {
-    id: "",
     serviceName: "",
     serviceImg: "",
     serviceShortDesc: "",
@@ -1133,84 +1134,6 @@ const ourServiceDetails = [
   },
   {
     id: "SERVwebAppDev",
-    serviceCategDetails: [
-      {
-        categHeading: "",
-        categImg: "",
-        categDesc: "",
-      },
-      {
-        categHeading: "",
-        categImg: "",
-        categDesc: "",
-      },
-      {
-        categHeading: "",
-        categImg: "",
-        categDesc: "",
-      },
-      {
-        categHeading: "",
-        categImg: "",
-        categDesc: "",
-      },
-    ],
-
-    serviceLongDesc: "",
-    serviceHeading: "",
-    processHeading: "",
-    step1Heading: "Discovery",
-    processStep1: [
-      {
-        step1Tag: "",
-      },
-      {
-        step1Tag: "",
-      },
-      {
-        step1Tag: "",
-      },
-    ],
-    step2Heading: "Design",
-    processStep2: [
-      {
-        step2Tag: "",
-      },
-      {
-        step2Tag: "",
-      },
-      {
-        step2Tag: "",
-      },
-    ],
-    step3Heading: "Development",
-    processStep3: [
-      {
-        step3Tag: "",
-      },
-      {
-        step3Tag: "",
-      },
-      {
-        step3Tag: "",
-      },
-    ],
-
-    step4Heading: "Delivery",
-    processStep4: [
-      {
-        step4Tag: "",
-      },
-      {
-        step4Tag: "",
-      },
-      {
-        step4Tag: "",
-      },
-    ],
-  },
-  {
-    id: "",
     serviceCategDetails: [
       {
         categHeading: "",
@@ -1833,6 +1756,86 @@ const ourServiceDetails = [
       },
     ],
   },
+
+  {
+    id: "SERVdataAnalBussInt",
+    serviceCategDetails: [
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+      {
+        categHeading: "",
+        categImg: "",
+        categDesc: "",
+      },
+    ],
+
+    serviceLongDesc: "",
+    serviceHeading: "",
+    processHeading: "",
+    step1Heading: "Discovery",
+    processStep1: [
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+      {
+        step1Tag: "",
+      },
+    ],
+    step2Heading: "Design",
+    processStep2: [
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+      {
+        step2Tag: "",
+      },
+    ],
+    step3Heading: "Development",
+    processStep3: [
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+      {
+        step3Tag: "",
+      },
+    ],
+
+    step4Heading: "Delivery",
+    processStep4: [
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+      {
+        step4Tag: "",
+      },
+    ],
+  },
+
   {
     id: "SERVseo",
     serviceCategDetails: [
