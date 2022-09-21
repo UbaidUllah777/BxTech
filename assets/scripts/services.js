@@ -1446,36 +1446,36 @@ const FnRenderOurService = () => {
   if (ElourServicesContainer) {
     ElourServicesContainer.innerHTML = "";
     for (singleOurService of ourServices) {
-      console.log(singleOurService.id);
-      //   ElourServicesContainer.innerHTML += `
-      //   <div class="col-sm-3 col-10 ourServiceElement" id="${singleOurService.id}">
-      //   <div class="row">
-      //     <div class="col-md-4 col-12">
-      //       <img
-      //         src="assets/images/mobile-development.png"
-      //         alt="Mobile App Development"
-      //       />
-      //     </div>
-      //     <div class="col-md-8 col-12">
-      //       <h5>Mobile Application Development</h5>
-      //     </div>
-      //   </div>
-      //   <div class="row">
-      //     <div class="col-12">
-      //       <p>
-      //         We provide application design, integration, and management
-      //         services throughout the entirety of the application life
-      //         cycle. Whether it's a consumer-facing app or a game-changing
-      //         enterprise-level solution
-      //       </p>
-      //     </div>
-      //   </div>
-      // </div>
-      //     `;
+      ElourServicesContainer.innerHTML += `
+        <div class="col-sm-3 col-10 ourServiceElement" onclick="FnShowService('${singleOurService.id}')" id="${singleOurService.id}">
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <img
+              src="${singleOurService.serviceImg}"
+              alt="Mobile App Development"
+            />
+          </div>
+          <div class="col-md-8 col-12">
+            <h5>${singleOurService.serviceName}</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p>
+            ${singleOurService.serviceShortDesc}
+            </p>
+          </div>
+        </div>
+      </div>
+          `;
     }
   }
 };
 FnRenderOurService();
+const FnShowService = (serviceId) => {
+  sessionStorage.setItem("service", serviceId);
+  window.location.href = "sevicesDetials.html";
+};
 //Our Services Container rendering :END
 
 //
