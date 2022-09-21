@@ -342,21 +342,24 @@ const ourServices = [
   },
   {
     id: "SERVwebAppDev",
-    serviceName: "",
-    serviceImg: "",
-    serviceShortDesc: "",
+    serviceName: "Web Application Development",
+    serviceImg: "assets/images/web application development.png",
+    serviceShortDesc:
+      "BX Technologies web development team take a comprehensive approach to web development, including everything from mock-ups and coding to site design and content. We are proud of our skilled and creative web development team",
   },
   {
     id: "SERVCustSoftDev",
-    serviceName: "",
-    serviceImg: "",
-    serviceShortDesc: "",
+    serviceName: "Custom Software Development",
+    serviceImg: "assets/images/custom software development.png",
+    serviceShortDesc:
+      "Our absolute expertise in custom software development can help you create a software that is sure to get you the best results, including performance and user-friendly interface. We are a team of experts who work on wide techology stack",
   },
   {
     id: "SERVcloudAppMng",
-    serviceName: "",
-    serviceImg: "",
-    serviceShortDesc: "",
+    serviceName: "Cloud Application Management",
+    serviceImg: "assets/images/cloud.png",
+    serviceShortDesc:
+      "By improving business agility, security, scalability and performance, cloud platforms enables businesses to achieve 360-degree growth. Today's businesses are relying on cloud application development to boost business resilience and availability, resulting in a better employee and customer experience.",
   },
   {
     id: "SERVsoftTestQA",
