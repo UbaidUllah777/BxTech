@@ -33,9 +33,9 @@ const FnGetstarted = () => {
 //
 //
 //
-// Services DATA: START
+//  DATA: START
 
-//Service Stact Data;Start
+//Service Stact Data:Start
 const allServices = [
   {
     id: "btnwebApp",
@@ -328,7 +328,10 @@ const allServices = [
   },
 ];
 //Service Stact Data :END
-
+//
+//
+//
+//Service Deatil_one Data:Start
 const ourServices = [
   {
     id: "SERVmobAppDev",
@@ -1036,6 +1039,11 @@ const ourServices = [
     ],
   },
 ];
+//Service Deatil_one Data:END
+//
+//
+//
+//Service Deatil_Two Data:Start
 const ourServiceDetails = [
   {
     id: "SERVmobAppDev",
@@ -1981,7 +1989,8 @@ const ourServiceDetails = [
     ],
   },
 ];
-// Services DATA : END
+//Service Deatil_Two Data:END
+//  DATA : END
 //
 //
 //
