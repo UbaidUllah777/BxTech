@@ -341,6 +341,12 @@ const ourServices = [
       "We provide application design, integration, and management services throughout the entirety of the application life cycle. Whether it's a consumer-facing app or a game-changing enterprise-level solution",
   },
   {
+    id: "SERVwebAppDev",
+    serviceName: "",
+    serviceImg: "",
+    serviceShortDesc: "",
+  },
+  {
     id: "SERVCustSoftDev",
     serviceName: "",
     serviceImg: "",
