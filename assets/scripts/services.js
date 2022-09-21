@@ -582,6 +582,7 @@ if (ElWods) {
 
 const backdropElement = document.getElementById("backdrop");
 const modalLinkElement = document.querySelector(".info-modal");
+const modalLinkElement2 = document.querySelector(".info-modal2");
 
 let infoModal;
 
@@ -650,6 +651,7 @@ function hideInfoModal() {
 backdropElement.addEventListener("click", hideInfoModal);
 
 modalLinkElement.addEventListener("click", presentInfoModal);
+modalLinkElement2.addEventListener("click", presentInfoModal);
 
 // SHOWING or HIDING BOOK DETAIL:End
 

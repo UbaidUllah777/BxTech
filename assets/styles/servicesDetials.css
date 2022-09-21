@@ -173,9 +173,11 @@
     0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
   height: 38px;
   width: fit-content;
+  padding: 5px;
   border-radius: 6px;
   color: #36395a;
   transition: box-shadow 0.15s ease, transform 0.15s ease;
+  
 }
 
 #btnGetIntouch:hover {
