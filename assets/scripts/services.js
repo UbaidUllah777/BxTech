@@ -12,6 +12,7 @@ const btnSwTesting = document.getElementById("btnSwTesting");
 const btnCloudMngmnt = document.getElementById("btnCloudMngmnt");
 const btnVersionControl = document.getElementById("btnVersionControl");
 const EltechStockTwo = document.querySelector(".techStockTwo");
+const ElourServicesContainer = document.querySelector(".ourServicesContainer");
 //Vendering :END
 //
 //
@@ -363,52 +364,60 @@ const ourServices = [
   },
   {
     id: "SERVsoftTestQA",
-    serviceName: "",
-    serviceImg: "",
-    serviceShortDesc: "",
+    serviceName: "Software Testing/QA",
+    serviceImg: "assets/images/didicated software testing.png",
+    serviceShortDesc:
+      "We offer a variety of dedicated software testing and Quality assurance services that include, Functional testing, Performance testing, Security testing, Usability testing, API testing, infotaiment systems testing, sanity & smoke testing. our team has expertise in both automated and manual testing",
   },
   {
     id: "SERVcyberSecurity",
-    serviceName: "",
-    serviceImg: "",
-    serviceShortDesc: "",
+    serviceName: "Cyber Security and PenTesting",
+    serviceImg: "assets/images/cyber-security and pentesting.png",
+    serviceShortDesc:
+      "BX Technologies IT security management services ensure that your applications, products, and infrastructure are fully protected against cyber threats, data leaks, thefts, and calamities. All of your infrastructure is secured by implementing cyber security standards and runing threats vulnerability assessment and pentests.",
   },
   {
     id: "SERVblockChainIots",
-    serviceName: "",
-    serviceImg: "",
-    serviceShortDesc: "",
+    serviceName: "BlockChain & IoTs",
+    serviceImg: "assets/images/blockchain  and IoTs.png",
+    serviceShortDesc:
+      "Blockchain and IoT's is transforming how people live and work around the world, but it is merely a means to a goal, not the end itself. We can assist you in putting this technology to work for you in the future",
   },
   {
     id: "SERVuiUxDesign",
-    serviceName: "",
-    serviceImg: "",
-    serviceShortDesc: "",
+    serviceName: "UI/UX Design",
+    serviceImg: "assets/images/UI and UX design.png",
+    serviceShortDesc:
+      "Front-end is the first impression that a user takes from any software application while using it. Develop high-quality and interactive user interface, mock-ups, Wireframes and user experience for your product ideas",
   },
   {
     id: "SERVtechConsServices",
-    serviceName: "",
-    serviceImg: "",
-    serviceShortDesc: "",
+    serviceName: "Technology Consultancy Services",
+    serviceImg: "assets/images/technology consultancy.png",
+    serviceShortDesc:
+      "Need consultation and advice about your project implementation, selection and evaluation of technology stack and overall monitoring of the development process. You can avial BX technologies services at any time",
   },
   {
     id: "SERVdataAnalBussInt",
-    serviceName: "",
-    serviceImg: "",
-    serviceShortDesc: "",
+    serviceName: "Data Analytics & Business Intelligence",
+    serviceImg: "assets/images/data analytics.png",
+    serviceShortDesc:
+      "Bring more agility to your business by exploring hidden pattrens,Insights in your data. Data analytics solutions will help you in this by using latest technologies such as AI, Machine learning, Deep Learning and Business Intellegence Tools",
   },
 
   {
     id: "SERVseo",
-    serviceName: "",
-    serviceImg: "",
-    serviceShortDesc: "",
+    serviceName: "Search Engine Optimization(SEO)",
+    serviceImg: "assets/images/seo.png",
+    serviceShortDesc:
+      "Improve your business reach to more audience and customers by enhancing your website Rank on search engines by employing varity of search strategies and keywords using the Search Engine Optimization tools and techniques",
   },
   {
     id: "SERVprojManagment",
-    serviceName: "",
-    serviceImg: "",
-    serviceShortDesc: "",
+    serviceName: "Product/Project Management Services",
+    serviceImg: "assets/images/product-management.png",
+    serviceShortDesc:
+      "Digital product management requires lots of moving parts to be gathered and fine-tuned in order to achieve the desired goal. At BX technologies we take care of your product end-to-end managment process. starting from initail concept to market delivery",
   },
 ];
 //Service Deatil_one Data:END
@@ -421,57 +430,61 @@ const ourServiceDetails = [
     id: "SERVmobAppDev",
     serviceCategDetails: [
       {
-        categHeading: "",
-        categImg: "",
-        categDesc: "",
+        categHeading: "Android Apps",
+        categImg: "assets/images/serviceDetailImages/android.png",
+        categDesc:
+          "BX Technologies robust, scalable and dynamic Mobile Apps using different languages and development frameworks, which not fulfill your business requirements, but also strictly follow Android platform rules, regulations and guidelines, and industrial standards.",
       },
       {
-        categHeading: "",
-        categImg: "",
-        categDesc: "",
+        categHeading: "IoS",
+        categImg: "assets/images/serviceDetailImages/IOSApps.png",
+        categDesc:
+          "We develop mobile apps targeting the IoS platform using swift and objective-C programming languages to cater to the demands of our customers.",
       },
       {
-        categHeading: "",
-        categImg: "",
-        categDesc: "",
+        categHeading: "Cross-Platform",
+        categImg: "assets/images/serviceDetailImages/crossPplatformApps.png",
+        categDesc:
+          "Due to the availability of multiple platforms, Bx Technologies leverage its experience to deliver top niche cross-platform solutions to support wee, native apps on various platforms using HTML, CSS, JavaScript, NodeJs, and react native framework.",
       },
       {
-        categHeading: "",
-        categImg: "",
-        categDesc: "",
+        categHeading: "Flutter App Development",
+        categImg: "assets/images/serviceDetailImages/flutterApps.png",
+        categDesc:
+          "We develop user-friendly, interactive, and scalable native Mobile applications for IoS and Android platforms.",
       },
     ],
 
     serviceLongDesc:
-      "Adopt a modernized approach towards mobile application development with Clustox – a leading mobile app development company. We deliver high-performance, feature-packed mobile experiences for mobile devices, wearables, IoT, or augmented reality gadgets. We can create new products from scratch, or adapt and customize existing applications as per your requirements. Our top-notch mobile app development services cater to cross-platform and native mobile apps – Let’s connect and see how we can help you bring your idea to reality!",
+      "Adopt a modern and state-of-the-art approach for your next mobile application development project with BX Technologies. A top-rated software development firm where the focus is on the multi-dimensional aspects of your project idea. We believe in and deliver a scalable, interactive, high-performance, and fully functional mobile application to our clients across the globe. Bx technologies have the expertise to undertake any project wither, developing an application from scratch or maintaining or improving new features in an existing mobile application. We are experts in ios, Android, cross-platform, and native mobile application development. Our development team would love to hear from you and work on turning your ideas into reality. ",
     serviceHeading:
       "Mobile app development services to build innovative experiences",
-    processHeading: "Agile Mobile App Development Process",
-    step1Heading: "Discovery",
+    processHeading: "Agile Based Mobile Application Development",
+    step1Heading: "Requirments Analysis",
     processStep1: [
       {
-        step1Tag: "Conduct business analysis",
+        step1Tag: "Business case analysis",
       },
       {
-        step1Tag: "Gather information",
+        step1Tag: "Requirements gathering",
       },
       {
-        step1Tag: "Determine high-level features",
+        step1Tag: "Identify features",
       },
       {
         step1Tag: "Plan time & cost estimates",
       },
     ],
-    step2Heading: "Design",
+    step2Heading: "User Interface Design",
     processStep2: [
       {
-        step2Tag: "Create UI/UX design",
+        step2Tag: " Develop Mock-ups/wireframe",
       },
       {
-        step2Tag: "Develop wireframe",
+        step2Tag: "Develop UI/UX design",
       },
       {
-        step2Tag: "Build a prototype",
+        step2Tag: "finalize UI/UX ",
       },
     ],
     step3Heading: "Development",
@@ -490,16 +503,16 @@ const ourServiceDetails = [
       },
     ],
 
-    step4Heading: "Delivery",
+    step4Heading: "Deployment",
     processStep4: [
       {
-        step4Tag: "Track quality assurance",
+        step4Tag: "Perform Testing ",
       },
       {
-        step4Tag: "Track DevOps and deployment",
+        step4Tag: "Manage Deployment and DevOps",
       },
       {
-        step4Tag: "Product release",
+        step4Tag: "Release Product",
       },
     ],
   },
@@ -1371,8 +1384,8 @@ const ourServiceDetails = [
 //
 //
 //
-// Services Stact : START
 
+// Services Stact : START
 const FnRenderTechStactTwo = (elementId) => {
   EltechStockTwo.innerHTML = "";
 
@@ -1423,6 +1436,48 @@ const FnRenderTechStactTwo = (elementId) => {
 
 FnRenderTechStactTwo("btnwebApp");
 // Services Stact : END
+//
+//
+//
+//
+
+//Our Services Container rendering :Start
+const FnRenderOurService = () => {
+  if (ElourServicesContainer) {
+    ElourServicesContainer.innerHTML = "";
+    for (singleOurService of ourServices) {
+      console.log(singleOurService.id);
+      //   ElourServicesContainer.innerHTML += `
+      //   <div class="col-sm-3 col-10 ourServiceElement" id="${singleOurService.id}">
+      //   <div class="row">
+      //     <div class="col-md-4 col-12">
+      //       <img
+      //         src="assets/images/mobile-development.png"
+      //         alt="Mobile App Development"
+      //       />
+      //     </div>
+      //     <div class="col-md-8 col-12">
+      //       <h5>Mobile Application Development</h5>
+      //     </div>
+      //   </div>
+      //   <div class="row">
+      //     <div class="col-12">
+      //       <p>
+      //         We provide application design, integration, and management
+      //         services throughout the entirety of the application life
+      //         cycle. Whether it's a consumer-facing app or a game-changing
+      //         enterprise-level solution
+      //       </p>
+      //     </div>
+      //   </div>
+      // </div>
+      //     `;
+    }
+  }
+};
+FnRenderOurService();
+//Our Services Container rendering :END
+
 //
 //
 //
@@ -1685,11 +1740,15 @@ function hideInfoModal() {
   toggleBackdrop();
   document.body.removeChild(infoModal);
 }
-
-backdropElement.addEventListener("click", hideInfoModal);
-
-modalLinkElement.addEventListener("click", presentInfoModal);
-modalLinkElement2.addEventListener("click", presentInfoModal);
+if (backdropElement) {
+  backdropElement.addEventListener("click", hideInfoModal);
+}
+if (modalLinkElement) {
+  modalLinkElement.addEventListener("click", presentInfoModal);
+}
+if (modalLinkElement2) {
+  modalLinkElement2.addEventListener("click", presentInfoModal);
+}
 
 // SHOWING or HIDING BOOK DETAIL:End
 
