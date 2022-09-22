@@ -520,77 +520,83 @@ const ourServiceDetails = [
     id: "SERVwebAppDev",
     serviceCategDetails: [
       {
-        categHeading: "",
+        categHeading: "Web Application Development",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "We ideate and plan to design and develop custom web solutions to connect our clients with their customers efficiently. Let’s develop feature-rich, highly functional, robust, secure, and scalable custom web solutions along with engaging UI/UX design that enhances your brand.",
       },
       {
-        categHeading: "",
+        categHeading: "Progressive Web Development",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "We use progressive enhancement strategies to develop cross-platform web applications. Hire experienced web developers to build responsive Progressive Web Applications (PWAs) and ensure high performance in both online and offline mode.",
       },
       {
-        categHeading: "",
+        categHeading: "Full Stack Development",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "We have a team of skilled full-stack developers with expertise in MEAN and MERN stack. You can hire frontend and backend development teams separately as well. Get full-stack development on MEAN, MERN, PHP + Vue.js, .Net + JS, to name a few.",
       },
       {
-        categHeading: "",
+        categHeading: "Upgradation and Migration",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Our team of web developers and designers has expertise in developing solutions using the newest technologies. Whether you want to upgrade outdated web technology or want to migrate to a new CMS, we have skilled web developers and designers to make the transition smooth.",
       },
     ],
 
-    serviceLongDesc: "",
-    serviceHeading: "",
-    processHeading: "",
-    step1Heading: "Discovery",
+    serviceLongDesc:
+      "Adopt a modern and state-of-the-art approach for your next mobile application development project with BX Technologies. A top-rated software development firm where the focus is on the multi-dimensional aspects of your project idea. We believe in and deliver a scalable, interactive, high-performance, and fully functional mobile application to our clients across the globe. Bx technologies have the expertise to undertake any project wither, developing an application from scratch or maintaining or improving new features in an existing mobile application. We are experts in ios, Android, cross-platform, and native mobile application development. Our development team would love to hear from you and work on turning your ideas into reality.",
+    serviceHeading:
+      "Web app development services to build innovative experiences",
+    processHeading: "Agile Based Web Application Development",
+    step1Heading: "Requirments Analysis",
     processStep1: [
       {
-        step1Tag: "",
+        step1Tag: "Business case study",
       },
       {
-        step1Tag: "",
+        step1Tag: "Architect solution",
       },
       {
-        step1Tag: "",
+        step1Tag: "Refine proposed solution",
       },
     ],
-    step2Heading: "Design",
+    step2Heading: "UI/UX Design",
     processStep2: [
       {
-        step2Tag: "",
+        step2Tag: "Develop mock-ups",
       },
       {
-        step2Tag: "",
+        step2Tag: "Create UI design",
       },
       {
-        step2Tag: "",
+        step2Tag: "Finalize design",
       },
     ],
     step3Heading: "Development",
     processStep3: [
       {
-        step3Tag: "",
+        step3Tag: "User stories creation",
       },
       {
-        step3Tag: "",
+        step3Tag: "Coding and implementation",
       },
       {
-        step3Tag: "",
+        step3Tag: "Unit level testing",
       },
     ],
 
-    step4Heading: "Delivery",
+    step4Heading: "Deployment",
     processStep4: [
       {
-        step4Tag: "",
+        step4Tag: "Conduct QA testing",
       },
       {
-        step4Tag: "",
+        step4Tag: "Reslove bugs and issues",
       },
       {
-        step4Tag: "",
+        step4Tag: "Track DevOps",
       },
     ],
   },
@@ -598,77 +604,82 @@ const ourServiceDetails = [
     id: "SERVCustSoftDev",
     serviceCategDetails: [
       {
-        categHeading: "",
+        categHeading: "Legacy Systems",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Businesses must innovate to stay relevant, and Clustox rebuilds legacy systems to be more dynamic, user-friendly, and efficient.",
       },
       {
-        categHeading: "",
+        categHeading: "API Development And Software Integration",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "We can also provide API-driven development and support solutions from third-party vendors for seamless integration.",
       },
       {
-        categHeading: "",
+        categHeading: "SaaS Applications Development",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "We will leverage our knowledge to build your SaaS solution on time and within your budget.",
       },
       {
-        categHeading: "",
+        categHeading: "Enterprise Applications",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Our optimized solutions include critical business processes and functions, i.e., ERP, middleware, integration, inventory management, and more.",
       },
     ],
 
-    serviceLongDesc: "",
-    serviceHeading: "",
-    processHeading: "",
-    step1Heading: "Discovery",
+    serviceLongDesc:
+      "Our custom software development services cater to our clients with the freedom to grow and scale at unprecedented rates. We help startups, medium-sized businesses, and enterprise-grade organizations to build performance-oriented systems.",
+    serviceHeading: "Creating Custom Software Solutions of Outstanding Quality",
+    processHeading: "Custom Software Development Services",
+    step1Heading: "Requirments Analysis",
     processStep1: [
       {
-        step1Tag: "",
+        step1Tag: "Strategic consulting",
       },
       {
-        step1Tag: "",
+        step1Tag: "Feasibility study",
       },
       {
-        step1Tag: "",
+        step1Tag: "Proposal document",
       },
     ],
-    step2Heading: "Design",
+    step2Heading: "UI/UX Desgin",
     processStep2: [
       {
-        step2Tag: "",
+        step2Tag: "Design consultation",
       },
       {
-        step2Tag: "",
+        step2Tag: "wireframes development",
       },
       {
-        step2Tag: "",
+        step2Tag: "UI creation",
       },
     ],
     step3Heading: "Development",
     processStep3: [
       {
-        step3Tag: "",
+        step3Tag: "Application Architecture",
       },
       {
-        step3Tag: "",
+        step3Tag: "MVP development",
       },
       {
-        step3Tag: "",
+        step3Tag: "implementation",
       },
     ],
 
     step4Heading: "Delivery",
     processStep4: [
       {
-        step4Tag: "",
+        step4Tag: "Testing",
       },
       {
-        step4Tag: "",
+        step4Tag: "Maintenence",
       },
       {
-        step4Tag: "",
+        step4Tag: "support",
       },
     ],
   },
@@ -676,77 +687,80 @@ const ourServiceDetails = [
     id: "SERVcloudAppMng",
     serviceCategDetails: [
       {
-        categHeading: "",
+        categHeading: "App Migration",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "We plan, design, and implement your app in the cloud leveraging cloud services and efficient CI/CD pipelines to deliver high-performing and cost-effective apps.",
       },
       {
-        categHeading: "",
+        categHeading: "Data Warehouse Migration",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "We plan, design, and migrate your DWH using cloud services and serverless ETL models to reduce cloud consumption costs and increase DWH performance.",
       },
-      {
-        categHeading: "",
-        categImg: "",
-        categDesc: "",
-      },
-      {
-        categHeading: "",
-        categImg: "",
-        categDesc: "",
-      },
+      // {
+      //   categHeading: "",
+      //   categImg: "",
+      //   categDesc: "",
+      // },
+      // {
+      //   categHeading: "",
+      //   categImg: "",
+      //   categDesc: "",
+      // },
     ],
 
-    serviceLongDesc: "",
-    serviceHeading: "",
+    serviceLongDesc:
+      "Achieve greater flexibility and cost-effectiveness with our advanced cloud migration services.",
+    serviceHeading: "Utilize Cloud Migration Opportunities to the Full",
     processHeading: "",
-    step1Heading: "Discovery",
+    step1Heading: "Goal Setting",
     processStep1: [
       {
-        step1Tag: "",
+        step1Tag: "Cloud Strategy development",
       },
       {
-        step1Tag: "",
+        step1Tag: "Planing",
       },
       {
-        step1Tag: "",
+        step1Tag: "Cloud Selection",
       },
     ],
-    step2Heading: "Design",
+    step2Heading: "Portfolio Analysis",
     processStep2: [
       {
-        step2Tag: "",
+        step2Tag: "Deep analysis",
       },
       {
-        step2Tag: "",
+        step2Tag: "Migration Planing",
       },
       {
         step2Tag: "",
       },
     ],
-    step3Heading: "Development",
+    step3Heading: "Migration",
     processStep3: [
       {
-        step3Tag: "",
+        step3Tag: "Setting up cloud",
       },
       {
-        step3Tag: "",
+        step3Tag: "Cloud environemnt setting",
       },
       {
-        step3Tag: "",
+        step3Tag: "Mirgration",
       },
     ],
 
-    step4Heading: "Delivery",
+    step4Heading: "Optimization",
     processStep4: [
       {
-        step4Tag: "",
+        step4Tag: "Track application behavour",
       },
       {
-        step4Tag: "",
+        step4Tag: "Tuning and optimization",
       },
       {
-        step4Tag: "",
+        step4Tag: "Test and access performance",
       },
     ],
   },
@@ -754,77 +768,103 @@ const ourServiceDetails = [
     id: "SERVsoftTestQA",
     serviceCategDetails: [
       {
-        categHeading: "",
+        categHeading: "QA Automation",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "QA automation reduces overall test analysis cost. Accelerate your testing process by applying a large set of functions comprising test automation, tools analysis, software maintenance, and implementation of test scripts. We work with you to enable your QA testing and embed it in your software development life cycle.",
       },
       {
-        categHeading: "",
+        categHeading: "Mobile Application Testing",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Security and scalability are the cornerstones of mobile applications. Achieve a higher level of mobile app testing maturity in an accelerated way. Our mobile application QA testers perform functional and non-functional testing with a manual as well as automated approach for thoroughly testing your application.",
       },
       {
-        categHeading: "",
+        categHeading: "Performance Testing",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Inefficient responsiveness, increasing load times, and instability can be overcome by applying performance testing. Our QA engineers specialize in leading performance testing tools including SOASTA, LoadRunner, and NeoLoad, and can quickly identify and resolve performance bottlenecks in your software.",
       },
       {
-        categHeading: "",
+        categHeading: "Usability Testing",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Usability Testing ensures that customers will love the application or not. Bring best in your systems by testing UI flows, consistency, appearance, and more. Our quality assurance engineers perform exhaustive analysis to determine potential errors, confusing UI flows, and performance flaws to create a seamless product experience.",
+      },
+      {
+        categHeading: "Security Testing",
+        categImg: "",
+        categDesc:
+          "Security testing dramatically increases your application’s security. Uncover potential vulnerabilities to ensure the safety of data, accounts, access, and connections of your users. Our QA engineers are experts in performing risk assessments and penetration testing to shield your application from malicious threats.",
+      },
+      {
+        categHeading: "Manual Testing ",
+        categImg: "",
+        categDesc:
+          "During manual testing, our QA team tests software applications from the end user’s perspective and identifies vulnerabilities that cannot be detected automatically.",
+      },
+      {
+        categHeading: "API Testing ",
+        categImg: "",
+        categDesc:
+          "Our API Testing services include using the most advanced automated tools to develop reliable applications with core functionality and high performance.",
       },
     ],
 
-    serviceLongDesc: "",
-    serviceHeading: "",
-    processHeading: "",
-    step1Heading: "Discovery",
+    serviceLongDesc:
+      "Providing fully tailored QA solutions to deliver top-notch software and apps. Our QA experts help you deliver quality software and to provide your end customers with the best experience. Our experts perform end-to-end testing to deploy bug-free software products established on DevSecOps metrics and automation.",
+    serviceHeading: "Ensure Quality Assurance to Enhance Customer Experience",
+    processHeading: "Full Cycle Software Quality Assurance Services",
+    step1Heading: "Test Planing",
     processStep1: [
       {
-        step1Tag: "",
+        step1Tag: "Project Evaluation",
       },
       {
-        step1Tag: "",
+        step1Tag: "Testing Strategy",
       },
       {
-        step1Tag: "",
+        step1Tag: "Test planning",
       },
     ],
-    step2Heading: "Design",
+    step2Heading: "Test Design",
     processStep2: [
       {
-        step2Tag: "",
+        step2Tag: "Test cases strategy",
       },
       {
-        step2Tag: "",
+        step2Tag: "Developing testing creteria",
       },
       {
-        step2Tag: "",
+        step2Tag: " Automated testing execution",
       },
     ],
-    step3Heading: "Development",
+    step3Heading: "Test Execution",
     processStep3: [
       {
-        step3Tag: "",
+        step3Tag: "Test execution",
       },
       {
-        step3Tag: "",
+        step3Tag: "Test cases and scripts revision",
       },
       {
-        step3Tag: "",
+        step3Tag: "Interim test result reporting",
       },
     ],
 
-    step4Heading: "Delivery",
+    step4Heading: "Release Testing",
     processStep4: [
       {
-        step4Tag: "",
+        step4Tag: "Acceptance testing",
       },
       {
-        step4Tag: "",
+        step4Tag: "Scope Verification",
       },
       {
-        step4Tag: "",
+        step4Tag: "Deliverables check",
+      },
+      {
+        step4Tag: "Final tests results reporting",
       },
     ],
   },
@@ -832,34 +872,41 @@ const ourServiceDetails = [
     id: "SERVcyberSecurity",
     serviceCategDetails: [
       {
-        categHeading: "",
+        categHeading: "Web Application Security",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Minimize the disruptions with BX Technologies web application penetration testing that leverages OWASP v4 Guide.",
       },
       {
-        categHeading: "",
+        categHeading: "Internal/External Network Penetration Testing",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Inhibit any anonymous intrusion to protect the internal networks using InvoZone’s foolproof internal and external penetration testing.",
       },
       {
-        categHeading: "",
+        categHeading: "Phishing Simulation Service",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Avoid phishing campaigns with the assistance of InvoZone’s engineers by observing the flurrying of phishing attacks and scheduling a dynamic simulation service.",
       },
       {
-        categHeading: "",
+        categHeading: "Vulnerability Assessment",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Our security specialists look into your current security architecture to detect and analyze vulnerabilities & threats and give solutions to eradicate these vulnerabilities hampering your IT infrastructure.",
       },
     ],
 
-    serviceLongDesc: "",
-    serviceHeading: "",
+    serviceLongDesc:
+      "Let’s become resilient against cyber-attacks with our laser-focused pentesting services. Prioritize your vulnerability fixes to build your security posture.",
+    serviceHeading:
+      "Immunize Your Business With BX Technologies Pentesting Services",
     processHeading: "",
-    step1Heading: "Discovery",
+    step1Heading: "Identify Vulnerabilities",
     processStep1: [
       {
-        step1Tag: "",
+        step1Tag:
+          "Our cybersecurity consultants do a thorough assessment of your key business areas to identify its weak points.",
       },
       {
         step1Tag: "",
@@ -868,10 +915,11 @@ const ourServiceDetails = [
         step1Tag: "",
       },
     ],
-    step2Heading: "Design",
+    step2Heading: "Risk Assessment",
     processStep2: [
       {
-        step2Tag: "",
+        step2Tag:
+          "We do a cybersecurity risk assessment to measure the organization’s level of risk against cyber threats and suggest solutions.",
       },
       {
         step2Tag: "",
@@ -880,10 +928,11 @@ const ourServiceDetails = [
         step2Tag: "",
       },
     ],
-    step3Heading: "Development",
+    step3Heading: "Risk Mitigation",
     processStep3: [
       {
-        step3Tag: "",
+        step3Tag:
+          "Our security experts make sure that the suggested solutions are implemented throughout the company to eliminate risks.",
       },
       {
         step3Tag: "",
@@ -893,10 +942,11 @@ const ourServiceDetails = [
       },
     ],
 
-    step4Heading: "Delivery",
+    step4Heading: "Monitor & Report",
     processStep4: [
       {
-        step4Tag: "",
+        step4Tag:
+          "Our cybersecurity team provides you with on-going performance monitoring, reporting & suggestions for further improvements.",
       },
       {
         step4Tag: "",
@@ -910,77 +960,82 @@ const ourServiceDetails = [
     id: "SERVblockChainIots",
     serviceCategDetails: [
       {
-        categHeading: "",
+        categHeading: "Decentralized Finance Apps",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "No need to rely on middlemen or corporations for server space, supervision, and data storage when you can transform traditional finance with Defi apps using blockchain networks. Get ​​a wide range of crypto-centric services in the finance industry with InvoZone.",
       },
       {
-        categHeading: "",
+        categHeading: "Smart Contracts",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Automate agreement execution without any third-party’s involvement. We provide dedicated blockchain developers - experts in Bitcoin, Ripple, Hyperledger, and Ethereum blockchain technology on an hourly basis to help you get tailored solutions.",
       },
       {
-        categHeading: "",
+        categHeading: "Online Marketplaces",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Do you want your online marketplace to be secure, and trustworthy? Our developers know the importance of transaction integrity. So let us help you build your own blockchain marketplace based on your specific requirements.",
       },
       {
-        categHeading: "",
+        categHeading: "Supply Chain Management",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Use blockchain technology for supply chain transparency. Our qualified team of developers brings promising opportunities for you to improve your supply chain processes with high traceability and less administrative costs.",
       },
     ],
 
-    serviceLongDesc: "",
-    serviceHeading: "",
+    serviceLongDesc:
+      "Build decentralized solutions with blockchain technology for more transparency, efficiency, and automation.All our blockchain solution development services aim to provide robust, secure, and highly efficient solutions for clients in every industry.",
+    serviceHeading: "Full-cycle Blockchain Development Services",
     processHeading: "",
-    step1Heading: "Discovery",
+    step1Heading: "Requirements Gathering",
     processStep1: [
       {
-        step1Tag: "",
+        step1Tag: "List of high-level requirements",
       },
       {
-        step1Tag: "",
+        step1Tag: "Project size assessment",
       },
       {
-        step1Tag: "",
+        step1Tag: "Workshop proposal, SOW",
       },
     ],
-    step2Heading: "Design",
+    step2Heading: "Strategic Discovery Workshop",
     processStep2: [
       {
-        step2Tag: "",
+        step2Tag: "MVP features & requirements doc",
       },
       {
-        step2Tag: "",
+        step2Tag: "Project plan with release strategy",
       },
       {
-        step2Tag: "",
+        step2Tag: "Development proposal, SOW",
       },
     ],
-    step3Heading: "Development",
+    step3Heading: "Design & Development",
     processStep3: [
       {
-        step3Tag: "",
+        step3Tag: "Deployment of ready product",
       },
       {
-        step3Tag: "",
+        step3Tag: "Product features document",
       },
       {
-        step3Tag: "",
+        step3Tag: "A clickable prototype",
       },
     ],
 
-    step4Heading: "Delivery",
+    step4Heading: "Launch & Support",
     processStep4: [
       {
-        step4Tag: "",
+        step4Tag: "Product launch",
       },
       {
-        step4Tag: "",
+        step4Tag: "Support & maintenance",
       },
       {
-        step4Tag: "",
+        step4Tag: "SLA contract",
       },
     ],
   },
@@ -988,34 +1043,41 @@ const ourServiceDetails = [
     id: "SERVuiUxDesign",
     serviceCategDetails: [
       {
-        categHeading: "",
+        categHeading: "Web UI/UX Design",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Simplify your technically complex products in cahoots with InvoZone’s UI/UX development services to grow web traffic through modern design aesthetics and dynamic features.",
       },
       {
-        categHeading: "",
+        categHeading: "Mobile App UI/UX Design",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Build a comfortable experience for your mobile users that delivers accustomed experiences on their phone screens. InvoZone designs mobile apps according to iOS and Android conventions.",
       },
       {
-        categHeading: "",
+        categHeading: "HCI Design",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Maximize operational efficiency and improve productivity through InvoZone’s research, interviews and persona development to deliver user-friendly HCI designs.",
       },
       {
-        categHeading: "",
+        categHeading: "UX consulting",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Want to quickly test different approaches to your issues? Spend 5 days to accelerate and simplify design process of your product",
       },
     ],
 
-    serviceLongDesc: "",
-    serviceHeading: "",
-    processHeading: "",
-    step1Heading: "Discovery",
+    serviceLongDesc:
+      "Increase future product adoption by creating intuitive user experience design.Invest in user interface design for higher conversion rates and increased revenue. Boost customer retention by developing fit-for-purpose UI/UX design.",
+    serviceHeading:
+      "Solve the most pressing product design challenges with InvoZone’s UX and design wizards",
+    processHeading: "Top UI/UX Design Services",
+    step1Heading: "Discovery Workshop",
     processStep1: [
       {
-        step1Tag: "",
+        step1Tag:
+          "We conduct thorough meetings & sessions to understand user requirements. It helps us to kick-start our collaboration and define next steps.",
       },
       {
         step1Tag: "",
@@ -1024,10 +1086,11 @@ const ourServiceDetails = [
         step1Tag: "",
       },
     ],
-    step2Heading: "Design",
+    step2Heading: "Wireframing & Prototyping",
     processStep2: [
       {
-        step2Tag: "",
+        step2Tag:
+          "Starting form detailed wireframes, we slowly evolve into a thorough, high-fidelity prototype of your product.",
       },
       {
         step2Tag: "",
@@ -1036,10 +1099,11 @@ const ourServiceDetails = [
         step2Tag: "",
       },
     ],
-    step3Heading: "Development",
+    step3Heading: "UI Design",
     processStep3: [
       {
-        step3Tag: "",
+        step3Tag:
+          "Our UI design services team makes sure that everything is absolutely stunning and gives users an amazing experience.",
       },
       {
         step3Tag: "",
@@ -1049,10 +1113,11 @@ const ourServiceDetails = [
       },
     ],
 
-    step4Heading: "Delivery",
+    step4Heading: "Testing & Feedback",
     processStep4: [
       {
-        step4Tag: "",
+        step4Tag:
+          "We thoroughly test the design, incorporate valuable feedback from the end-user, and make sure the final product is just awesome!",
       },
       {
         step4Tag: "",
@@ -1066,34 +1131,40 @@ const ourServiceDetails = [
     id: "SERVtechConsServices",
     serviceCategDetails: [
       {
-        categHeading: "",
+        categHeading: "Technology Consulting",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "We analyze the existing technology area of your interest and assist in its steady evolution to enhance your business growth.Technology areas we consult on: AI/ML Consulting, IoT Consulting, Cloud Consulting, Blockchain Consulting,Computer Vision Consulting",
       },
       {
-        categHeading: "",
+        categHeading: "Digital Strategy Consulting",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "We consult on turning IT into a major contributor to your business performance to increase your revenue exponentially. Digital consulting includes: A value-driving business IT strategy, a plan for IT service delivery optimization.Revenue from new digital sales channels. Increase in sales via marketing and sales automation. Employee productivity via simple user experience.",
       },
       {
-        categHeading: "",
+        categHeading: "Solutions Consulting",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "We analyze your business needs and help you make strategic decisions on the successful implementation of business-critical solutions.What we consult on: How to maximize ROI.Feature management & prioritization. How to integrate a solution into the existing IT landscape. How to ensure outstanding UX and user adoption.How to organize further solution support and evolution.",
       },
       {
-        categHeading: "",
+        categHeading: "Software Support Services",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Boost risk assessment and mitigation and defend your software from outages and attacks by defining service level requirements with our on-site and remote software support services.",
       },
     ],
 
-    serviceLongDesc: "",
-    serviceHeading: "",
-    processHeading: "",
-    step1Heading: "Discovery",
+    serviceLongDesc:
+      "We help our clients leverage advanced IT consultancy services to improve their business performance and achieve their goals.",
+    serviceHeading: "Harness the Power of IT Consultancy Services",
+    processHeading: "Why Bx Technologies IT Consulting Services",
+    step1Heading: "Fast service results",
     processStep1: [
       {
-        step1Tag: "",
+        step1Tag:
+          "We advocate incremental changes to help you get the first positive outcome within 2-6 months.",
       },
       {
         step1Tag: "",
@@ -1102,10 +1173,11 @@ const ourServiceDetails = [
         step1Tag: "",
       },
     ],
-    step2Heading: "Design",
+    step2Heading: "Cost-Effective Optimization",
     processStep2: [
       {
-        step2Tag: "",
+        step2Tag:
+          "We apply our 10+ years of diverse experience to achieve substantial results for your business at a reasonable budget.",
       },
       {
         step2Tag: "",
@@ -1114,10 +1186,11 @@ const ourServiceDetails = [
         step2Tag: "",
       },
     ],
-    step3Heading: "Development",
+    step3Heading: "KPIs-Based Consultancy",
     processStep3: [
       {
-        step3Tag: "",
+        step3Tag:
+          "We define target KPIs (increase in sales, decrease in costs, etc.) with you and build our consulting services around these targets.",
       },
       {
         step3Tag: "",
@@ -1127,10 +1200,11 @@ const ourServiceDetails = [
       },
     ],
 
-    step4Heading: "Delivery",
+    step4Heading: "Reduced Security Risk",
     processStep4: [
       {
-        step4Tag: "",
+        step4Tag:
+          "IT consultants can identify & resolve security threats in your network & systems & establish protocols to ensure better protection.",
       },
       {
         step4Tag: "",
@@ -1145,34 +1219,41 @@ const ourServiceDetails = [
     id: "SERVdataAnalBussInt",
     serviceCategDetails: [
       {
-        categHeading: "",
+        categHeading: "Artificial Intelligence",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Successfully build, deploy, and manage AI solutions in your company by leveraging our deep knowledge around AI.",
       },
       {
-        categHeading: "",
+        categHeading: "Machine Learning",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Stay ahead of the competition by working with our top machine learning analysts to capture the unexploited areas of business models.",
       },
       {
-        categHeading: "",
+        categHeading: "Business Intelligence",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Empower your organization to make data-driven refinements & improve everything from overall strategy to day-to-day operations.",
       },
       {
-        categHeading: "",
+        categHeading: "Data Analytics",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Unlock the power of analytics to drive deep insights by tapping into data you didn’t even know you had in your company.",
       },
     ],
 
-    serviceLongDesc: "",
-    serviceHeading: "",
+    serviceLongDesc:
+      "Bring substantial revenue generation and enhance operational efficiency leveraging our advanced data science services.",
+    serviceHeading:
+      "Unlock Your Business Potential With Our Data Science Solutions",
     processHeading: "",
-    step1Heading: "Discovery",
+    step1Heading: "Define the Problem",
     processStep1: [
       {
-        step1Tag: "",
+        step1Tag:
+          "We thoroughly assess your business environment and carefully analyze the operations bottlenecks to identify key goals and challenges.",
       },
       {
         step1Tag: "",
@@ -1181,10 +1262,11 @@ const ourServiceDetails = [
         step1Tag: "",
       },
     ],
-    step2Heading: "Design",
+    step2Heading: "Collect & Prepare Data",
     processStep2: [
       {
-        step2Tag: "",
+        step2Tag:
+          "We gather the data related to your business and clients in different formats and evaluate data quality to structure data for further analysis.",
       },
       {
         step2Tag: "",
@@ -1193,10 +1275,11 @@ const ourServiceDetails = [
         step2Tag: "",
       },
     ],
-    step3Heading: "Development",
+    step3Heading: "Analyze & Incorporate",
     processStep3: [
       {
-        step3Tag: "",
+        step3Tag:
+          "We develop analytical formulas and algorithms to discover insights and integrate these insights into business to unlock new opportunities",
       },
       {
         step3Tag: "",
@@ -1206,10 +1289,11 @@ const ourServiceDetails = [
       },
     ],
 
-    step4Heading: "Delivery",
+    step4Heading: "Validate the results",
     processStep4: [
       {
-        step4Tag: "",
+        step4Tag:
+          "We continuously monitor and analyze the performance of your algorithms and make necessary improvements & adjustments.",
       },
       {
         step4Tag: "",
@@ -1302,76 +1386,82 @@ const ourServiceDetails = [
     id: "SERVprojManagment",
     serviceCategDetails: [
       {
-        categHeading: "",
+        categHeading: "Realistic Estimation of Product Development",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Build your scalable software product with InvoZone’s masterly software project manager that creates and delivers your project within budget considering the aptest software development methodologies.",
       },
       {
-        categHeading: "",
+        categHeading: "Software Development Life Cycle Planning",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Engage with InvoZone’s expert software development management team that plan, build, and maintain products based on the effective software development strategy to enhance your business efficiency.",
       },
       {
-        categHeading: "",
+        categHeading: "Remote Software Project Management",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "You can verily trust in our highly productive and devoted remote project management team that has been delivering glitch-free projects to time and date — by implementing the right strategy and practices to meet your end business goals.",
       },
       {
-        categHeading: "",
+        categHeading: "Software Quality Assurance",
         categImg: "",
-        categDesc: "",
+        categDesc:
+          "Deeply skim through the minutest details of your product and never a miss bug with InvoZone’s sharp-eyed software quality assurance experts skilled in modern testing techniques that ensure zero downtime and error-free project delivery fulfilling your quality criteria.",
       },
     ],
-    serviceLongDesc: "",
-    serviceHeading: "",
+    serviceLongDesc:
+      "Lead your project with our end-to-end software project management solutions. Employ effective and optimized Software Project Management Services. Reduce uncertainties and risks in software project development. Streamline the working process to implement your idea. Streamline the working process to implement your idea.",
+    serviceHeading:
+      "Ace Software Project Management Services, Software Project Management Services We Offer",
     processHeading: "",
-    step1Heading: "Discovery",
+    step1Heading: "Project Initiation",
     processStep1: [
       {
-        step1Tag: "",
+        step1Tag: "Idea Discussion",
       },
       {
-        step1Tag: "",
+        step1Tag: "Brain Stroming",
       },
       {
-        step1Tag: "",
+        step1Tag: "Project Start",
       },
     ],
-    step2Heading: "Design",
+    step2Heading: "Project Backlog",
     processStep2: [
       {
-        step2Tag: "",
+        step2Tag: "Develop Backlog",
       },
       {
-        step2Tag: "",
+        step2Tag: "Refine backlog",
       },
       {
-        step2Tag: "",
+        step2Tag: "Tools selection",
       },
     ],
-    step3Heading: "Development",
+    step3Heading: "Execution",
     processStep3: [
       {
-        step3Tag: "",
+        step3Tag: "Select execution process",
       },
       {
-        step3Tag: "",
+        step3Tag: "Monitor performance",
       },
       {
-        step3Tag: "",
+        step3Tag: "Report Progress",
       },
     ],
 
-    step4Heading: "Delivery",
+    step4Heading: "Release",
     processStep4: [
       {
-        step4Tag: "",
+        step4Tag: "finalize project",
       },
       {
-        step4Tag: "",
+        step4Tag: "verify Acceptance Certieria",
       },
       {
-        step4Tag: "",
+        step4Tag: "Close project",
       },
     ],
   },
