@@ -1,6 +1,16 @@
-.mapframe{
-    border-radius: 20px;
+
+.headerContainer{
+  background:white url(../images/contactUsBanner.png) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
 }
+
+
+
 .navItemContactUs a{
     font-size: medium;
     font-weight: bold;
@@ -37,14 +47,82 @@
   .headerContainer p {
     font-size: 24px;
     font-weight: 300;
-    color: #3d463e;
+    color: white;
   }
   .headerContainer h1 {
     font-size: 2.1rem;
     line-height: 60px;
+    color: white;
   }
+
+
+
+/* TO APPLY */
+/* div {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+div:first-of-type {
+  animation: showup 7s infinite;
+}
+
+div:last-of-type {
+  width:0px;
+  animation: reveal 7s infinite;
+}
+
+div:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+} */
+
+
+p {
+  font-size:12px;
+  color:#999;
+  margin-top:200px;
+}
+
+
+  .headerContainer h1,p{
+
+    animation: 1s ease-out 0s 1 slideInLeft;
+  }
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
   .serviceHeaderText {
-    padding-top: 10%;
+    padding-top: 20%;
     padding-left: 40px;
     padding-right: 20px;
   }

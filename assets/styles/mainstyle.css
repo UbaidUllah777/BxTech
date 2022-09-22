@@ -38,7 +38,7 @@ body {
 
 @media only screen and (min-width: 537px) {
   .wholeBody {
-    padding-top: 5%;
+    padding-top: 7.3%;
   }
 }
 
@@ -130,7 +130,7 @@ body {
   color: green;
 }
 .navbar-custom {
-  background-color: rgb(229, 250, 249);
+  background-color: white;
 }
 
 .usefullLinks a {
