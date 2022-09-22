@@ -233,118 +233,81 @@
     </div>
 
     <!-- Tell Us About Container -->
-    <div class="row emptyRow" id="emptyRow"></div>
-    <div class="row TellUsAbout" id="TellUsAbout">
-      <img class="demo-bg" src="assets/images/FormBG2.jpeg" alt="" />
+    <div class="row emptyRow pb-5" id="emptyRow"></div>
+
+    <div class="row TellUsAbout mt-5" id="TellUsAbout">
       <div class="row">
-        <div class="col-12">
+        <div class="col-sm-6 col-12 contacttLeft">
+          <div class="leftcontactData">
+            <h1>Ready To Become A Digital Titan In Your Niche?</h1>
+            <br />
+            <p>
+              With modern technology, unparalleled experience & a desire for
+              innovation, our team is ready to bring your digital business idea
+              to life.
+            </p>
+            <br />
+            <p>Fill in this form to start the process</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 contacttRight col-12">
           <center>
-            <h1 style="padding-top: 50px" id="formHeading">
-              Tell Us About Your Project
+            <h1>
+              Get In Touch With Us
+              <hr style="max-width: 80%" />
             </h1>
           </center>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10 formBody">
-          <div class="row">
-            <div class="col-sm-10 col-12 frmSigleField" style="width: 100%">
-              <div class="form__group field">
-                <label for="projetsSelection" style="opacity: 0.7"
-                  >Interest area...:</label
-                ><br />
-                <select
-                  name="projetsSelection"
-                  class="projetsSelection"
-                  style="max-width: 100%"
-                >
-                  <option value="csd">Custom Software Development</option>
-                  <option value="mad">Mobile App Development</option>
-                  <option value="wad">Web App Development</option>
-                  <option value="ued">User Experience & Design</option>
-                  <option value="rpd">RetailPro Development</option>
-                  <option value="dss">Data Science Solutions</option>
-                  <option value="dtt">Dedicated Technical teams</option>
-                  <option value="fpp">Fixed Price Projects</option>
-                  <option value="tc">Technology Consultancy</option>
-                </select>
-              </div>
-            </div>
-          </div>
           <br />
-          <div class="row">
-            <div class="col-sm-6 col-12 frmSigleField">
+          <form>
+            <div class="col-12 mb-3">
               <input
-                type="input"
-                class="form_input"
-                placeholder="First Name"
-                name="Fname"
-                id="Fname"
-                required
+                type="text"
+                class="form-control"
+                id="formName"
+                placeholder="Name"
+                aria-describedby="emailHelp"
               />
             </div>
-            <div class="col-sm-6 col-12 frmSigleField">
+            <div class="col-12 mb-3">
               <input
-                type="input"
-                class="form_input"
-                placeholder="Last Name"
-                name="lastName"
-                id="lastName"
-                required
+                type="text"
+                class="form-control"
+                placeholder="Email address"
+                id="formEmail"
               />
             </div>
-          </div>
-          <br />
-          <div class="row">
-            <div class="col-sm-6 col-12 frmSigleField">
+            <div class="col-12 mb-3">
               <input
-                type="input"
-                class="form_input"
-                placeholder="Email"
-                name="email"
-                id="email"
-                required
+                type="number"
+                class="form-control"
+                placeholder="Contact Number"
+                id="formContactNumber"
               />
             </div>
-            <div class="col-sm-6 col-12 frmSigleField">
-              <input
-                type="input"
-                class="form_input"
-                placeholder="Attach your file"
-                name="atchFile"
-                id="atchFile"
-                required
-              /><span class="fa-solid fa-paperclip atchFileIcon"></span>
-            </div>
-          </div>
-          <br />
-          <div class="row">
-            <div class="col-sm-10 col-12 frmSigleField" style="width: 100%">
+
+            <div class="col-12 mb-3">
               <textarea
-                type="input"
-                class="form_input"
-                placeholder="Project Details"
-                name="projectDetails"
-                id="projectDetails"
-                rows="2"
+                class="form-control"
+                rows="3"
+                placeholder="Details"
                 required
               ></textarea>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-4 col-12"></div>
-            <div class="col-sm-4 col-12"></div>
-            <div class="col-sm-4 col-12 capatchaCol">
-              <div class="capatchaGrid">
-                <img src="assets/images/capacha.png" alt="" />
+            <div clas="row btnSubmitContainer">
+              <div class="col-12">
+                <button
+                  id="btnSubmit"
+                  type="submit"
+                  class="btncontactSubmit"
+                  style="float: right"
+                >
+                  Submit
+                </button>
               </div>
-              <br />
-              <button class="btnSubmitForm">Submit</button>
             </div>
-          </div>
+          </form>
         </div>
-        <div class="col-1"></div>
       </div>
     </div>
 

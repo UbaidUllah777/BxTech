@@ -261,3 +261,108 @@ ul.whyUsListHeadings p {
 .atchFileIcon:hover {
   cursor: pointer;
 }
+
+
+
+
+/* CONTACT US NEW : START*/
+.mapsAndForm{ 
+  
+  background-color: rgb(233, 240, 238);
+  padding: 10px;
+  padding-right: 20px;
+}
+.contactForm{
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+}
+
+
+
+
+
+.contacttLeft {
+  background-color: #011945;
+  height: 80vh;
+}
+
+@media only screen and (min-width: 600px) {
+  .contacttLeft {
+    height: 80vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .contacttLeft {
+    height: 60vh;
+  }
+}
+
+.contacttLeft * {
+  color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  .leftcontactData {
+    padding-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .leftcontactData {
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  form {
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  form {
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.contacttRight {
+  padding-left: 30px;
+  background-color: white;
+  color: #28c23e;
+}
+.contacttRight h1 {
+  padding-top: 20px;
+}
+#btnSubmit {
+  border-radius: 10px;
+  box-shadow: rgb(44 187 99 / 20%) 0 -25px 18px -14px inset, rgb(44 187 99 / 15%) 0 1px 2px, rgb(44 187 99 / 15%) 0 2px 4px, rgb(44 187 99 / 15%) 0 4px 8px, rgb(44 187 99 / 15%) 0 8px 16px, rgb(44 187 99 / 15%) 0 16px 32px;
+  background-color: #28c23e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#btnSubmit:hover {
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+/* CONTACT US NEW : END*/
