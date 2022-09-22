@@ -475,7 +475,7 @@ const ourServiceDetails = [
         step1Tag: "Plan time & cost estimates",
       },
     ],
-    step2Heading: "User Interface Design",
+    step2Heading: "UI/UX Design",
     processStep2: [
       {
         step2Tag: " Develop Mock-ups/wireframe",
@@ -1671,85 +1671,5 @@ if (ElWods) {
   };
   wordflick();
 }
-
-// SHOWING or HIDING BOOK DETAIL: START
-
-const backdropElement = document.getElementById("backdrop");
-const modalLinkElement = document.querySelector(".info-modal");
-const modalLinkElement2 = document.querySelector(".info-modal2");
-
-let infoModal;
-
-function toggleBackdrop() {
-  backdropElement.classList.toggle("visible");
-}
-
-function presentInfoModal() {
-  toggleBackdrop();
-
-  infoModal = document.createElement("div");
-  infoModal.classList.add("modal");
-  infoModal.innerHTML = `
-  
-  
-  <div class="row OurFullModal">
-  <div class="col-sm-6 col-12 modaltLeft">
-    <div class="leftModalData">
-      <h1>Ready To Become A Digital Titan In Your Niche?</h1><br>
-      <p>With modern technology, unparalleled experience & a desire for innovation, our team is ready to bring your digital business idea to life.</p>
-    <br>
-    <p>Fill in this form to start the process</p>
-    </div>
-  
-  </div>
-  <div class="col-sm-6 col-12 modaltRight ">
-   <center><h1>Get In Touch With Us <hr style="max-width: 80%;"></h1> </center> <br>
- <form>
-    <div class="col-12 mb-3">
-      <input type="text" class="form-control" id="formName" placeholder="Name" aria-describedby="emailHelp">
-   
-    </div>
-    <div class=" col-12 mb-3">
-      <input type="text" class="form-control" placeholder="Email address" id="formEmail">
-    </div>
-    <div class=" col-12 mb-3">
-      <input type="number" class="form-control" placeholder="Contact Number" id="formContactNumber">
-    </div>
-    
-    <div class=" col-12 mb-3">
-      <textarea class="form-control" rows="3" placeholder="Details" required></textarea>
-    </div>
-    <div clas="row">
-        <div class="col-12">
-        <button type="submit" class=" btnModalSubmit ">Submit</button>
-        </div>
-    </div>
-  </form>
-  
-    <div class="col-12"></div>
-    <div class="col-12"></div>
-  </div>
-</div>
-            
-  `;
-
-  document.body.appendChild(infoModal);
-}
-
-function hideInfoModal() {
-  toggleBackdrop();
-  document.body.removeChild(infoModal);
-}
-if (backdropElement) {
-  backdropElement.addEventListener("click", hideInfoModal);
-}
-if (modalLinkElement) {
-  modalLinkElement.addEventListener("click", presentInfoModal);
-}
-if (modalLinkElement2) {
-  modalLinkElement2.addEventListener("click", presentInfoModal);
-}
-
-// SHOWING or HIDING BOOK DETAIL:End
 
 /* Service Details Page : END*/
