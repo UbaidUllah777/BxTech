@@ -11,23 +11,44 @@
 .indexHeaderimg img
 {
   padding-top: 20%;
-  padding-right: 20px;
+  padding-left: 5%;
 }
-.HeaderRightimg{
+
+.indexRightIMG{
+  height: 100%;
+  max-width: 500px;
   width: 100%;
   height: auto;
 }
-.indexHeaderText {
-  padding-top: 20%;
-  padding-right: 20px;
+.HeaderText p{
+  font-size: 24px;
+  font-weight: 300;
+
 }
 
-.indexHeaderText h1{
+
+
+.HeaderText h1{
   color: #135382;
   font-weight: bolder;
 }
 
-#btnTalkToUs {
+
+
+.HeaderText h1, .HeaderText p {
+  animation: 1s ease-out 0s 1 slideInLeft;
+}
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+.btnGetStarted {
   border-radius: 5px;
   box-shadow: rgb(44 187 99 / 20%) 0 -25px 18px -14px inset,
     rgb(44 187 99 / 15%) 0 1px 2px, rgb(44 187 99 / 15%) 0 2px 4px,
@@ -47,7 +68,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-#btnTalkToUs:hover {
+.btnGetStarted:hover {
   box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
     rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
     rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,

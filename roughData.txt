@@ -962,3 +962,39 @@ projectDetail page Technology Used
         </div>
         <div class="col-1"></div>
       </div>
+
+
+
+
+
+
+      ///////////////////////////
+      about us Right side text
+      //////////////////////////
+       <div class="col-sm-7 col-12 AboutUsHeaderTxt pb-5">
+            <div class="aboutUs">
+              <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                  <center>
+                    <h2 class="welcomeTextH2 pt-5">
+                      Welcome to BX Technologies
+                    </h2>
+                    <center>
+                      <h3 style="color: #00b5f1; padding-top: 2px">
+                        Better With Us
+                      </h3>
+                    </center>
+
+                    <p>
+                      solution's security, accelerate time to market, and drive
+                      exceptional customer value.
+                    </p>
+                    <br />
+                    <button id="btnGetStarted">Talk To Us</button>
+                  </center>
+                </div>
+                <div class="col-1"></div>
+              </div>
+            </div>
+          </div>

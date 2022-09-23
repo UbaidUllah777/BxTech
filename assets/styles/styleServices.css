@@ -40,6 +40,18 @@
   padding-bottom: 40px;
   background-color: rgb(233, 240, 238);
 }
+.serviceHeaderimg img
+{
+  padding-top: 20%;
+  padding-left: 5%;
+}
+.aboutUsLeftIMG{
+  height: 100%;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
+
 .techStack {
   padding: 10px;
   margin: 10px;
@@ -120,6 +132,8 @@
 }
 .headerContainer {
   background-color: rgb(233, 240, 238);
+  height: 700px;
+  width: 100%;
 }
 .headerContainer p {
   font-size: 24px;
@@ -135,19 +149,14 @@
   padding-left: 40px;
   padding-right: 20px;
 }
-.serviceHeaderimg img {
-  padding-top: 10%;
-  max-width: 100%;
-  height: auto;
-  width: auto\9; /* ie8 */
-}
+
 
 .btnGetStarted {
-  border-radius: 100px;
-  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
-    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
-    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
-    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  border-radius: 5px;
+  box-shadow: rgb(44 187 99 / 20%) 0 -25px 18px -14px inset,
+    rgb(44 187 99 / 15%) 0 1px 2px, rgb(44 187 99 / 15%) 0 2px 4px,
+    rgb(44 187 99 / 15%) 0 4px 8px, rgb(44 187 99 / 15%) 0 8px 16px,
+    rgb(44 187 99 / 15%) 0 16px 32px;
   background-color: #28c23e;
   cursor: pointer;
   display: inline-block;
@@ -165,10 +174,13 @@
 
 .btnGetStarted:hover {
   box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
-    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
-    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
-    rgba(44, 187, 99, 0.25) 0 16px 32px;
-  transform: scale(1.05) rotate(-1deg);
+  rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+  rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+  rgba(44, 187, 99, 0.25) 0 16px 32px;
+transform: scale(1.02) rotate(-0.5deg);
+background-color: white;
+color: black;
+border: 1px solid #28c23e;
 }
 
 .techStack h1,

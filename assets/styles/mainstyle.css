@@ -5,6 +5,36 @@ body {
   scroll-behavior: smooth;
 }
 
+
+
+@media only screen and (min-width: 600px) {
+  .HeaderText {
+    padding-top: 20%;
+    padding-right: 3%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .HeaderText {
+    padding-top: 20%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .aboutUsLeftIMG {
+    padding-top: 20%;
+    padding-right: 15%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .aboutUsLeftIMG {
+    padding-top: 20%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+
 #scrollToTop {
   position: fixed;
   bottom: 3rem;
@@ -62,7 +92,7 @@ body {
   z-index: 999;
   position: fixed;
   width: 100%;
-  box-shadow: 0 4px 12px -2px #00b5f1;
+  box-shadow: 0 4px 12px -2px #c5eecc;
   opacity: 0.9;
   overflow: hidden;
 }
@@ -72,6 +102,11 @@ body {
 }
 .navbar-brand {
   padding-left: 20px;
+}
+.nav-link 
+{
+  color: black;
+font-weight: 500;
 }
 .services {
   text-align: center;
@@ -131,7 +166,7 @@ body {
   color: green;
 }
 .navbar-custom {
-  background-color: white;
+  background-color: aliceblue;
 }
 
 .usefullLinks a {
@@ -362,3 +397,12 @@ ul.whyUsListHeadings p {
 }
 
 /* CONTACT US NEW : END*/
+
+
+#scrollToTop
+{
+  box-shadow: 0px 0px 0px 2px rgba(8, 208, 31, 0.439), 
+  0px 2px 4px rgba(0,0,0,0.1),
+  0px 4px 8px rgba(0,0,0,0.1),
+  0px 8px 16px rgba(0,0,0,0.1);
+}

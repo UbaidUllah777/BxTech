@@ -1,5 +1,7 @@
 // By click Scroll into view :Start
-const btnGetStarted = document.getElementById("btnTalkToUs");
+const btnGetStarted = document.getElementById("btnGetStarted");
+
+const btnTalkToUs = document.getElementById("btnTalkToUs");
 
 const element = document.getElementById("emptyRow");
 
@@ -8,6 +10,7 @@ const FnGetstarted = () => {
 };
 
 btnGetStarted.addEventListener("click", FnGetstarted);
+btnTalkToUs.addEventListener("click", FnGetstarted);
 // By click Scroll into view :END
 
 //Show Service Details : START

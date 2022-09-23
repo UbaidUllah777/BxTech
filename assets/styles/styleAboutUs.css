@@ -21,8 +21,8 @@
   margin: auto;
 }
 .faq-container h5 {
-  /* color: #28c23e; */
   color: #00b5f1;
+  font-size: large;
 }
 .faq-container p {
   text-align: justify;
@@ -45,6 +45,37 @@
   /* text-align: center; */
   width: 50%;
   padding: auto;
+}
+
+
+
+.aboutUsLeftIMG{
+  height: 100%;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+.HeaderText h1{
+  color: #135382;
+  font-weight: bolder;
+}
+
+.HeaderText p{
+  font-size: 24px;
+  font-weight: 300;
+
+}
+
+.HeaderText h1, .HeaderText p {
+  animation: 1s ease-out 0s 1 slideInLeft;
+}
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .openactive,
@@ -93,11 +124,8 @@
 }
 
 #btnGetStarted {
-  border-radius: 100px;
-  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
-    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
-    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
-    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  border-radius: 5px;
+  box-shadow: rgb(44 187 99 / 20%) 0 -25px 18px -14px inset, rgb(44 187 99 / 15%) 0 1px 2px, rgb(44 187 99 / 15%) 0 2px 4px, rgb(44 187 99 / 15%) 0 4px 8px, rgb(44 187 99 / 15%) 0 8px 16px, rgb(44 187 99 / 15%) 0 16px 32px;
   background-color: #28c23e;
   cursor: pointer;
   display: inline-block;
@@ -113,30 +141,32 @@
   touch-action: manipulation;
 }
 
-.AboutUsHeaderTxt {
-  padding-top: 10%;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+
 .welcomeHead {
-  background-color: rgb(229, 250, 249);
+  background: rgb(223, 202, 202) url(../images/indexBannerBG.png) no-repeat  center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
 }
 .welcomeTextH2 {
   color: #28c23e;
 }
-    .welcomeHead{
-      padding-top: 40px;
-        background-color: rgb(229, 250, 249);
-    }
+  
     .welcomeTextH2{
         color: #28c23e;
     }
 #btnGetStarted:hover {
   box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
-    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
-    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
-    rgba(44, 187, 99, 0.25) 0 16px 32px;
-  transform: scale(1.05) rotate(-1deg);
+  rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+  rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+  rgba(44, 187, 99, 0.25) 0 16px 32px;
+transform: scale(1.02) rotate(-0.5deg);
+background-color: white;
+color: black;
+border: 1px solid #28c23e;
 }
 .whyUs {
   background-color: rgb(229, 250, 249);
