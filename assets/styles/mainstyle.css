@@ -1,15 +1,15 @@
 body {
   font-family: "Nunito";
 }
-*{
+* {
   scroll-behavior: smooth;
- }
- 
- #scrollToTop {
+}
+
+#scrollToTop {
   position: fixed;
   bottom: 3rem;
   right: 3rem;
-  box-shadow: 0 0 14px -5px rgba(0, 0, 0,0.5);
+  box-shadow: 0 0 14px -5px rgba(0, 0, 0, 0.5);
   border-radius: 100%;
   width: 50px;
   height: 50px;
@@ -19,7 +19,6 @@ body {
   margin-bottom: -8rem;
   transition: margin-bottom 1s;
 }
-
 
 #scrollToTop.active {
   margin-bottom: 0;
@@ -33,18 +32,20 @@ body {
 }
 
 @keyframes rotate {
-  to {transform: rotate(2520deg);}
+  to {
+    transform: rotate(2520deg);
+  }
 }
 
 @media only screen and (min-width: 537px) {
   .wholeBody {
-    padding-top: 7.3%;
+    padding-top: 100px;
   }
 }
 
-@media only screen and (max-width: 536px) {
+@media only screen and (max-width: 992px) {
   .wholeBody {
-    padding-top: 7%;
+    padding-top: 50px;
   }
 }
 /* @media only screen and (min-width: 600px) {
@@ -262,25 +263,17 @@ ul.whyUsListHeadings p {
   cursor: pointer;
 }
 
-
-
-
 /* CONTACT US NEW : START*/
-.mapsAndForm{ 
-  
+.mapsAndForm {
   background-color: rgb(233, 240, 238);
   padding: 10px;
   padding-right: 20px;
 }
-.contactForm{
+.contactForm {
   padding-left: 5%;
   padding-right: 5%;
   background-color: white;
 }
-
-
-
-
 
 .contacttLeft {
   background-color: #011945;
@@ -341,7 +334,10 @@ ul.whyUsListHeadings p {
 }
 #btnSubmit {
   border-radius: 10px;
-  box-shadow: rgb(44 187 99 / 20%) 0 -25px 18px -14px inset, rgb(44 187 99 / 15%) 0 1px 2px, rgb(44 187 99 / 15%) 0 2px 4px, rgb(44 187 99 / 15%) 0 4px 8px, rgb(44 187 99 / 15%) 0 8px 16px, rgb(44 187 99 / 15%) 0 16px 32px;
+  box-shadow: rgb(44 187 99 / 20%) 0 -25px 18px -14px inset,
+    rgb(44 187 99 / 15%) 0 1px 2px, rgb(44 187 99 / 15%) 0 2px 4px,
+    rgb(44 187 99 / 15%) 0 4px 8px, rgb(44 187 99 / 15%) 0 8px 16px,
+    rgb(44 187 99 / 15%) 0 16px 32px;
   background-color: #28c23e;
   cursor: pointer;
   display: inline-block;
