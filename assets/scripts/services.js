@@ -691,16 +691,17 @@ const ourServiceDetails = [
     id: "SERVcloudAppMng",
     serviceCategDetails: [
       {
-        categHeading: "App Migration",
-        categImg: "",
+        categHeading: "Cloud App Deployment",
+        categImg: "assets/images/serviceDetailImages/cloudAppMigration.png",
         categDesc:
-          "We plan, design, and implement your app in the cloud leveraging cloud services and efficient CI/CD pipelines to deliver high-performing and cost-effective apps.",
+          "To offer high-performing, maintainable, and reasonably priced application deployment and management, we plan, develop, and deploy your application in the cloud using a variety of cloud services, deployment models and robust continuous integration and continuous deployment (CI/CD) pipelines, including 24/7 maintenance.",
       },
       {
         categHeading: "Data Warehouse Migration",
-        categImg: "",
+        categImg:
+          "assets/images/serviceDetailImages/dataWarehousemigration.png",
         categDesc:
-          "We plan, design, and migrate your DWH using cloud services and serverless ETL models to reduce cloud consumption costs and increase DWH performance.",
+          "We plan, create, and migrate your Data Warehouse using cloud services and serverless execute, transform and load (ETL) methods.  With the Cloud deployment, the operating costs of a Data warehouse can be reduced significantly, Which results in improved Data Warehouse performance and operations. ",
       },
       // {
       //   categHeading: "",
@@ -819,7 +820,7 @@ const ourServiceDetails = [
       "BX Technologies provides custom and tailored software quality assurance services to develop and deploy high-quality and efficient software systems. Our test engineers and managers always look for options and solutions to deliver the best quality software to you and your end-users. Our testing process is multi-dimensional, where end-to-end testing is performed on your product; while keeping in mind the rules and regulations of international testing leaders like ISTQB and ISO. Thanks to the diverse skill set of our test engineer, your software is tested for different testing purposes while employing manual, automated, and DevOps startegies. ",
     serviceHeading:
       "Oustanding Software Quality and User Experience Through Testing and Quality Assurance ",
-    processHeading: "Full Cycle Software Quality Assurance Services",
+    processHeading: "End-to-End Software Testing Service",
     step1Heading: "Test Planing",
     processStep1: [
       {
@@ -878,27 +879,28 @@ const ourServiceDetails = [
     serviceCategDetails: [
       {
         categHeading: "Web Application Security",
-        categImg: "",
+        categImg:
+          "assets/images/serviceDetailImages/webApplicationsSecurity.png",
         categDesc:
-          "Minimize the disruptions with BX Technologies web application penetration testing that leverages OWASP v4 Guide.",
+          "Our team of cyber security specialists leverages their skills and experience to minimize the risks and vulnerabilities in your application. Penetration tests are carried out in accordance with cyber security standards and OWASP v4 guidelines. ",
       },
       {
         categHeading: "Internal/External Network Penetration Testing",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/networkSecurity.png",
         categDesc:
-          "Inhibit any anonymous intrusion to protect the internal networks using InvoZone’s foolproof internal and external penetration testing.",
+          "Safeguard your critical network and IT infrastructure by employing BX technologies penetration testing. We offer a diverse range of solutions for network security by inducting efficient tools for managing your security operation center (SOC).",
       },
       {
         categHeading: "Phishing Simulation Service",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/phisingSimulations.png",
         categDesc:
-          "Avoid phishing campaigns with the assistance of InvoZone’s engineers by observing the flurrying of phishing attacks and scheduling a dynamic simulation service.",
+          "One of the most pressing issues that businesses often come across on their IT infrastructure is spam and phishing email campaigns. We help you in avoiding dangerous phishing campaigns directed at your application. Our team of experts overcomes these issues using dynamic simulation services.",
       },
       {
         categHeading: "Vulnerability Assessment",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/vulnrabilityAssesment.png",
         categDesc:
-          "Our security specialists look into your current security architecture to detect and analyze vulnerabilities & threats and give solutions to eradicate these vulnerabilities hampering your IT infrastructure.",
+          "Our cyber security specialists dig deep into your application architecture & code to identify risks, vulnerabilities, and loopholes using vulnerability assessment approaches. Moreover, our cyber security not only identifies risks & threats but develops efficient solutions to eliminate these vulnerabilities hampering your application performance.",
       },
     ],
 
@@ -966,27 +968,27 @@ const ourServiceDetails = [
     serviceCategDetails: [
       {
         categHeading: "Decentralized Finance Apps",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/dfApps.png",
         categDesc:
-          "No need to rely on middlemen or corporations for server space, supervision, and data storage when you can transform traditional finance with Defi apps using blockchain networks. Get ​​a wide range of crypto-centric services in the finance industry with InvoZone.",
+          "Since the inception of blockchain technology and its applications have revolutionized several industry domains, the most disruptive implication of this technology is visible in the financial technology domain. We help businesses to develop their blockchain technology-based applications to compete,  survive and lead the market.",
       },
       {
         categHeading: "Smart Contracts",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/smartContracts.png",
         categDesc:
-          "Automate agreement execution without any third-party’s involvement. We provide dedicated blockchain developers - experts in Bitcoin, Ripple, Hyperledger, and Ethereum blockchain technology on an hourly basis to help you get tailored solutions.",
+          "Smart contracts is another term incepted after the introduction of blockchain technology; Smart contract allows users to execute agreements and contracts without involving any third party or mediator. We help clients to implement and deploy their custom & tailored solutions based on blockchain technology applications.",
       },
       {
         categHeading: "Online Marketplaces",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/onlineMarketplace.png",
         categDesc:
-          "Do you want your online marketplace to be secure, and trustworthy? Our developers know the importance of transaction integrity. So let us help you build your own blockchain marketplace based on your specific requirements.",
+          "Our blockchain technology developers & engineers make use of their technical and domain knowledge to plan, implement and deploy secure, reliable, and trustworthy online marketplace solutions based on blockchain technology. Online marketplace solutions are crafted with extra care while keeping transactional integrity and specific client requirements in front.  ",
       },
       {
         categHeading: "Supply Chain Management",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/supplychainManagement.png",
         categDesc:
-          "Use blockchain technology for supply chain transparency. Our qualified team of developers brings promising opportunities for you to improve your supply chain processes with high traceability and less administrative costs.",
+          "The Supply chain process is not straightforward as assumed by an ordinary person. There are lots of moving parts that need to keep in control to achieve the desired result and transparency. Our talented bunch of developers offers promising opportunities for our clients to enhance their supply chain system by developing blockchain-based solutions.",
       },
     ],
 
