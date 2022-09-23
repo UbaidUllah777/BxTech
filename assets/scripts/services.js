@@ -433,25 +433,25 @@ const ourServiceDetails = [
         categHeading: "Android Apps",
         categImg: "assets/images/serviceDetailImages/android.png",
         categDesc:
-          "BX Technologies robust, scalable and dynamic Mobile Apps using different languages and development frameworks, which not fulfill your business requirements, but also strictly follow Android platform rules, regulations and guidelines, and industrial standards.",
+          "BX Technologies robust, scalable and dynamic Mobile Apps using different frameworks, which not only fulfill your business requirement; but also strictly follow Google rules, regulations, guidelines, and industrial standards.",
       },
       {
-        categHeading: "IoS",
+        categHeading: "IoS Apps",
         categImg: "assets/images/serviceDetailImages/IOSApps.png",
         categDesc:
-          "We develop mobile apps targeting the IoS platform using swift and objective-C programming languages to cater to the demands of our customers.",
+          "We develop mobile apps targeting the IoS platform using swift and objective-C programming languages to cater to the demands of customers and provide them with a seamless experience with apple products.",
       },
       {
-        categHeading: "Cross-Platform",
+        categHeading: "Cross Platform Apps",
         categImg: "assets/images/serviceDetailImages/crossPplatformApps.png",
         categDesc:
-          "Due to the availability of multiple platforms, Bx Technologies leverage its experience to deliver top niche cross-platform solutions to support wee, native apps on various platforms using HTML, CSS, JavaScript, NodeJs, and react native framework.",
+          "Due to the availability of multiple platforms, we leverage our experience to deliver top niche cross-platform solutions to support native apps on various platforms using HTML, JavaScript and react native framework.",
       },
       {
         categHeading: "Flutter App Development",
         categImg: "assets/images/serviceDetailImages/flutterApps.png",
         categDesc:
-          "We develop user-friendly, interactive, and scalable native Mobile applications for IoS and Android platforms.",
+          "We develop user-friendly, interactive, robust, and scalable native Apple and Android Mobile applications across different industry domains.",
       },
     ],
 
@@ -520,28 +520,30 @@ const ourServiceDetails = [
     id: "SERVwebAppDev",
     serviceCategDetails: [
       {
-        categHeading: "Web Application Development",
-        categImg: "",
+        categHeading: "Custom Web Application Development",
+        categImg: "assets/images/serviceDetailImages/webAppDevelopment.png",
         categDesc:
-          "We ideate and plan to design and develop custom web solutions to connect our clients with their customers efficiently. Let’s develop feature-rich, highly functional, robust, secure, and scalable custom web solutions along with engaging UI/UX design that enhances your brand.",
+          "We at BX technologies brainstorm, ideate, plan and execute custom-based web app solutions tailored to our client-specific needs. Our emphasis on quality, security, and scalability during the development process results in enhanced user experience and satisfaction. ",
       },
       {
         categHeading: "Progressive Web Development",
-        categImg: "",
+        categImg:
+          "assets/images/serviceDetailImages/ProgressiveWebDevelopment.png",
         categDesc:
-          "We use progressive enhancement strategies to develop cross-platform web applications. Hire experienced web developers to build responsive Progressive Web Applications (PWAs) and ensure high performance in both online and offline mode.",
+          "Our customer-centric approach enables us to implement cross-platform progressive web applications. Thanks to the pool of our experienced web developers that ensure better performance and user experience in PWAs development.",
       },
       {
-        categHeading: "Full Stack Development",
-        categImg: "",
+        categHeading: "Full Stack Web Development",
+        categImg:
+          "assets/images/serviceDetailImages/fullStackWebDevelopment.png",
         categDesc:
-          "We have a team of skilled full-stack developers with expertise in MEAN and MERN stack. You can hire frontend and backend development teams separately as well. Get full-stack development on MEAN, MERN, PHP + Vue.js, .Net + JS, to name a few.",
+          "Our Web application Development team consist of developers and designers having experience in a diverse range of web development technologies. This enables them to carry out full-stack development on MERN, MEAN, PHP, .Net and JavaScript.",
       },
       {
-        categHeading: "Upgradation and Migration",
-        categImg: "",
+        categHeading: "Web Application Upgradation",
+        categImg: "assets/images/serviceDetailImages/webUpgradeMigration.png",
         categDesc:
-          "Our team of web developers and designers has expertise in developing solutions using the newest technologies. Whether you want to upgrade outdated web technology or want to migrate to a new CMS, we have skilled web developers and designers to make the transition smooth.",
+          "Transitioning from a legacy system to the newest technology is always a nightmare for any organization or business. Thanks to the expertise of our development team. We have got you covered and can help in the smooth transition from a legacy system to a state-of-the-art system. ",
       },
     ],
 
@@ -605,33 +607,35 @@ const ourServiceDetails = [
     serviceCategDetails: [
       {
         categHeading: "Legacy Systems",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/lagacySystem.png",
         categDesc:
-          "Businesses must innovate to stay relevant, and Clustox rebuilds legacy systems to be more dynamic, user-friendly, and efficient.",
+          "To stay relevant and keep your presence in a competitive environment, you need to keep looking for innovation and updates in your system. BX technology remodels and develops a legacy system to meet the varying demands of modern-day businesses.  ",
       },
       {
         categHeading: "API Development And Software Integration",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/apiDevelopment.png",
         categDesc:
-          "We can also provide API-driven development and support solutions from third-party vendors for seamless integration.",
+          "Modern-day software products and solutions are highly efficient and robust; This robustness and efficiency come due to the use of  API,s. Our dedicated teams of software engineers have in-depth experience in API-driven development and API integration.",
       },
       {
         categHeading: "SaaS Applications Development",
-        categImg: "",
+        categImg:
+          "assets/images/serviceDetailImages/enterpriseDevelopement.png",
         categDesc:
-          "We will leverage our knowledge to build your SaaS solution on time and within your budget.",
+          "The software as a Service model for the development and deployment of software applications is widely in use worldwide; due to several reasons, such as less downtime and infrastructure costs, etc. We use our knowledge and experience to develop SaaS solutions within the deadline and budget. ",
       },
       {
         categHeading: "Enterprise Applications",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/webAppDevelopment.png",
         categDesc:
-          "Our optimized solutions include critical business processes and functions, i.e., ERP, middleware, integration, inventory management, and more.",
+          "Bx technology offers highly customized and optimized software solutions to its clients to improve the core functions and operations of the business. Employing enterprise-level applications like ERP, SCM, and third-party software integrations in core processes leads to greater level optimization. ",
       },
     ],
 
     serviceLongDesc:
-      "Our custom software development services cater to our clients with the freedom to grow and scale at unprecedented rates. We help startups, medium-sized businesses, and enterprise-grade organizations to build performance-oriented systems.",
-    serviceHeading: "Creating Custom Software Solutions of Outstanding Quality",
+      "We develop and deliver custom software solutions that meet customer demands and fulfill their business needs. Our custom software development gives clients the independence to grow and scale. We provide help and support to a variety of businesses such as Start-ups and small-medium size organizations and firms. ",
+    serviceHeading:
+      "Custom Software Development with Special  Emphasis on Quality ",
     processHeading: "Custom Software Development Services",
     step1Heading: "Requirments Analysis",
     processStep1: [
@@ -769,51 +773,52 @@ const ourServiceDetails = [
     serviceCategDetails: [
       {
         categHeading: "QA Automation",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/QAautomation.png",
         categDesc:
-          "QA automation reduces overall test analysis cost. Accelerate your testing process by applying a large set of functions comprising test automation, tools analysis, software maintenance, and implementation of test scripts. We work with you to enable your QA testing and embed it in your software development life cycle.",
+          "Fast track and automate your application testing process by applying test automation techniques. Our team of experienced test engineers collaborates and works with you to integrate the QA process into your product development. ",
       },
       {
-        categHeading: "Mobile Application Testing",
-        categImg: "",
+        categHeading: "Web and Mobile App Testing",
+        categImg: "assets/images/serviceDetailImages/mobileappTesting.png",
         categDesc:
-          "Security and scalability are the cornerstones of mobile applications. Achieve a higher level of mobile app testing maturity in an accelerated way. Our mobile application QA testers perform functional and non-functional testing with a manual as well as automated approach for thoroughly testing your application.",
+          "Attain a substantial level of confidence and maturity on your mobile or web app with our experienced QA and test engineers. We apply manual and Automated testing techniques to perform functional and non-functional testing.",
       },
       {
         categHeading: "Performance Testing",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/performanceTesting.png",
         categDesc:
-          "Inefficient responsiveness, increasing load times, and instability can be overcome by applying performance testing. Our QA engineers specialize in leading performance testing tools including SOASTA, LoadRunner, and NeoLoad, and can quickly identify and resolve performance bottlenecks in your software.",
+          "Our Test engineers employ a wide range of tools and techniques to assess and test the performance of your software solution. Performance testing tools like LoadRunner and JMeter are used to unhide performance issues in software. ",
       },
       {
         categHeading: "Usability Testing",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/usebilityTesting.png",
         categDesc:
-          "Usability Testing ensures that customers will love the application or not. Bring best in your systems by testing UI flows, consistency, appearance, and more. Our quality assurance engineers perform exhaustive analysis to determine potential errors, confusing UI flows, and performance flaws to create a seamless product experience.",
+          "To provide an outstanding user experience to end-users, Our testing and QA department put extraordinary efforts into identifying errors, ambiguous user interface flows, and performance bottlenecks in your application.  ",
       },
       {
         categHeading: "Security Testing",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/securityTesting.png",
         categDesc:
-          "Security testing dramatically increases your application’s security. Uncover potential vulnerabilities to ensure the safety of data, accounts, access, and connections of your users. Our QA engineers are experts in performing risk assessments and penetration testing to shield your application from malicious threats.",
+          "To safeguard your application from exposure to any malicious activity, our Test engineers have the expertise to perform security-related testing such as vulnerability risks assessment and penetration tests.",
       },
       {
         categHeading: "Manual Testing ",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/manualTesting.png",
         categDesc:
-          "During manual testing, our QA team tests software applications from the end user’s perspective and identifies vulnerabilities that cannot be detected automatically.",
+          "To make sure that we test an application end-to-end. Our QA engineers conduct testing of the software application; while, keeping in mind the end-user perspective to unhide any potential errors.",
       },
       {
         categHeading: "API Testing ",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/apiTesting.png",
         categDesc:
-          "Our API Testing services include using the most advanced automated tools to develop reliable applications with core functionality and high performance.",
+          "API is considered a critical component of any software solution. To ensure that the API functions as expected. Extensive tests of the API are done manually and automatically to ensure its functionality, performance, and security. ",
       },
     ],
 
     serviceLongDesc:
-      "Providing fully tailored QA solutions to deliver top-notch software and apps. Our QA experts help you deliver quality software and to provide your end customers with the best experience. Our experts perform end-to-end testing to deploy bug-free software products established on DevSecOps metrics and automation.",
-    serviceHeading: "Ensure Quality Assurance to Enhance Customer Experience",
+      "BX Technologies provides custom and tailored software quality assurance services to develop and deploy high-quality and efficient software systems. Our test engineers and managers always look for options and solutions to deliver the best quality software to you and your end-users. Our testing process is multi-dimensional, where end-to-end testing is performed on your product; while keeping in mind the rules and regulations of international testing leaders like ISTQB and ISO. Thanks to the diverse skill set of our test engineer, your software is tested for different testing purposes while employing manual, automated, and DevOps startegies. ",
+    serviceHeading:
+      "Oustanding Software Quality and User Experience Through Testing and Quality Assurance ",
     processHeading: "Full Cycle Software Quality Assurance Services",
     step1Heading: "Test Planing",
     processStep1: [
