@@ -1051,25 +1051,25 @@ const ourServiceDetails = [
     serviceCategDetails: [
       {
         categHeading: "Web UI/UX Design",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/webAppUIDesign.png",
         categDesc:
-          "Simplify your technically complex products in cahoots with InvoZone’s UI/UX development services to grow web traffic through modern design aesthetics and dynamic features.",
+          "An end-user can lose track of their activity while navigating an application having a complex user interface & user experience. Enhance and simplify your web application user interface and user experience with the talented designers of Bx technologies. So let us know to craft your web application user interface to relay an extraordinary user experience to your end-users.",
       },
       {
         categHeading: "Mobile App UI/UX Design",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/mobileUIDesign.png",
         categDesc:
-          "Build a comfortable experience for your mobile users that delivers accustomed experiences on their phone screens. InvoZone designs mobile apps according to iOS and Android conventions.",
+          "Delivering an outstanding user interface and user experience on mobile apps requires lots of effort and testing due to the availability of varying device types and screen sizes. Our team of UI & UX specialists looks deep into minute details to improve and enhance the mobile application user experience for major platforms like iOS and Android UI guidelines. ",
       },
       {
         categHeading: "HCI Design",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/HCIDesign.png",
         categDesc:
           "Maximize operational efficiency and improve productivity through InvoZone’s research, interviews and persona development to deliver user-friendly HCI designs.",
       },
       {
         categHeading: "UX consulting",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/UxConsulting.png",
         categDesc:
           "Want to quickly test different approaches to your issues? Spend 5 days to accelerate and simplify design process of your product",
       },
