@@ -5,8 +5,6 @@ body {
   scroll-behavior: smooth;
 }
 
-
-
 @media only screen and (min-width: 600px) {
   .HeaderText {
     padding-top: 20%;
@@ -33,7 +31,6 @@ body {
     padding-left: 15px;
   }
 }
-
 
 #scrollToTop {
   position: fixed;
@@ -103,10 +100,9 @@ body {
 .navbar-brand {
   padding-left: 20px;
 }
-.nav-link 
-{
+.nav-link {
   color: black;
-font-weight: 500;
+  font-weight: 500;
 }
 .services {
   text-align: center;
@@ -187,7 +183,7 @@ font-weight: 500;
 }
 .firstFooter h3 {
   /* color: #28c23e; */
-  color: black;
+  color: #011945;
   font-weight: 500;
   padding-left: 30px;
 }
@@ -396,11 +392,8 @@ ul.whyUsListHeadings p {
 
 /* CONTACT US NEW : END*/
 
-
-#scrollToTop
-{
-  box-shadow: 0px 0px 0px 2px rgba(8, 208, 31, 0.439), 
-  0px 2px 4px rgba(0,0,0,0.1),
-  0px 4px 8px rgba(0,0,0,0.1),
-  0px 8px 16px rgba(0,0,0,0.1);
+#scrollToTop {
+  box-shadow: 0px 0px 0px 2px rgba(8, 208, 31, 0.439),
+    0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.1),
+    0px 8px 16px rgba(0, 0, 0, 0.1);
 }
