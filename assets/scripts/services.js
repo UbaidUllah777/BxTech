@@ -1065,13 +1065,13 @@ const ourServiceDetails = [
         categHeading: "HCI Design",
         categImg: "assets/images/serviceDetailImages/HCIDesign.png",
         categDesc:
-          "Maximize operational efficiency and improve productivity through InvoZone’s research, interviews and persona development to deliver user-friendly HCI designs.",
+          "Are you experiencing difficulty; while realizing a new product user interface and its impact on performance and user interaction? Our expert designer works tirelessly by conducting different experiments and applying visual designs to deliver designs that reflect a positive effect on end-users from an HCI perspective.",
       },
       {
         categHeading: "UX consulting",
         categImg: "assets/images/serviceDetailImages/UxConsulting.png",
         categDesc:
-          "Want to quickly test different approaches to your issues? Spend 5 days to accelerate and simplify design process of your product",
+          "Are you searching for a dedicated team of expert software product designers and HCI consultants? So let us know; we guide our clients in developing their product's user experience designs. Our team follows a systematic and structured approach to suggest and devise the best possible UX design according to your product need and requirements.",
       },
     ],
 
@@ -1139,27 +1139,27 @@ const ourServiceDetails = [
     serviceCategDetails: [
       {
         categHeading: "Technology Consulting",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/TechnologyConsultancy.png",
         categDesc:
-          "We analyze the existing technology area of your interest and assist in its steady evolution to enhance your business growth.Technology areas we consult on: AI/ML Consulting, IoT Consulting, Cloud Consulting, Blockchain Consulting,Computer Vision Consulting",
+          "Our team of software and technology consultants provides support and advice to clients on several issues and problems. We help clients to develop and implement the latest technology solutions such as machine learning & AI, cloud computing, telecommunication & infotainment system testing, blockchain, and cyber security. ",
       },
       {
         categHeading: "Digital Strategy Consulting",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/digitalStrategy.png",
         categDesc:
-          "We consult on turning IT into a major contributor to your business performance to increase your revenue exponentially. Digital consulting includes: A value-driving business IT strategy, a plan for IT service delivery optimization.Revenue from new digital sales channels. Increase in sales via marketing and sales automation. Employee productivity via simple user experience.",
+          "To enable conventional businesses to turn their losses and inefficiencies into profits and high performance in terms of effectiveness. Our team of digital technology specialists ideates, plan and execute digital strategies that achieve multi-dimensional results such as more agility and exponential growth in revenues.",
       },
       {
         categHeading: "Solutions Consulting",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/problemsolving.png",
         categDesc:
-          "We analyze your business needs and help you make strategic decisions on the successful implementation of business-critical solutions.What we consult on: How to maximize ROI.Feature management & prioritization. How to integrate a solution into the existing IT landscape. How to ensure outstanding UX and user adoption.How to organize further solution support and evolution.",
+          "Are you facing difficulties in integrating a new system or optimizing your existing system? We are here to help you to develop complex and critical solutions that are important to your business's core processes. We advise our clients on different aspects of digital solutions implementation and decision-making. ",
       },
       {
         categHeading: "Software Support Services",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/supportServices.png",
         categDesc:
-          "Boost risk assessment and mitigation and defend your software from outages and attacks by defining service level requirements with our on-site and remote software support services.",
+          "To ensure the smooth operations and functioning of your business-critical systems on a 24/7 basis. Our team of support engineers is eager to help you develop processes and controls that are reliable and trustworthy, which results in improved performance and less frequent system outages.",
       },
     ],
 
@@ -1227,25 +1227,26 @@ const ourServiceDetails = [
     serviceCategDetails: [
       {
         categHeading: "Artificial Intelligence",
-        categImg: "",
+        categImg:
+          "assets/images/serviceDetailImages/artificial-intelligence.png",
         categDesc:
-          "Successfully build, deploy, and manage AI solutions in your company by leveraging our deep knowledge around AI.",
+          "Are you planning to deploy and integrate an AI-based system to boost your business operations? Avial our professional and domain knowledge expert developers to develop and implement artificial intelligence solutions for your business and keep yourself ahead of others in the competition. ",
       },
       {
         categHeading: "Machine Learning",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/machineLearning.png",
         categDesc:
-          "Stay ahead of the competition by working with our top machine learning analysts to capture the unexploited areas of business models.",
+          "At Bx technologies, we use state-of-the-art tools and frameworks to develop machine learning-based solutions that are robust, scalable, and resilient. We closely collaborate with clients to implement and deploy your next machine learning solution to keep you ahead of the competition.",
       },
       {
         categHeading: "Business Intelligence",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/businessIntelligence.png",
         categDesc:
-          "Empower your organization to make data-driven refinements & improve everything from overall strategy to day-to-day operations.",
+          "Data is the twenty-first-century oil; hire our BI experts to work on your business intelligence project. We are capable of working with your precious data to process, extract hidden patterns, and transform your raw data into actionable intelligence using business intelligence tools and technologies. ",
       },
       {
         categHeading: "Data Analytics",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/dataAnalytics.png",
         categDesc:
           "Unlock the power of analytics to drive deep insights by tapping into data you didn’t even know you had in your company.",
       },
