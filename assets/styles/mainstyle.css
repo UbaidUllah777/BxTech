@@ -118,14 +118,12 @@ font-weight: 500;
 .industtriesexperties * {
   color: #324146;
 }
-.Allfooter * {
-  color: black;
-}
+
 .ourlocation {
   padding-left: 20px;
 }
 .ourlocation h5 {
-  color: white;
+  color: #011945;
   text-align: center;
 }
 .ourlocation p {
@@ -141,7 +139,7 @@ font-weight: 500;
 }
 .quickLinks a {
   text-decoration: none;
-  color: rgb(244, 236, 236);
+  color: #011945;
   width: fit-content;
 }
 .quickLinks a:hover {
@@ -177,11 +175,11 @@ font-weight: 500;
 }
 
 .firstFooter {
-  background-color: #00b5f1;
+  background-color: rgb(233, 240, 238);
 }
 .firstFooter p {
   /* color: black; */
-  color: white;
+  color: #011945;
 }
 .firstFooter a li {
   color: white;
@@ -194,7 +192,7 @@ font-weight: 500;
   padding-left: 30px;
 }
 .secondFooter {
-  background-color: #13b3e8e4;
+  background-color: #011945;
 }
 .secondFooter p {
   color: white;

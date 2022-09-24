@@ -40,14 +40,10 @@
   padding-bottom: 40px;
   background-color: rgb(233, 240, 238);
 }
-.serviceHeaderimg img
-{
-  padding-top: 20%;
-  padding-left: 5%;
-}
+
 .aboutUsLeftIMG{
   height: 100%;
-  max-width: 600px;
+  max-width: 500px;
   width: 100%;
   height: auto;
 }
@@ -132,7 +128,7 @@
 }
 .headerContainer {
   background-color: rgb(233, 240, 238);
-  height: 700px;
+  height: 950px;
   width: 100%;
 }
 .headerContainer p {
