@@ -52,10 +52,9 @@
   color: white;
 }
 .headerContainer h1 {
-  
   font-weight: bolder;
   line-height: 60px;
-  color:#28c23e;
+  color: #28c23e;
 }
 
 /* TO APPLY */
@@ -130,4 +129,16 @@ p {
   max-width: 100%;
   height: auto;
   width: auto\9; /* ie8 */
+}
+.contactusTagline h2 {
+  color: #28c23e;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.contactusTagline p {
+  font-size: 20px;
+  font-weight: 100px;
+}
+.locationInfo {
+  font-size: 17px;
 }
