@@ -998,3 +998,82 @@ projectDetail page Technology Used
               </div>
             </div>
           </div>
+
+
+
+
+
+
+
+
+          /////////////////////////////////
+          Flip
+          ////////////////////////////////
+            ElAllProjectItemsContainer.innerHTML += `
+        <div class="flipcard">
+        
+          <div class="item-box projectIteM face front" >
+              <div class="col-sm-12 col-10 ">
+                <div class="row projectIteM-Image">
+            <div class="col-12">
+              <img
+                src="${singleProject.Mainimage}"
+                alt="${singleProject.projName}"
+              />
+            </div>
+          </div>
+          <div class="row projectIteM-Title">
+            <div class="col-12">
+              <br />
+              <center><a  onclick="return FnGetProjectForProjectDetails('${singleProject.id}');"><h6  class="clckForMoreDetail">More Details...</h6></a></center>
+              <center><h6  class="projectName">${singleProject.projName}</h6></center>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 projectIteM-Desc">
+              <p>
+               ${singleProject.projShortDescp}
+              </p>
+            </div>
+            </div>
+        </div>
+        </div>
+       
+        
+     
+        
+
+
+
+        <div class="item-box projectIteM face back" >
+              <div class="col-sm-12 col-10 ">
+                <div class="row projectIteM-Image">
+            <div class="col-12">
+              <img
+                src="${singleProject.Mainimage}"
+                alt="${singleProject.projName}"
+              />
+            </div>
+          </div>
+          <div class="row projectIteM-Title">
+            <div class="col-12">
+              <br />
+              <center><a  onclick="return FnGetProjectForProjectDetails('${singleProject.id}');"><h6  class="clckForMoreDetail">More Details...</h6></a></center>
+              <center><h6  class="projectName">${singleProject.projName}</h6></center>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 projectIteM-Desc">
+              <p>
+               ${singleProject.projShortDescp}
+              </p>
+            </div>
+            </div>
+        </div>
+        </div>
+       
+        
+
+
+      </div>
+      `;

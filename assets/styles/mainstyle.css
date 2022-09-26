@@ -362,7 +362,8 @@ ul.whyUsListHeadings p {
   padding-top: 20px;
 }
 #btnSubmit {
-  border-radius: 10px;
+  
+  border-radius: 5px;
   box-shadow: rgb(44 187 99 / 20%) 0 -25px 18px -14px inset,
     rgb(44 187 99 / 15%) 0 1px 2px, rgb(44 187 99 / 15%) 0 2px 4px,
     rgb(44 187 99 / 15%) 0 4px 8px, rgb(44 187 99 / 15%) 0 8px 16px,
@@ -387,7 +388,10 @@ ul.whyUsListHeadings p {
     rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
     rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
     rgba(44, 187, 99, 0.25) 0 16px 32px;
-  transform: scale(1.05) rotate(-1deg);
+  transform: scale(1.02) rotate(-0.5deg);
+  background-color: white;
+  color: black;
+  border: 1px solid #28c23e;
 }
 
 /* CONTACT US NEW : END*/

@@ -1544,25 +1544,44 @@ const FnRenderOurService = () => {
     ElourServicesContainer.innerHTML = "";
     for (singleOurService of ourServices) {
       ElourServicesContainer.innerHTML += `
-        <div class="col-sm-3 col-10 ourServiceElement" onclick="FnShowService('${singleOurService.id}')" id="${singleOurService.id}">
-        <div class="row">
-          <div class="col-md-4 col-12">
-            <img
-              src="${singleOurService.serviceImg}"
-              alt="Mobile App Development"
-            />
+
+  
+        <div class="col-sm-3 col-10 ourServiceElement " onclick="FnShowService('${singleOurService.id}')" id="${singleOurService.id}">
+        
+        
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            
+                <div class="row frontRow">
+                <div class=" col-12">
+                <br>
+                  <img
+                    src="${singleOurService.serviceImg}"
+                    alt=""
+                  />
+                </div> 
+                <div class="col-12 pt-5">
+                  <h5>${singleOurService.serviceName}</h5>
+                </div>
+              </div>
+          
           </div>
-          <div class="col-md-8 col-12">
-            <h5>${singleOurService.serviceName}</h5>
+          <div class="flip-card-back">
+            <br />
+            <div class="row">
+            <div class="col-12">
+              <p>
+              ${singleOurService.serviceShortDesc}
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <p>
-            ${singleOurService.serviceShortDesc}
-            </p>
+            
           </div>
-        </div>
+        
+      </div>
+        
+       
+       
       </div>
           `;
     }
