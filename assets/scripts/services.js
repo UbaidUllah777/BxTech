@@ -458,7 +458,7 @@ const ourServiceDetails = [
     serviceLongDesc:
       "Adopt a modern and state-of-the-art approach for your next mobile application development project with BX Technologies. A top-rated software development firm where the focus is on the multi-dimensional aspects of your project idea. We believe in and deliver a scalable, interactive, high-performance, and fully functional mobile application to our clients across the globe. Bx technologies have the expertise to undertake any project wither, developing an application from scratch or maintaining or improving new features in an existing mobile application. We are experts in ios, Android, cross-platform, and native mobile application development. Our development team would love to hear from you and work on turning your ideas into reality. ",
     serviceHeading:
-      "Mobile app development services to build innovative experiences",
+      "Innovative Mobile Application Development Services that Meet User Expectations",
     processHeading: "Agile Based Mobile Application Development",
     step1Heading: "Requirments Analysis",
     processStep1: [
