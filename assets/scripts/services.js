@@ -1555,8 +1555,8 @@ const FnRenderOurService = () => {
           <div class="flip-card-front">
             
                 <div class="row frontRow">
-                <div class=" col-12">
-                <br>
+                <center><div class=" col-12 circle">
+                  
                   <img
                     src="${singleOurService.serviceImg}"
                     alt=""
@@ -1564,7 +1564,7 @@ const FnRenderOurService = () => {
                 </div> 
                 <div class="col-12 pt-2">
                   <h5>${singleOurService.serviceName}</h5>
-                </div>
+                </div></center>
               </div>
           
           </div>

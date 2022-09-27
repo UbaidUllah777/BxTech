@@ -116,7 +116,7 @@ body {
 }
 
 .ourlocation {
-  padding-left: 20px;
+  padding-left: 10px;
 }
 .ourlocation h5 {
   color: #011945;
@@ -162,7 +162,11 @@ body {
 .navbar-custom {
   background-color: aliceblue;
 }
-
+.usefullLinks{
+  
+  text-align: justify;
+  text-justify: inter-word;
+}
 .usefullLinks a {
   padding-left: 45px;
 }
