@@ -489,7 +489,7 @@ body p {
 
 .ourServiceElement:hover{
   max-height: 100vh;
-  min-height: 50vh;
+
   
   position: relative;
   display: block;
@@ -517,11 +517,12 @@ body p {
 
 .flip-card-back {
   transform: rotateY(180deg);
-  transition: ease-in-out 2s;
+  transition: ease-in-out 1.5s;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #00b5f1;
+  box-shadow: 2px 2px 12px rgba(5, 242, 36, 0.4);
   border-radius: 5%;
   
 }
