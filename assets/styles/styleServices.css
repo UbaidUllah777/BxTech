@@ -1,3 +1,4 @@
+
 .firstDescription {
   margin-top: 20px;
   margin-left: 10px;
@@ -478,7 +479,7 @@ body p {
   width: 100%;
   height: 100%;
   text-align: center;
-  transition:ease-in-out transform 1s;
+  transition:ease-in-out transform 0.5s;
   
   transform-style: preserve-3d;
 }
