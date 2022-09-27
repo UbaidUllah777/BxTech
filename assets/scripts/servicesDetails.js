@@ -8,6 +8,10 @@ const ElRowServiceDetailsRight = document.querySelector(
 const ElDevelopmentHeadingText = document.querySelector(
   ".developmentHeadingText"
 );
+const ElstepOneHeading = document.querySelector(".stepOneHeading");
+const ElstepTwoHeading = document.querySelector(".stepTwoHeading");
+const ElstepThreeHeading = document.querySelector(".stepThreeHeading");
+const ElstepFourHeading = document.querySelector(".stepFourHeading");
 
 const ElstepOne = document.querySelector(".stepOne");
 const ElstepTwo = document.querySelector(".stepTwo");
@@ -92,22 +96,28 @@ if (ElServicerowGrid && ElRowServiceDetailsRight && ElDevelopmentHeadingText) {
         `;
       ElDevelopmentHeadingText.innerHTML = `
       <div class="col-12">
-      <center><h1>${singleserviceGrid.processHeading}</h1></center>
+      <center><h2>${singleserviceGrid.processHeading}</h2></center>
     </div>
       `;
+      ElstepOneHeading.innerHTML = `${singleserviceGrid.step1Heading}`;
       for (FirstStepDetail of singleserviceGrid.processStep1) {
         ElstepOne.innerHTML += `
         <li>${FirstStepDetail.step1Tag}</li>`;
       }
 
+      ElstepTwoHeading.innerHTML = `${singleserviceGrid.step2Heading}`;
       for (secondStepDetail of singleserviceGrid.processStep2) {
         ElstepTwo.innerHTML += `
         <li>${secondStepDetail.step2Tag}</li>`;
       }
+
+      ElstepThreeHeading.innerHTML = `${singleserviceGrid.step3Heading}`;
       for (thirdStepDetail of singleserviceGrid.processStep3) {
         ElstepThree.innerHTML += `
         <li>${thirdStepDetail.step3Tag}</li>`;
       }
+
+      ElstepFourHeading.innerHTML = `${singleserviceGrid.step4Heading}`;
       for (fourthStepDetail of singleserviceGrid.processStep4) {
         ElstepFour.innerHTML += `
         <li>${fourthStepDetail.step4Tag}</li>`;
