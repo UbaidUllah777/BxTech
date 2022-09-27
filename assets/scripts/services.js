@@ -557,10 +557,10 @@ const ourServiceDetails = [
     ],
 
     serviceLongDesc:
-      "Adopt a modern and state-of-the-art approach for your next mobile application development project with BX Technologies. A top-rated software development firm where the focus is on the multi-dimensional aspects of your project idea. We believe in and deliver a scalable, interactive, high-performance, and fully functional mobile application to our clients across the globe. Bx technologies have the expertise to undertake any project wither, developing an application from scratch or maintaining or improving new features in an existing mobile application. We are experts in ios, Android, cross-platform, and native mobile application development. Our development team would love to hear from you and work on turning your ideas into reality.",
+      "Experience a state-of-the-art and structured approach for your Web application development project with BX Technologies. A top-rated software development firm where the focus is on the multi-dimensional aspects of your project idea. We believe in and deliver scalable, interactive, high-performance, and functional web applications to our clients across the globe. We use different web development programming languages, tools, and frameworks according to the project and business case requirements. Our developers are experienced and proficient in MERN, MEAN, JavaScript, .Net, PHP, RubyonRails, and many other web development technology stacks. ",
     serviceHeading:
-      "Web app development services to build innovative experiences",
-    processHeading: "Agile Based Web Application Development",
+      "Full-Stack Web Development Services that Deliver High Performance, Scalability, and Reliability",
+    processHeading: "Agile Powered Web Development",
     step1Heading: "Requirments Analysis",
     processStep1: [
       {
@@ -647,9 +647,9 @@ const ourServiceDetails = [
     ],
 
     serviceLongDesc:
-      "We develop and deliver custom software solutions that meet customer demands and fulfill their business needs. Our custom software development gives clients the independence to grow and scale. We provide help and support to a variety of businesses such as Start-ups and small-medium size organizations and firms. ",
+      "We plan, code, test and deploy scalable and custom software solutions for start-ups, small and medium-sized businesses, and enterprise-level applications to empower them to unleash the potential of digital transformation. Our developers and software engineers leverage agile practices to develop innovative & powerful web applications, high-level mobile applications, and any other custom applications to meet the specified requirements and market needs. So, Hire us for your digital transformation adventure; we will make it a smooth ride for you. One of the most visible advantages of a custom solution is that it eliminates any further investments in the shape of commercial-of-the-shelf products. ",
     serviceHeading:
-      "Custom Software Development with Special  Emphasis on Quality ",
+      "Custom Software Development Services that Takes Care of your Digital Transformation Needs",
     processHeading: "Custom Software Development Services",
     step1Heading: "Requirments Analysis",
     processStep1: [
@@ -735,9 +735,10 @@ const ourServiceDetails = [
     ],
 
     serviceLongDesc:
-      "Achieve greater flexibility and cost-effectiveness with our advanced cloud migration services.",
-    serviceHeading: "Utilize Cloud Migration Opportunities to the Full",
-    processHeading: "",
+      "Cloud services offer greater flexibility and managed services to achieve better results in terms of cost and application availability.  Our team of professional developers and engineers is capable of undertaking a wide range of cloud-related activities and tasks.",
+    serviceHeading:
+      "Unleash and Utilize the Power of Cloud Computing to Maximum",
+    processHeading: "Cloud App Deployment Process",
     step1Heading: "Goal Setting",
     processStep1: [
       {
@@ -934,10 +935,10 @@ const ourServiceDetails = [
     ],
 
     serviceLongDesc:
-      "Let’s become resilient against cyber-attacks with our laser-focused pentesting services. Prioritize your vulnerability fixes to build your security posture.",
+      "We utilize the latest tools and techniques to ensure your application is secure and resilient against cyber-attacks and malicious activities. Let us identify and fix your system vulnerabilities before any hacker exploits them.",
     serviceHeading:
-      "Immunize Your Business With BX Technologies Pentesting Services",
-    processHeading: "",
+      "Secure, Test, and Verify Your Business Critical System  With BX Technologies Pentesting Services",
+    processHeading: "How We Secure Your Application",
     step1Heading: "Identify Vulnerabilities",
     processStep1: [
       {
@@ -1027,9 +1028,9 @@ const ourServiceDetails = [
     ],
 
     serviceLongDesc:
-      "Build decentralized solutions with blockchain technology for more transparency, efficiency, and automation.All our blockchain solution development services aim to provide robust, secure, and highly efficient solutions for clients in every industry.",
-    serviceHeading: "Full-cycle Blockchain Development Services",
-    processHeading: "",
+      "Decentralized and distributed application development is becoming an absolute requirement for businesses due to their varying need of business requirements. We plan, execute and deploy decentralized solutions for clients powered by blockchain technology to ensure security, high efficiency, transparency, and robustness.",
+    serviceHeading: "End-to-end Blockchain Application Development Services",
+    processHeading: "Blockchain Application Development Process",
     step1Heading: "Requirements Gathering",
     processStep1: [
       {
@@ -1117,7 +1118,7 @@ const ourServiceDetails = [
     serviceLongDesc:
       "Increase future product adoption by creating intuitive user experience design.Invest in user interface design for higher conversion rates and increased revenue. Boost customer retention by developing fit-for-purpose UI/UX design.",
     serviceHeading:
-      "Solve the most pressing product design challenges with InvoZone’s UX and design wizards",
+      "Achieve Aspiring Design for your Product With our Product Design Titans",
     processHeading: "Top UI/UX Design Services",
     step1Heading: "Discovery Workshop",
     processStep1: [
