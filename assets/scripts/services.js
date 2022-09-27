@@ -1562,7 +1562,7 @@ const FnRenderOurService = () => {
                     alt=""
                   />
                 </div> 
-                <div class="col-12 pt-5">
+                <div class="col-12 pt-2">
                   <h5>${singleOurService.serviceName}</h5>
                 </div>
               </div>
