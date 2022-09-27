@@ -1248,7 +1248,7 @@ const ourServiceDetails = [
         categHeading: "Data Analytics",
         categImg: "assets/images/serviceDetailImages/dataAnalytics.png",
         categDesc:
-          "Unlock the power of analytics to drive deep insights by tapping into data you didn’t even know you had in your company.",
+          "Are you in Search of a dedicated and outstanding data analytics team for your data analysis project? Contact Us; our team of talented Data analysts incorporates the latest tools and techniques to dig deep into your critical business data to identify and extract hidden insights vital for the sustainability and growth of your business.",
       },
     ],
 
@@ -1395,27 +1395,28 @@ const ourServiceDetails = [
     serviceCategDetails: [
       {
         categHeading: "Realistic Estimation of Product Development",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/costestimation.png",
         categDesc:
-          "Build your scalable software product with InvoZone’s masterly software project manager that creates and delivers your project within budget considering the aptest software development methodologies.",
+          "Managing a software development project sometimes turns into a nightmare for organizations. If this is the same case with you, hire our team of professional and experienced project managers and scrum masters to build and develop your project management pipelines and process that ensures the seamless development of a complex software system.",
       },
       {
         categHeading: "Software Development Life Cycle Planning",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/projectManagment.png",
         categDesc:
-          "Engage with InvoZone’s expert software development management team that plan, build, and maintain products based on the effective software development strategy to enhance your business efficiency.",
+          "Our team of project & product management practitioners at BX technologies provides an end-to-end software development management process for clients to plan, develop and execute their software projects efficiently. We provide project and product management services to manage start-ups, SMEs, and enterprise-level software application development projects.",
       },
       {
         categHeading: "Remote Software Project Management",
-        categImg: "",
+        categImg:
+          "assets/images/serviceDetailImages/RemoteprojectManagement.png",
         categDesc:
-          "You can verily trust in our highly productive and devoted remote project management team that has been delivering glitch-free projects to time and date — by implementing the right strategy and practices to meet your end business goals.",
+          "Collaboration, feedback, and teamwork are the main reasons behind a successful project implementation. Bx technologies' software project management team offers its services to carry out remote project management activities for clients. Jira, Asana, and other Project management tools are employed to meet client business goals and requirements.",
       },
       {
         categHeading: "Software Quality Assurance",
-        categImg: "",
+        categImg: "assets/images/serviceDetailImages/quality.png",
         categDesc:
-          "Deeply skim through the minutest details of your product and never a miss bug with InvoZone’s sharp-eyed software quality assurance experts skilled in modern testing techniques that ensure zero downtime and error-free project delivery fulfilling your quality criteria.",
+          "Do you want to work with outstanding and talented quality assurance and testing experts to make your product error-free to provide a sleek and innovative user experience? So let us Work on your product quality to meet the software quality standards and criteria.",
       },
     ],
     serviceLongDesc:
