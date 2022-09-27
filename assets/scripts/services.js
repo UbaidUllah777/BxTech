@@ -1209,8 +1209,9 @@ const ourServiceDetails = [
     ],
 
     serviceLongDesc:
-      "We help our clients leverage advanced IT consultancy services to improve their business performance and achieve their goals.",
-    serviceHeading: "Harness the Power of IT Consultancy Services",
+      "Our Team of IT systems domain knowledge experts and consultants leverages their experiences and knowledge to assist you in overcoming challenges and bottlenecks in your digital transformation or carrying out your existing digital operations. We navigate clients on IT system-related issues and difficulties to eliminate loopholes and gray areas to boost business performance and functions. ",
+    serviceHeading:
+      "Explore Solutions and Guidelines for your Challenging IT Bottlenecks with Bx Technologies ",
     processHeading: "Why Bx Technologies IT Consulting Services",
     step1Heading: "Fast service results",
     processStep1: [
@@ -1304,10 +1305,10 @@ const ourServiceDetails = [
     ],
 
     serviceLongDesc:
-      "Bring substantial revenue generation and enhance operational efficiency leveraging our advanced data science services.",
+      "Are you unaware of the extraordinary potential of your business data? Work with our team of talented Data scientists & data analysts to explore and extract hidden patterns and insights from your Data. We employ the latest tools and techniques to find meaningful and actionable intelligence in your business data that are vital for revenue generation and operational efficiency of your business",
     serviceHeading:
-      "Unlock Your Business Potential With Our Data Science Solutions",
-    processHeading: "",
+      "Explore Untapped Potential of Your Business with Our Data Science Solutions",
+    processHeading: "Data Analytics Process",
     step1Heading: "Define the Problem",
     processStep1: [
       {
@@ -1481,10 +1482,10 @@ const ourServiceDetails = [
       },
     ],
     serviceLongDesc:
-      "Lead your project with our end-to-end software project management solutions. Employ effective and optimized Software Project Management Services. Reduce uncertainties and risks in software project development. Streamline the working process to implement your idea. Streamline the working process to implement your idea.",
+      "Execute your software project with our top-class team of project managers, product owners, and Scrum masters. We plan end-to-end project activities to reduce project risks and uncertainties in the software development life cycle. Streamline and organize workflows and project milestones, sprints, and deliverables to meet your project deadline with quality and within budget.",
     serviceHeading:
-      "Ace Software Project Management Services, Software Project Management Services We Offer",
-    processHeading: "",
+      " Bx Technologies Software Project Management Services One Click Away From You ",
+    processHeading: "Software Project Management Process",
     step1Heading: "Project Initiation",
     processStep1: [
       {
