@@ -428,6 +428,10 @@ const ourServices = [
 const ourServiceDetails = [
   {
     id: "SERVmobAppDev",
+    bannerImg: "assets/images/serviceDetailImages/SVmobAppdev.png",
+    bannerH1: "Mobile App Development",
+    bannerPragraph:
+      "  A company with proven track record in the development of software systems across the world for its customers",
     serviceCategDetails: [
       {
         categHeading: "Android Apps",
@@ -518,6 +522,11 @@ const ourServiceDetails = [
   },
   {
     id: "SERVwebAppDev",
+    bannerImg: "assets/images/serviceDetailImages/SVwebAppdev.png",
+    bannerH1: "Custom Web Application Development",
+    bannerPragraph:
+      "  A company with proven track record in the development of software systems across the world for its customers",
+
     serviceCategDetails: [
       {
         categHeading: "Custom Web Application Development",
@@ -604,6 +613,11 @@ const ourServiceDetails = [
   },
   {
     id: "SERVCustSoftDev",
+    bannerImg: "assets/images/serviceDetailImages/SVcustomSWdev.png",
+    bannerH1: "Custom Software Development",
+    bannerPragraph:
+      "  A company with proven track record in the development of software systems across the world for its customers",
+
     serviceCategDetails: [
       {
         categHeading: "Legacy Systems",
@@ -689,6 +703,11 @@ const ourServiceDetails = [
   },
   {
     id: "SERVcloudAppMng",
+    bannerImg: "assets/images/serviceDetailImages/SVcloudManagment.png",
+    bannerH1: "Cloud Application Management",
+    bannerPragraph:
+      "  A company with proven track record in the development of software systems across the world for its customers",
+
     serviceCategDetails: [
       {
         categHeading: "Cloud App Deployment",
@@ -771,6 +790,11 @@ const ourServiceDetails = [
   },
   {
     id: "SERVsoftTestQA",
+    bannerImg: "assets/images/serviceDetailImages/SVswTestingQA.png",
+    bannerH1: "Software Testing / QA",
+    bannerPragraph:
+      "  A company with proven track record in the development of software systems across the world for its customers",
+
     serviceCategDetails: [
       {
         categHeading: "QA Automation",
@@ -876,6 +900,11 @@ const ourServiceDetails = [
   },
   {
     id: "SERVcyberSecurity",
+    bannerImg: "assets/images/serviceDetailImages/SVcyberSecAndPenTesting.png",
+    bannerH1: "Cyber Security and Pen Testing",
+    bannerPragraph:
+      "  A company with proven track record in the development of software systems across the world for its customers",
+
     serviceCategDetails: [
       {
         categHeading: "Web Application Security",
@@ -965,6 +994,11 @@ const ourServiceDetails = [
   },
   {
     id: "SERVblockChainIots",
+    bannerImg: "assets/images/serviceDetailImages/SVblockChainAndIot.png",
+    bannerH1: "Grow Your Business Now",
+    bannerPragraph:
+      "  A company with proven track record in the development of software systems across the world for its customers",
+
     serviceCategDetails: [
       {
         categHeading: "Decentralized Finance Apps",
@@ -1048,6 +1082,11 @@ const ourServiceDetails = [
   },
   {
     id: "SERVuiUxDesign",
+    bannerImg: "assets/images/serviceDetailImages/SVuiUxDesign.png",
+    bannerH1: "UI/UX Design",
+    bannerPragraph:
+      "  A company with proven track record in the development of software systems across the world for its customers",
+
     serviceCategDetails: [
       {
         categHeading: "Web UI/UX Design",
@@ -1136,6 +1175,11 @@ const ourServiceDetails = [
   },
   {
     id: "SERVtechConsServices",
+    bannerImg: "assets/images/serviceDetailImages/SVtechConsultAnd.png",
+    bannerH1: "Technology Consultancy Services",
+    bannerPragraph:
+      "  A company with proven track record in the development of software systems across the world for its customers",
+
     serviceCategDetails: [
       {
         categHeading: "Technology Consulting",
@@ -1224,6 +1268,12 @@ const ourServiceDetails = [
 
   {
     id: "SERVdataAnalBussInt",
+    bannerImg:
+      "assets/images/serviceDetailImages/SVdataAnalyticsBusinessIn.png",
+    bannerH1: " Data Analytics and Business Intelligence",
+    bannerPragraph:
+      "  A company with proven track record in the development of software systems across the world for its customers",
+
     serviceCategDetails: [
       {
         categHeading: "Artificial Intelligence",
@@ -1314,6 +1364,11 @@ const ourServiceDetails = [
 
   {
     id: "SERVseo",
+    bannerImg: "assets/images/serviceDetailImages/SVseo.png",
+    bannerH1: "Search Engine Optimization",
+    bannerPragraph:
+      "  A company with proven track record in the development of software systems across the world for its customers",
+
     serviceCategDetails: [
       {
         categHeading: "",
@@ -1392,6 +1447,11 @@ const ourServiceDetails = [
   },
   {
     id: "SERVprojManagment",
+    bannerImg: "assets/images/serviceDetailImages/SVprojManagment.png",
+    bannerH1: "Product/ Project Management",
+    bannerPragraph:
+      "  A company with proven track record in the development of software systems across the world for its customers",
+
     serviceCategDetails: [
       {
         categHeading: "Realistic Estimation of Product Development",
@@ -1555,8 +1615,8 @@ const FnRenderOurService = () => {
           <div class="flip-card-front">
             
                 <div class="row frontRow">
-                <div class=" col-12">
-                <br>
+                <center><div class=" col-12 circle">
+                  
                   <img
                     src="${singleOurService.serviceImg}"
                     alt=""
@@ -1564,7 +1624,7 @@ const FnRenderOurService = () => {
                 </div> 
                 <div class="col-12 pt-2">
                   <h5>${singleOurService.serviceName}</h5>
-                </div>
+                </div></center>
               </div>
           
           </div>

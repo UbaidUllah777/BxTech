@@ -1,3 +1,6 @@
+const ElHeaderservicesDetials = document.querySelector(
+  ".HeaderservicesDetials "
+);
 const ElServicerowGrid = document.querySelector(".rowGrid");
 const ElRowServiceDetailsRight = document.querySelector(
   ".rowServiceDetailsRight"
@@ -5,6 +8,7 @@ const ElRowServiceDetailsRight = document.querySelector(
 const ElDevelopmentHeadingText = document.querySelector(
   ".developmentHeadingText"
 );
+
 const ElstepOne = document.querySelector(".stepOne");
 const ElstepTwo = document.querySelector(".stepTwo");
 const ElstepThree = document.querySelector(".stepThree");
@@ -13,11 +17,34 @@ const ElstepFour = document.querySelector(".stepFour");
 let myService = sessionStorage.getItem("service");
 
 if (ElServicerowGrid && ElRowServiceDetailsRight && ElDevelopmentHeadingText) {
+  ElHeaderservicesDetials.innerHTML = "";
   ElServicerowGrid.innerHTML = "";
   ElRowServiceDetailsRight.innerHTML = "";
   ElDevelopmentHeadingText.innerHTML = "";
   for (singleserviceGrid of ourServiceDetails) {
     if (singleserviceGrid.id === myService) {
+      ElHeaderservicesDetials.innerHTML = `
+        <div class="col-md-7 col-12 indexHeaderimg">
+            <img src="${singleserviceGrid.bannerImg}" class="indexRightIMG" alt="banner image" />
+          </div>
+          <div class="col-md-5 col-12 HeaderText">
+            <div class="row">
+              <div class="col-12">
+                <h1>
+                  ${singleserviceGrid.bannerH1}
+                </h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <p>
+                ${singleserviceGrid.bannerPragraph}
+                </p>
+              </div>
+            </div>
+           
+          </div>
+        `;
       for (singleserviceGridDesc of singleserviceGrid.serviceCategDetails) {
         ElServicerowGrid.innerHTML += `
       <div class="col-10 col-sm-5 gridServices">
