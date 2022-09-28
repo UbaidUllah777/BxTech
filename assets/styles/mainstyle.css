@@ -4,6 +4,18 @@ body {
 * {
   scroll-behavior: smooth;
 }
+.megamenu {
+  position: static;
+}
+
+.megamenu .dropdown-menu {
+  background: none;
+  border: none;
+  width: 100%;
+}
+.text-uppercase {
+  letter-spacing: 0.08em;
+}
 
 @media only screen and (min-width: 600px) {
   .HeaderText {
@@ -138,6 +150,10 @@ body {
   color: #011945;
   width: fit-content;
 }
+.OurServicesLink{
+   text-decoration: none;
+  color: #011945;
+  width: fit-content;}
 .quickLinks a:hover {
   color: #2cf100;
   cursor: pointer;

@@ -16,3 +16,8 @@ $(window).on("scroll", function () {
     $("#scrollToTop").removeClass("active");
   }
 });
+
+const FnShowService = (serviceId) => {
+  sessionStorage.setItem("service", serviceId);
+  window.location.href = "sevicesDetials.html";
+};

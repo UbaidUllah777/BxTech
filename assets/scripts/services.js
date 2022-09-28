@@ -1548,11 +1548,11 @@ const ourServiceDetails = [
 
 // Services Stact : START
 const FnRenderTechStactTwo = (elementId) => {
-  EltechStockTwo.innerHTML = "";
+  if (EltechStockTwo) {
+    EltechStockTwo.innerHTML = "";
 
-  let counter = 0;
-  for (const singleService of allServices) {
-    if (EltechStockTwo) {
+    let counter = 0;
+    for (const singleService of allServices) {
       if (singleService.id === elementId) {
         EltechStockTwo.innerHTML = `
       <div class="row">
@@ -1579,16 +1579,19 @@ const FnRenderTechStactTwo = (elementId) => {
       `;
         const ElservicesImagesRow =
           document.querySelector(".servicesImagesRow");
-        for (singleImage of singleService.servicesImages) {
-          if (ElservicesImagesRow) {
-            ElservicesImagesRow.innerHTML += `
+        if (ElservicesImagesRow) {
+          for (singleImage of singleService.servicesImages) {
+            if (ElservicesImagesRow) {
+              ElservicesImagesRow.innerHTML += `
           <div class="col-md-2 pt-5 col-4">
           <center> <img src="${singleImage.image}" alt="" /><br>
                      <h6 class="pt-2">${singleImage.serviceName}</h6></center> 
                     </div>
           `;
+            }
           }
         }
+
         break;
       }
     }
@@ -1652,10 +1655,10 @@ const FnRenderOurService = () => {
   }
 };
 FnRenderOurService();
-const FnShowService = (serviceId) => {
-  sessionStorage.setItem("service", serviceId);
-  window.location.href = "sevicesDetials.html";
-};
+// const FnShowService = (serviceId) => {
+//   sessionStorage.setItem("service", serviceId);
+//   window.location.href = "sevicesDetials.html";
+// };
 //Our Services Container rendering :END
 
 //
@@ -1663,103 +1666,119 @@ const FnShowService = (serviceId) => {
 //
 //
 // EVENTS : START
-btnMobApp.addEventListener("click", function () {
-  const elementId = btnMobApp.id;
-  FnAddClass(btnMobApp);
-  for (const singleService of allServices) {
-    if (singleService.id === elementId) {
-      FnRenderTechStactTwo(singleService.id);
-      break;
+if (btnMobApp) {
+  btnMobApp.addEventListener("click", function () {
+    const elementId = btnMobApp.id;
+    FnAddClass(btnMobApp);
+    for (const singleService of allServices) {
+      if (singleService.id === elementId) {
+        FnRenderTechStactTwo(singleService.id);
+        break;
+      }
     }
-  }
-});
-btnwebApp.addEventListener("click", function () {
-  const elementId = btnwebApp.id;
-  FnAddClass(btnwebApp);
-  for (const singleService of allServices) {
-    if (singleService.id === elementId) {
-      FnRenderTechStactTwo(singleService.id);
-      break;
-    }
-  }
-});
+  });
+}
 
-btDatabases.addEventListener("click", function () {
-  const elementId = btDatabases.id;
-  FnAddClass(btDatabases);
-  for (const singleService of allServices) {
-    if (singleService.id === elementId) {
-      FnRenderTechStactTwo(singleService.id);
-      break;
+if (btnwebApp) {
+  btnwebApp.addEventListener("click", function () {
+    const elementId = btnwebApp.id;
+    FnAddClass(btnwebApp);
+    for (const singleService of allServices) {
+      if (singleService.id === elementId) {
+        FnRenderTechStactTwo(singleService.id);
+        break;
+      }
     }
-  }
-});
+  });
+}
 
-btnBigData.addEventListener("click", function () {
-  const elementId = btnBigData.id;
-  FnAddClass(btnBigData);
-  for (const singleService of allServices) {
-    if (singleService.id === elementId) {
-      FnRenderTechStactTwo(singleService.id);
-      break;
-    }
-  }
-});
+if (btDatabases) {
+  btDatabases.addEventListener("click", function () {
+    if (btDatabases) {
+      const elementId = btDatabases.id;
 
-btnIOTs.addEventListener("click", function () {
-  const elementId = btnIOTs.id;
-  FnAddClass(btnIOTs);
-  for (const singleService of allServices) {
-    if (singleService.id === elementId) {
-      FnRenderTechStactTwo(singleService.id);
-      break;
+      FnAddClass(btDatabases);
+      for (const singleService of allServices) {
+        if (singleService.id === elementId) {
+          FnRenderTechStactTwo(singleService.id);
+          break;
+        }
+      }
     }
-  }
-});
-
-btnBlockChain.addEventListener("click", function () {
-  const elementId = btnBlockChain.id;
-  FnAddClass(btnBlockChain);
-  for (const singleService of allServices) {
-    if (singleService.id === elementId) {
-      FnRenderTechStactTwo(singleService.id);
-      break;
+  });
+}
+if (btnBigData) {
+  btnBigData.addEventListener("click", function () {
+    const elementId = btnBigData.id;
+    FnAddClass(btnBigData);
+    for (const singleService of allServices) {
+      if (singleService.id === elementId) {
+        FnRenderTechStactTwo(singleService.id);
+        break;
+      }
     }
-  }
-});
-
-btnSwTesting.addEventListener("click", function () {
-  const elementId = btnSwTesting.id;
-  FnAddClass(btnSwTesting);
-  for (const singleService of allServices) {
-    if (singleService.id === elementId) {
-      FnRenderTechStactTwo(singleService.id);
-      break;
+  });
+}
+if (btnIOTs) {
+  btnIOTs.addEventListener("click", function () {
+    const elementId = btnIOTs.id;
+    FnAddClass(btnIOTs);
+    for (const singleService of allServices) {
+      if (singleService.id === elementId) {
+        FnRenderTechStactTwo(singleService.id);
+        break;
+      }
     }
-  }
-});
-
-btnCloudMngmnt.addEventListener("click", function () {
-  const elementId = btnCloudMngmnt.id;
-  FnAddClass(btnCloudMngmnt);
-  for (const singleService of allServices) {
-    if (singleService.id === elementId) {
-      FnRenderTechStactTwo(singleService.id);
-      break;
+  });
+}
+if (btnBlockChain) {
+  btnBlockChain.addEventListener("click", function () {
+    const elementId = btnBlockChain.id;
+    FnAddClass(btnBlockChain);
+    for (const singleService of allServices) {
+      if (singleService.id === elementId) {
+        FnRenderTechStactTwo(singleService.id);
+        break;
+      }
     }
-  }
-});
-
-btnVersionControl.addEventListener("click", function () {
-  const elementId = btnVersionControl.id;
-  FnAddClass(btnVersionControl);
-  for (const singleService of allServices) {
-    if (singleService.id === elementId) {
-      FnRenderTechStactTwo(singleService.id);
-      break;
+  });
+}
+if (btnSwTesting) {
+  btnSwTesting.addEventListener("click", function () {
+    const elementId = btnSwTesting.id;
+    FnAddClass(btnSwTesting);
+    for (const singleService of allServices) {
+      if (singleService.id === elementId) {
+        FnRenderTechStactTwo(singleService.id);
+        break;
+      }
     }
-  }
-});
+  });
+}
+if (btnCloudMngmnt) {
+  btnCloudMngmnt.addEventListener("click", function () {
+    const elementId = btnCloudMngmnt.id;
+    FnAddClass(btnCloudMngmnt);
+    for (const singleService of allServices) {
+      if (singleService.id === elementId) {
+        FnRenderTechStactTwo(singleService.id);
+        break;
+      }
+    }
+  });
+}
+if (btnVersionControl) {
+  btnVersionControl.addEventListener("click", function () {
+    const elementId = btnVersionControl.id;
+    FnAddClass(btnVersionControl);
+    for (const singleService of allServices) {
+      if (singleService.id === elementId) {
+        FnRenderTechStactTwo(singleService.id);
+        break;
+      }
+    }
+  });
+}
 
 if (btnGetStarted) {
   btnGetStarted.addEventListener("click", FnGetstarted);

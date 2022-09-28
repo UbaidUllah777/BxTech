@@ -16,10 +16,12 @@ for (i = 0; i < faq.length; i++) {
 }
 
 // By click Scroll into view :Start
-const btnGetStarted = document.getElementById("btnGetStarted");
-
-const element = document.getElementById("emptyRow");
-
+if (!btnGetStarted) {
+  var btnGetStarted = document.getElementById("btnGetStarted");
+}
+if (!element) {
+  var element = document.getElementById("emptyRow");
+}
 const FnGetstarted = () => {
   element.scrollIntoView();
 };
