@@ -8,6 +8,7 @@ const ElRowServiceDetailsRight = document.querySelector(
 const ElDevelopmentHeadingText = document.querySelector(
   ".developmentHeadingText"
 );
+const Elpaginationcontainer = document.querySelector(".pagination-container");
 const ElstepOneHeading = document.querySelector(".stepOneHeading");
 const ElstepTwoHeading = document.querySelector(".stepTwoHeading");
 const ElstepThreeHeading = document.querySelector(".stepThreeHeading");
@@ -229,8 +230,12 @@ function appendPageNumber(index) {
 }
 
 function getPaginationNumbers() {
-  for (let i = 1; i <= pageCount; i++) {
-    appendPageNumber(i);
+  if (pageCount > 1) {
+    for (let i = 1; i <= pageCount; i++) {
+      appendPageNumber(i);
+    }
+  } else {
+    Elpaginationcontainer.classList.add("hidden");
   }
 }
 

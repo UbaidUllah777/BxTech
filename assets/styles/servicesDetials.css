@@ -364,11 +364,12 @@ padding-top: 10px;}
 
 /*Paginatio: Start*/
 .pagination-container {
-  width: calc(100% - 2rem);
+  width: calc(50% - 2rem);
   display: flex;
   align-items: center;
- 
   justify-content: center;
+  border-radius: 5px;
+  border: 1px solid #0085b6;
 }
 
 .pagination-number,
