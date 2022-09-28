@@ -89,8 +89,9 @@ if (ElServicerowGrid && ElRowServiceDetailsRight && ElDevelopmentHeadingText) {
         </div>
       </div>
       <div class="row">
-        <button id="btnGetIntouch" class="info-modal2"  >GET IN TOUCH</button>
-      
+        <div class="col-12">
+          <button id="btnGetIntouch" class="info-modal2"  >GET IN TOUCH</button>
+        </div>
       </div>
     </div>
         `;
@@ -149,15 +150,16 @@ function presentInfoModal() {
   <div class="row OurFullModal">
   <div class="col-sm-6 col-12 modaltLeft">
     <div class="leftModalData">
-      <h1>Ready To Become A Digital Titan In Your Niche?</h1><br>
-      <p>With modern technology, unparalleled experience & a desire for innovation, our team is ready to bring your digital business idea to life.</p>
+      <h1>Looking for an Outstanding Development Company to Outsource your Project !</h1><br>
+      <p>That excels in state-of-the-art modern software development technology, full-stack services, years of experience, and a desire for quality & innovation; Bx technologies' diverse team of experts is one click away from your business idea to turning it into a reality.
+      </p>
     <br>
     <p>Fill in this form to start the process</p>
     </div>
   
   </div>
   <div class="col-sm-6 col-12 modaltRight ">
-   <center><h1>Get In Touch With Us <hr style="max-width: 80%;"></h1> </center> <br>
+   <center><h1>Drop Us a Line Here <hr style="max-width: 80%;"></h1> </center> <br>
  <form>
     <div class="col-12 mb-3">
       <input type="text" class="form-control" id="formName" placeholder="Name" aria-describedby="emailHelp">
