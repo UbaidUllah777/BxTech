@@ -125,6 +125,14 @@ if (ElServicerowGrid && ElRowServiceDetailsRight && ElDevelopmentHeadingText) {
       }
     }
   }
+  var paginationNumbers = document.getElementById("pagination-numbers");
+  const paginatedList = document.querySelector(".rowGrid");
+  var listItems = paginatedList.querySelectorAll(".gridServices");
+
+  var paginationLimit = 4;
+  var pageCount = Math.ceil(listItems.length / paginationLimit);
+  var currentPage = 1;
+  FnLoadPagination();
 }
 
 // SHOWING or HIDING MODAL: START
@@ -207,3 +215,62 @@ if (modalLinkElement2) {
 }
 
 // SHOWING or HIDING MODAL:End
+
+// Pagination :START
+
+function appendPageNumber(index) {
+  const pageNumber = document.createElement("button");
+  pageNumber.className = "pagination-number";
+  pageNumber.innerHTML = index;
+  pageNumber.setAttribute("page-index", index);
+  pageNumber.setAttribute("aria-label", "Page " + index);
+
+  paginationNumbers.appendChild(pageNumber);
+}
+
+function getPaginationNumbers() {
+  for (let i = 1; i <= pageCount; i++) {
+    appendPageNumber(i);
+  }
+}
+
+function handleActivePageNumber() {
+  document.querySelectorAll(".pagination-number").forEach((button) => {
+    button.classList.remove("active");
+    const pageIndex = Number(button.getAttribute("page-index"));
+    if (pageIndex == currentPage) {
+      button.classList.add("active");
+    }
+  });
+}
+
+function setCurrentPage(pageNum) {
+  currentPage = pageNum;
+  handleActivePageNumber();
+
+  const prevRange = (pageNum - 1) * paginationLimit;
+  const currRange = pageNum * paginationLimit;
+
+  listItems.forEach((item, index) => {
+    item.classList.add("hidden");
+    if (index >= prevRange && index < currRange) {
+      item.classList.remove("hidden");
+    }
+  });
+}
+function FnLoadPagination() {
+  getPaginationNumbers();
+  setCurrentPage(1);
+
+  document.querySelectorAll(".pagination-number").forEach((button) => {
+    const pageIndex = Number(button.getAttribute("page-index"));
+
+    if (pageIndex) {
+      button.addEventListener("click", () => {
+        setCurrentPage(pageIndex);
+      });
+    }
+  });
+}
+
+// Pagination END
