@@ -91,7 +91,7 @@ if (ElServicerowGrid && ElRowServiceDetailsRight && ElDevelopmentHeadingText) {
       </div>
       <div class="row">
         <div class="col-12">
-          <button id="btnGetIntouch" class="info-modal2"  >GET IN TOUCH</button>
+          <button id="btnGetIntouch" class="info-modal2"  >Get In Touch</button>
         </div>
       </div>
     </div>
