@@ -1,9 +1,5 @@
 .headerContainer {
-  background: white url(../images/contactUsBanner.png) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+ background-color: #135382;;
   height: 800px;
   width: 100%;
 }
@@ -43,9 +39,7 @@
   color: white;
 }
 
-.headerContainer {
-  background-color: rgb(233, 240, 238);
-}
+
 .headerContainer p {
   font-size: 24px;
   font-weight: 300;
@@ -101,13 +95,44 @@ div:last-of-type span {
 } */
 
 p {
-  font-size: 12px;
+  font-size: 16px;
   color: #999;
   margin-top: 20px;
 }
+.headerContainer {
+  background-color: #135382;
+  height: 800px;
+  width: 100%;
+}
+.indexHeaderimg img
+{
+  padding-top: 20%;
+  padding-left: 5%;
+}
 
-.headerContainer h1,
-p {
+.indexRightIMG{
+  height: 100%;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+.HeaderText p{
+  font-size: 24px;
+  font-weight: 300;
+  color: #dee8ec;
+
+}
+
+
+
+.HeaderText h1{
+  color: #e9eaeb;
+  font-weight: bolder;
+}
+
+
+
+.HeaderText h1, .HeaderText p {
   animation: 1s ease-out 0s 1 slideInLeft;
 }
 @keyframes slideInLeft {
@@ -119,16 +144,36 @@ p {
   }
 }
 
-.serviceHeaderText {
-  padding-top: 20%;
-  padding-left: 40px;
-  padding-right: 20px;
+
+.btnGetStarted {
+  border-radius: 5px;
+  box-shadow: rgb(44 187 99 / 20%) 0 -25px 18px -14px inset,
+    rgb(44 187 99 / 15%) 0 1px 2px, rgb(44 187 99 / 15%) 0 2px 4px,
+    rgb(44 187 99 / 15%) 0 4px 8px, rgb(44 187 99 / 15%) 0 8px 16px,
+    rgb(44 187 99 / 15%) 0 16px 32px;
+  background-color: #28c23e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
-.serviceHeaderimg img {
-  padding-top: 10%;
-  max-width: 100%;
-  height: auto;
-  width: auto\9; /* ie8 */
+.btnGetStarted:hover {
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
+  transform: scale(1.02) rotate(-0.5deg);
+  background-color: white;
+  color: black;
+  border: 1px solid #28c23e;
 }
 .contactusTagline h2 {
   color: #28c23e;
@@ -138,6 +183,7 @@ p {
 .contactusTagline p {
   font-size: 20px;
   font-weight: 100px;
+  color: black;
 }
 .locationInfo {
   font-size: 17px;

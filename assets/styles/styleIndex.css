@@ -1,10 +1,6 @@
 
 .headerContainer {
-  background: rgb(223, 202, 202) url(../images/indexBannerBG.png) no-repeat  center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #135382;
   height: 800px;
   width: 100%;
 }
@@ -23,13 +19,14 @@
 .HeaderText p{
   font-size: 24px;
   font-weight: 300;
+  color: #dee8ec;
 
 }
 
 
 
 .HeaderText h1{
-  color: #135382;
+  color: #e9eaeb;
   font-weight: bolder;
 }
 
