@@ -25,7 +25,7 @@ body {
 }
 @media only screen and (max-width: 400px) {
   .HeaderText {
-    padding-top: 20%;
+    padding-top: 10%;
     padding-right: 15px;
     padding-left: 15px;
   }
@@ -102,7 +102,7 @@ body {
   position: fixed;
   width: 100%;
   box-shadow: 0 4px 12px -2px #c5eecc;
-  opacity: 0.9;
+  opacity: 2;
   overflow: hidden;
 }
 
@@ -131,11 +131,12 @@ body {
   padding-left: 10px;
 }
 .ourlocation h5 {
-  color: #011945;
+  color: #dadada;
   text-align: center;
 }
 .ourlocation p {
   text-align: center;
+  color: #dadada;
 }
 .ourlocation img {
   width: 30px;
@@ -147,12 +148,12 @@ body {
 }
 .quickLinks a {
   text-decoration: none;
-  color: #011945;
+  color: #dadada;
   width: fit-content;
 }
 .OurServicesLink{
    text-decoration: none;
-  color: #011945;
+  color: #dadada;
   width: fit-content;}
 .quickLinks a:hover {
   color: #2cf100;
@@ -173,10 +174,10 @@ body {
 .fa-brands {
   font-size: xx-large;
   padding: 10px;
-  color: green;
+  color: #dadada;
 }
 .navbar-custom {
-  background-color: aliceblue;
+  background-color: white;
   
 }
 .usefullLinks{
@@ -192,11 +193,11 @@ body {
 }
 
 .firstFooter {
-  background-color: rgb(233, 240, 238);
+  background-color: #011945;
 }
 .firstFooter p {
   /* color: black; */
-  color: #011945;
+  color: #dadada;
 }
 .firstFooter a li {
   color: white;
@@ -204,12 +205,17 @@ body {
 }
 .firstFooter h3 {
   /* color: #28c23e; */
-  color: #011945;
+  color: #dadada;
   font-weight: 500;
   padding-left: 30px;
 }
+.firstFooter a{
+  color: #dadada;
+  font-weight: 500;
+}
 .secondFooter {
   background-color: #011945;
+  border-top:.1px solid #dadada;
 }
 .secondFooter p {
   color: white;
@@ -328,6 +334,7 @@ ul.whyUsListHeadings p {
 .contacttLeft {
   background-color: #011945;
   height: 80vh;
+  box-shadow: 0px -15px 10px -15px #111;
 }
 
 @media only screen and (min-width: 600px) {
@@ -378,6 +385,8 @@ ul.whyUsListHeadings p {
   padding-left: 30px;
   background-color: white;
   color: #28c23e;
+  box-shadow: 0px 8px 10px -15px #111;
+  
 }
 .contacttRight h1 {
   padding-top: 20px;
