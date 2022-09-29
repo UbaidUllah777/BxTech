@@ -132,10 +132,10 @@ body {
 }
 .ourlocation h5 {
   color: #dadada;
-  text-align: center;
+  padding-left: 30px;
 }
 .ourlocation p {
-  text-align: center;
+  padding-left: 30px;
   color: #dadada;
 }
 .ourlocation img {
