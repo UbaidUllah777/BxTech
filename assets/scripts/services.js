@@ -93,6 +93,26 @@ const allServices = [
         image: "assets/images/Techstackimg/css3.png",
         serviceName: "css3",
       },
+      {
+        image: "assets/images/Techstackimg/react.png",
+        serviceName: "reactJs",
+      },
+      {
+        image: "assets/images/Techstackimg/php.png",
+        serviceName: "PhP",
+      },
+      {
+        image: "assets/images/Techstackimg/ruby.png",
+        serviceName: "ruby",
+      },
+      {
+        image: "assets/images/Techstackimg/csharp.png",
+        serviceName: "C#",
+      },
+      {
+        image: "assets/images/Techstackimg/express.png",
+        serviceName: "expressJs",
+      },
     ],
   },
   {
@@ -100,7 +120,7 @@ const allServices = [
     serviceHeading: "Mobile Applications",
     headingImg: "assets/images/mobile-development.png",
     servicesDetails:
-      " Our mobile application development engineers and developers always welcome complex and technical mobile application development tasks. we use wide range of mobile app technologies for developing native, hybrid, and cross-platform mobile applications.",
+      " Our mobile application development engineers and developers always welcome complex and technical mobile application development tasks. Our mobile development uses a different types of mobile application technologies and frameworks to develop native, hybrid, and cross-platform mobile applications.",
     servicesImages: [
       {
         image: "assets/images/Techstackimg/android.png",
@@ -108,7 +128,7 @@ const allServices = [
       },
       {
         image: "assets/images/Techstackimg/react.png",
-        serviceName: "react",
+        serviceName: "reactJs",
       },
       {
         image: "assets/images/Techstackimg/nodejs.png",
@@ -127,8 +147,40 @@ const allServices = [
         serviceName: "swift",
       },
       {
-        image: "assets/images/Techstackimg/react.png",
-        serviceName: "react",
+        image: "assets/images/Techstackimg/html5.png",
+        serviceName: "HTML5",
+      },
+      {
+        image: "assets/images/Techstackimg/css3.png",
+        serviceName: "CSS3",
+      },
+      {
+        image: "assets/images/Techstackimg/flutter.png",
+        serviceName: "flutter",
+      },
+      {
+        image: "assets/images/Techstackimg/angularjs.png",
+        serviceName: "angular",
+      },
+      {
+        image: "assets/images/Techstackimg/vuejs.png",
+        serviceName: "VueJs",
+      },
+      {
+        image: "assets/images/Techstackimg/meteor.png",
+        serviceName: "meteor",
+      },
+      {
+        image: "assets/images/Techstackimg/logo-spring.png",
+        serviceName: "spring boot",
+      },
+      {
+        image: "assets/images/Techstackimg/logo-nuxt.png",
+        serviceName: "nuxt",
+      },
+      {
+        image: "assets/images/Techstackimg/express.png",
+        serviceName: "aexpressJs",
       },
     ],
   },
@@ -137,41 +189,39 @@ const allServices = [
     serviceHeading: "Databases",
     headingImg: "assets/images/databaseSystem.png",
     servicesDetails:
-      "We use and employ diverse range of Databases (i.e. SQL and NoSQL) for handling the most precious data for business value  behind the seens.",
+      "We use and employ a diverse range of Databases ( SQL and NoSQL) for handling the most precious data for business value behind the scenes.",
     servicesImages: [
       {
         image: "assets/images/Techstackimg/mongodb.png",
         serviceName: "mongodb",
       },
-      { image: "assets/images/Techstackimg/mysql.png", serviceName: "mysql" },
+      {
+        image: "assets/images/Techstackimg/mysql.png",
+        serviceName: "mysql",
+      },
       {
         image: "assets/images/Techstackimg/couchdb.png",
         serviceName: "couchdb",
       },
       {
-        image: "assets/images/Techstackimg/postgresql.png",
-        serviceName: "postgresql",
+        image: "assets/images/Techstackimg/oracle.png",
+        serviceName: "oracle",
       },
       {
         image: "assets/images/Techstackimg/postgresql.png",
         serviceName: "postgresql",
       },
       {
-        image: "assets/images/Techstackimg/mongodb.png",
-        serviceName: "mongodb",
-      },
-      { image: "assets/images/Techstackimg/mysql.png", serviceName: "mysql" },
-      {
-        image: "assets/images/Techstackimg/couchdb.png",
-        serviceName: "couchdb",
+        image: "assets/images/Techstackimg/apache.png",
+        serviceName: "apacheDB",
       },
       {
-        image: "assets/images/Techstackimg/postgresql.png",
-        serviceName: "postgresql",
+        image: "assets/images/Techstackimg/cassandra.png",
+        serviceName: "cassandraDB",
       },
       {
-        image: "assets/images/Techstackimg/postgresql.png",
-        serviceName: "postgresql",
+        image: "assets/images/Techstackimg/firebase.png",
+        serviceName: "firebase",
       },
     ],
   },
@@ -226,6 +276,18 @@ const allServices = [
         image: "assets/images/Techstackimg/saucelabs.png",
         serviceName: "saucelabs",
       },
+      {
+        image: "assets/images/Techstackimg/jmeter.png",
+        serviceName: "Jmeter",
+      },
+      {
+        image: "assets/images/Techstackimg/TestRail.png",
+        serviceName: "TestRail",
+      },
+      {
+        image: "assets/images/Techstackimg/saucelabs.png",
+        serviceName: "saucelabs",
+      },
     ],
   },
   {
@@ -233,21 +295,27 @@ const allServices = [
     serviceHeading: "Big Data",
     headingImg: "assets/images/big-data.png",
     servicesDetails:
-      "Data is sometimes referred to 21st century oil. To manage, process, transform and obtian actionable information and insights we use several tools and technology to expose hidden pattrens in the data. ",
+      "Data is sometimes referred to as 21st-century oil in the digital world. To manage, process, transform and obtain actionable information and insights. We use several tools and technology to expose hidden patterns in the data. ",
     servicesImages: [
-      { image: "assets/images/Techstackimg/spark.png", serviceName: "spark" },
+      {
+        image: "assets/images/Techstackimg/spark.png",
+        serviceName: "spark",
+      },
       {
         image: "assets/images/Techstackimg/cassandra.png",
         serviceName: "cassandra",
       },
-      { image: "assets/images/Techstackimg/apache.png", serviceName: "apache" },
+      {
+        image: "assets/images/Techstackimg/apache.png",
+        serviceName: "apache",
+      },
       {
         image: "assets/images/Techstackimg/apachehadoop.png",
         serviceName: "apachehadoop",
       },
       {
-        image: "assets/images/Techstackimg/cucumber.png",
-        serviceName: "cucumber",
+        image: "assets/images/Techstackimg/mongodb.png",
+        serviceName: "mongodb",
       },
     ],
   },
@@ -256,7 +324,7 @@ const allServices = [
     serviceHeading: "Internet Of Things",
     headingImg: "assets/images/internet-of-things.png",
     servicesDetails:
-      "Internet of things which is commonly referred to as IoT's. we use a wide range of tools and technologys to implement IoT's based applications.",
+      "The Internet of things is normally referred to as IoT. We use a wide range of tools and technologies to implement IoT-based applications. IoT is already transforming many industries and business domains since its inception.",
     servicesImages: [
       { image: "assets/images/MbA1redux.svg", serviceName: "redux" },
       { image: "assets/images/MbA2Swift_logo_color.svg", serviceName: "Swift" },
@@ -429,9 +497,9 @@ const ourServiceDetails = [
   {
     id: "SERVmobAppDev",
     bannerImg: "assets/images/serviceDetailImages/SVmobAppdev.png",
-    bannerH1: "Mobile App Development",
+    bannerH1: "Trusted Mobile Application Development Services",
     bannerPragraph:
-      "  A company with proven track record in the development of software systems across the world for its customers",
+      "Unleash the Power of your mobile mpplication idea with BX Technologies",
     serviceCategDetails: [
       {
         categHeading: "Android Apps",
@@ -523,9 +591,9 @@ const ourServiceDetails = [
   {
     id: "SERVwebAppDev",
     bannerImg: "assets/images/serviceDetailImages/SVwebAppdev.png",
-    bannerH1: "Custom Web Application Development",
+    bannerH1: "Web Application Development Services",
     bannerPragraph:
-      "  A company with proven track record in the development of software systems across the world for its customers",
+      "Hire our Talented Team of Web Developers and Designers for Your web Application project ",
 
     serviceCategDetails: [
       {
@@ -614,9 +682,9 @@ const ourServiceDetails = [
   {
     id: "SERVCustSoftDev",
     bannerImg: "assets/images/serviceDetailImages/SVcustomSWdev.png",
-    bannerH1: "Custom Software Development",
+    bannerH1: "On-Demand Custom Software Development Services",
     bannerPragraph:
-      "  A company with proven track record in the development of software systems across the world for its customers",
+      "Turn your business slow and steady processes into high-performing processes by developing Custom software solutions with Us, that deliver change and efficiency ",
 
     serviceCategDetails: [
       {
@@ -704,9 +772,9 @@ const ourServiceDetails = [
   {
     id: "SERVcloudAppMng",
     bannerImg: "assets/images/serviceDetailImages/SVcloudManagment.png",
-    bannerH1: "Cloud Application Management",
+    bannerH1: "Cloud App Development and Management Services",
     bannerPragraph:
-      "  A company with proven track record in the development of software systems across the world for its customers",
+      "Attain more efficiency and reliability with cloud computing services",
 
     serviceCategDetails: [
       {
@@ -792,13 +860,13 @@ const ourServiceDetails = [
   {
     id: "SERVsoftTestQA",
     bannerImg: "assets/images/serviceDetailImages/SVswTestingQA.png",
-    bannerH1: "Software Testing / QA",
+    bannerH1: "Software Testing and Quality Assurance Services",
     bannerPragraph:
-      "  A company with proven track record in the development of software systems across the world for its customers",
+      "Hire our talented team of software testers and quality assurance  specialists to ensure the quality of your product ",
 
     serviceCategDetails: [
       {
-        categHeading: "QA Automation",
+        categHeading: "Automated Testing",
         categImg: "assets/images/serviceDetailImages/QAautomation.png",
         categDesc:
           "Fast track and automate your application testing process by applying test automation techniques. Our team of experienced test engineers collaborates and works with you to integrate the QA process into your product development. ",
@@ -902,9 +970,9 @@ const ourServiceDetails = [
   {
     id: "SERVcyberSecurity",
     bannerImg: "assets/images/serviceDetailImages/SVcyberSecAndPenTesting.png",
-    bannerH1: "Cyber Security and Pen Testing",
+    bannerH1: "Cyber Security and Penetration Testing Services",
     bannerPragraph:
-      "  A company with proven track record in the development of software systems across the world for its customers",
+      "Protect and immunize your application by implementing cyber security processes and penetration testing",
 
     serviceCategDetails: [
       {
@@ -996,9 +1064,9 @@ const ourServiceDetails = [
   {
     id: "SERVblockChainIots",
     bannerImg: "assets/images/serviceDetailImages/SVblockChainAndIot.png",
-    bannerH1: "Grow Your Business Now",
+    bannerH1: "Grow Your Business with our Blockchain Technology Services",
     bannerPragraph:
-      "  A company with proven track record in the development of software systems across the world for its customers",
+      "Develop secure, scalable and trustworthy distributed, and decentralized digital solutions",
 
     serviceCategDetails: [
       {
@@ -1084,9 +1152,9 @@ const ourServiceDetails = [
   {
     id: "SERVuiUxDesign",
     bannerImg: "assets/images/serviceDetailImages/SVuiUxDesign.png",
-    bannerH1: "UI/UX Design",
+    bannerH1: "Top Nutch Application Design Services",
     bannerPragraph:
-      "  A company with proven track record in the development of software systems across the world for its customers",
+      "Explore and develop a high-quality user interface and user experience design with our talented team of designers for your product",
 
     serviceCategDetails: [
       {
@@ -1179,7 +1247,7 @@ const ourServiceDetails = [
     bannerImg: "assets/images/serviceDetailImages/SVtechConsultAnd.png",
     bannerH1: "Technology Consultancy Services",
     bannerPragraph:
-      "  A company with proven track record in the development of software systems across the world for its customers",
+      "  Get expert advice and consultations for your software solutions at your ease with our technology consultants  ",
 
     serviceCategDetails: [
       {
@@ -1272,9 +1340,9 @@ const ourServiceDetails = [
     id: "SERVdataAnalBussInt",
     bannerImg:
       "assets/images/serviceDetailImages/SVdataAnalyticsBusinessIn.png",
-    bannerH1: " Data Analytics and Business Intelligence",
+    bannerH1: " Data Analytics and Business Intelligence Services",
     bannerPragraph:
-      "  A company with proven track record in the development of software systems across the world for its customers",
+      "Make calculated and informed decisions for your business by leveraging Data analytics and business intelligence solutions",
 
     serviceCategDetails: [
       {
@@ -1450,9 +1518,9 @@ const ourServiceDetails = [
   {
     id: "SERVprojManagment",
     bannerImg: "assets/images/serviceDetailImages/SVprojManagment.png",
-    bannerH1: "Product/ Project Management",
+    bannerH1: "Software Project Management Services",
     bannerPragraph:
-      "  A company with proven track record in the development of software systems across the world for its customers",
+      "Build and enhance your software project management process with our talented team of project managers, product owners, and scrum masters",
 
     serviceCategDetails: [
       {
@@ -1504,7 +1572,7 @@ const ourServiceDetails = [
         step2Tag: "Develop Backlog",
       },
       {
-        step2Tag: "Refine backlog",
+        step2Tag: "Refine product backlog",
       },
       {
         step2Tag: "Tools selection",
@@ -1513,13 +1581,13 @@ const ourServiceDetails = [
     step3Heading: "Execution",
     processStep3: [
       {
-        step3Tag: "Select execution process",
+        step3Tag: "Decide execution process",
       },
       {
         step3Tag: "Monitor performance",
       },
       {
-        step3Tag: "Report Progress",
+        step3Tag: "Progress monitoring and control ",
       },
     ],
 
