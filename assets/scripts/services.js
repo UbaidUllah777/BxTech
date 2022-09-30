@@ -212,16 +212,16 @@ const allServices = [
         serviceName: "postgresql",
       },
       {
-        image: "assets/images/Techstackimg/apache.png",
-        serviceName: "apacheDB",
+        image: "assets/images/Techstackimg/sql-server.png",
+        serviceName: "SQL server",
       },
       {
         image: "assets/images/Techstackimg/cassandra.png",
         serviceName: "cassandraDB",
       },
       {
-        image: "assets/images/Techstackimg/firebase.png",
-        serviceName: "firebase",
+        image: "assets/images/Techstackimg/mariadb-icon.png",
+        serviceName: "mariadb",
       },
     ],
   },
@@ -249,8 +249,8 @@ const allServices = [
         serviceName: "appium",
       },
       {
-        image: "assets/images/Techstackimg/testNG.png",
-        serviceName: "testNG",
+        image: "assets/images/Techstackimg/xraytest.png",
+        serviceName: "xray",
       },
       {
         image: "assets/images/Techstackimg/Fabrictest.png",
@@ -285,8 +285,8 @@ const allServices = [
         serviceName: "TestRail",
       },
       {
-        image: "assets/images/Techstackimg/saucelabs.png",
-        serviceName: "saucelabs",
+        image: "assets/images/Techstackimg/testNG.png",
+        serviceName: "testNG",
       },
     ],
   },
@@ -344,15 +344,30 @@ const allServices = [
     servicesDetails:
       "To develop secure, robust, interoperable and scalable Blockchain technology based applications, we incorporate tools and frameworks didicated to Blockchain technology.  ",
     servicesImages: [
-      { image: "assets/images/MbA1redux.svg", serviceName: "redux" },
-      { image: "assets/images/MbA2Swift_logo_color.svg", serviceName: "Swift" },
-      { image: "assets/images/MbA3lockup.svg", serviceName: "lockup" },
       {
-        image: "assets/images/mbA4nativescript.svg",
-        serviceName: "ativescript",
+        image: "assets/images/Techstackimg/truffle.png",
+        serviceName: "truffle",
       },
-      { image: "assets/images/Mb5flutter-logo.svg", serviceName: "flutter" },
-      { image: "assets/images/mbA6download.svg", serviceName: "React" },
+      {
+        image: "assets/images/Techstackimg/solidity.png",
+        serviceName: "solidity",
+      },
+      {
+        image: "assets/images/Techstackimg/java.png",
+        serviceName: "Java",
+      },
+      {
+        image: "assets/images/Techstackimg/python.png",
+        serviceName: "python",
+      },
+      {
+        image: "assets/images/Techstackimg/react.png",
+        serviceName: "react",
+      },
+      {
+        image: "assets/images/Techstackimg/Rust.png",
+        serviceName: "Rust",
+      },
     ],
   },
   {
@@ -432,7 +447,7 @@ const ourServices = [
   },
   {
     id: "SERVsoftTestQA",
-    serviceName: "Software Testing/QA",
+    serviceName: "Software Quality Assurance",
     serviceImg: "assets/images/didicated software testing.png",
     serviceShortDesc:
       "We offer a variety of dedicated software testing and Quality assurance services that include, Functional testing, Performance testing, Security testing, Usability testing, API testing, infotaiment systems testing, sanity & smoke testing. our team has expertise in both automated and manual testing",
