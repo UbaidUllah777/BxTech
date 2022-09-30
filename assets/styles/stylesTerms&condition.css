@@ -1,6 +1,7 @@
 .termsandcondition h1,
 h4 {
-  color: #28c23e;
+  /* color: #28c23e; */
+  color: #011945;
   padding-left: 20px;
   padding-right: 20px;
   font-weight: bold;
@@ -23,5 +24,6 @@ h4 {
 }
 
 .termsandcondition {
-  background-color: rgb(233, 240, 238);
+  /* background-color: rgb(233, 240, 238); */
+  background-color: white;
 }

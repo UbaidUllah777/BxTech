@@ -432,7 +432,7 @@ const ourServices = [
   },
   {
     id: "SERVsoftTestQA",
-    serviceName: "Software Testing/QA",
+    serviceName: "Software Quality Assurance",
     serviceImg: "assets/images/didicated software testing.png",
     serviceShortDesc:
       "We offer a variety of dedicated software testing and Quality assurance services that include, Functional testing, Performance testing, Security testing, Usability testing, API testing, infotaiment systems testing, sanity & smoke testing. our team has expertise in both automated and manual testing",
