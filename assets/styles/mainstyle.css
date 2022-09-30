@@ -151,10 +151,11 @@ body {
   color: #dadada;
   width: fit-content;
 }
-.OurServicesLink{
-   text-decoration: none;
+.OurServicesLink {
+  text-decoration: none;
   color: #dadada;
-  width: fit-content;}
+  width: fit-content;
+}
 .quickLinks a:hover {
   color: #2cf100;
   cursor: pointer;
@@ -178,10 +179,8 @@ body {
 }
 .navbar-custom {
   background-color: white;
-  
 }
-.usefullLinks{
-  
+.usefullLinks {
   text-align: justify;
   text-justify: inter-word;
 }
@@ -206,16 +205,16 @@ body {
 .firstFooter h3 {
   /* color: #28c23e; */
   color: #dadada;
-  font-weight: 500;
+  font-weight: 600;
   padding-left: 30px;
 }
-.firstFooter a{
+.firstFooter a {
   color: #dadada;
   font-weight: 500;
 }
 .secondFooter {
   background-color: #011945;
-  border-top:.1px solid #dadada;
+  border-top: 0.1px solid #dadada;
 }
 .secondFooter p {
   color: white;
@@ -386,13 +385,11 @@ ul.whyUsListHeadings p {
   background-color: white;
   color: #28c23e;
   box-shadow: 0px 8px 10px -15px #111;
-  
 }
 .contacttRight h1 {
   padding-top: 20px;
 }
 #btnSubmit {
-  
   border-radius: 5px;
   box-shadow: rgb(44 187 99 / 20%) 0 -25px 18px -14px inset,
     rgb(44 187 99 / 15%) 0 1px 2px, rgb(44 187 99 / 15%) 0 2px 4px,
