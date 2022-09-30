@@ -1,38 +1,32 @@
-
 .headerContainer {
   background-color: #135382;
   height: 800px;
   width: 100%;
 }
-.indexHeaderimg img
-{
+.indexHeaderimg img {
   padding-top: 20%;
   padding-left: 5%;
 }
 
-.indexRightIMG{
+.indexRightIMG {
   height: 100%;
   max-width: 500px;
   width: 100%;
   height: auto;
 }
-.HeaderText p{
+.HeaderText p {
   font-size: 24px;
   font-weight: 300;
   color: #dee8ec;
-
 }
 
-
-
-.HeaderText h1{
-  color: #28c23e;
+.HeaderText h1 {
+  color: #f9f9f9;
   font-weight: bolder;
 }
 
-
-
-.HeaderText h1, .HeaderText p {
+.HeaderText h1,
+.HeaderText p {
   animation: 1s ease-out 0s 1 slideInLeft;
 }
 @keyframes slideInLeft {
@@ -43,7 +37,6 @@
     transform: translateX(0);
   }
 }
-
 
 .btnGetStarted {
   border-radius: 5px;
@@ -256,7 +249,7 @@ h3 {
 
 /* FORM STYle */
 .TellUsAbout h1 {
-  color: #28c23e;
+  color: #f9f9f9;
 }
 
 .atchFileIcon {
