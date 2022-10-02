@@ -4,6 +4,16 @@
   font-weight: bold;
   color: green;
 }
+.headerContainer {
+  background-color: #e6e6e6;
+  height: 800px;
+  width: 100%;
+}
+
+
+
+
+
 
 .faq-heading {
   border-bottom: #777;
@@ -49,35 +59,6 @@
 }
 
 
-
-.aboutUsLeftIMG{
-  height: 100%;
-  max-width: 500px;
-  width: 100%;
-  height: auto;
-}
-.HeaderText h1{
-  color: #135382;
-  font-weight: bolder;
-}
-
-.HeaderText p{
-  font-size: 24px;
-  font-weight: 300;
-
-}
-
-.HeaderText h1, .HeaderText p {
-  animation: 1s ease-out 0s 1 slideInLeft;
-}
-@keyframes slideInLeft {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .openactive,
 .faq-page:hover {
@@ -143,22 +124,6 @@
 }
 
 
-.welcomeHead {
-  background: rgb(223, 202, 202) url(../images/indexBannerBG.png) no-repeat  center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 800px;
-  width: 100%;
-}
-.welcomeTextH2 {
-  color: #28c23e;
-}
-  
-    .welcomeTextH2{
-        color: #28c23e;
-    }
 #btnGetStarted:hover {
   box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
   rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,

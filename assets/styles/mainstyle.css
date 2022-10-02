@@ -4,45 +4,97 @@ body {
 * {
   scroll-behavior: smooth;
 }
-.megamenu {
-  position: static;
-}
-
-.megamenu .dropdown-menu {
-  background: none;
-  border: none;
-  width: 100%;
-}
-.text-uppercase {
-  letter-spacing: 0.08em;
-}
-
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 769px) {
   .HeaderText {
     padding-top: 20%;
     padding-right: 3%;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 769px) {
+  .headerIMG {
+    padding-top: 20%;
+    padding-right: 1%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .headerIMG {
+    padding-top: 10%;
+    padding-right: 1%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
   .HeaderText {
     padding-top: 10%;
+    padding-right: 3%;
+  }
+}
+@media only screen and (min-width: 2400px) {
+  .headerIMG {
+    padding-top: 4%;
+    padding-right: 1%;
+  }
+}
+
+@media only screen and (min-width: 2400px) {
+  .HeaderText {
+    padding-top: 4%;
+    padding-right: 3%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .HeaderText {
+    padding-top: 0%;
     padding-right: 15px;
     padding-left: 15px;
   }
 }
-@media only screen and (min-width: 600px) {
-  .aboutUsLeftIMG {
-    padding-top: 20%;
-    padding-right: 15%;
-  }
-}
-@media only screen and (max-width: 400px) {
-  .aboutUsLeftIMG {
-    padding-top: 20%;
+
+@media only screen and (max-width: 768px) {
+  .headerIMG {
+    padding-top: 0%;
     padding-right: 15px;
     padding-left: 15px;
   }
 }
+
+
+
+.headerIMG{
+  height: 100%;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+.HeaderText p{
+  font-size: 24px;
+  font-weight: 300;
+  color: #dee8ec;
+
+}
+
+
+
+.HeaderText h1{
+  color: #28c23e;
+  font-weight: bolder;
+}
+
+
+
+.HeaderText h1, .HeaderText p {
+  animation: 1s ease-out 0s 1 slideInLeft;
+}
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
 
 #scrollToTop {
   position: fixed;
