@@ -136,8 +136,27 @@
   color: black;
   border: 1px solid #28c23e;
 }
+@media only screen and (min-width: 500px) {
+  .taglineParagraph{
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .taglineParagraph{
+    margin-right: 5px;
+  }
+}
+.taglineParagraph{
+ 
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .whyUs {
   background-color: rgb(229, 250, 249);
+}
+.whyUs h1{
+  color: #28c23e;
 }
 
 .whyUsListHeadings li {
@@ -145,6 +164,14 @@
 }
 .whyUsListHeadings p {
   color: black;
+  padding-right: 20px;
+  
+  text-align: justify;
+  text-justify: inter-word;
+}
+.objHeading{
+  color:#135382;
+  font-weight: bolder;
 }
 
 .beliveHeadings {

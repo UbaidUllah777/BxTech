@@ -328,7 +328,7 @@ ul.whyUsListHeadings p {
 }
 .bxLogo {
   height: 100px;
-  width: 150px;
+  width: 100px;
 }
 .activee,
 .btn:hover {
@@ -387,7 +387,7 @@ ul.whyUsListHeadings p {
 }
 @media only screen and (max-width: 600px) {
   .contacttLeft {
-    max-height: 73vh;
+    max-height: 80vh;
   }
 }
 
