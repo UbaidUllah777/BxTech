@@ -333,10 +333,8 @@ ul.whyUsListHeadings p {
   padding-bottom: 10px;
 }
 .bxLogo {
-  height: 100px;
-  width: 100px;
-  display: block;
-  max-width: 100px;
+  height: 50px;
+  width: 50px
 }
 .activee,
 .btn:hover {
