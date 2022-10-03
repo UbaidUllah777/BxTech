@@ -1909,8 +1909,8 @@ const ElReadyDiscuss = document.querySelector(".readyToDiscuss");
 const ElWods = document.querySelector(".word");
 if (ElWods) {
   var words = [
-      "Ready To Discuss a Project With Us?",
       "Talk To Us Today For a Free Consultation!",
+      "Let's Turn your Cool Ideas into an Awesome Application",
     ],
     part,
     i = 0,
