@@ -1,8 +1,18 @@
 .headerContainer {
  background-color: #135382;;
-  height: 800px;
+  height: 850px;
   width: 100%;
 }
+.scoialMediaHeading{
+  color: #e3e4e5;
+  font-size: x-large;
+}
+@media only screen and (max-width: 769px) {
+  .socialMeidaRow{
+    visibility: hidden;
+  }
+}
+
 
 .navItemContactUs a {
   font-size: medium;

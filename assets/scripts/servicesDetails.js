@@ -1,6 +1,4 @@
-const ElHeaderservicesDetials = document.querySelector(
-  ".HeaderservicesDetials "
-);
+const ElHeaderservicesDetials = document.querySelector(".headerContainer ");
 const ElServicerowGrid = document.querySelector(".rowGrid");
 const ElRowServiceDetailsRight = document.querySelector(
   ".rowServiceDetailsRight"
@@ -29,20 +27,20 @@ if (ElServicerowGrid && ElRowServiceDetailsRight && ElDevelopmentHeadingText) {
   for (singleserviceGrid of ourServiceDetails) {
     if (singleserviceGrid.id === myService) {
       ElHeaderservicesDetials.innerHTML = `
-        <div class="col-md-7 col-12 indexHeaderimg">
-            <img src="${singleserviceGrid.bannerImg}" class="indexRightIMG" alt="banner image" />
+        <div class="col-md-7 col-12 HeaderCol">
+            <img src="${singleserviceGrid.bannerImg}"  class="headerIMG" alt="banner image" />
           </div>
           <div class="col-md-5 col-12 HeaderText">
             <div class="row">
               <div class="col-12">
-                <h1>
+                <h1 style="color: #011945; ">
                   ${singleserviceGrid.bannerH1}
                 </h1>
               </div>
             </div>
             <div class="row">
               <div class="col-12">
-                <p>
+                <p style="color: #28c23e;">
                 ${singleserviceGrid.bannerPragraph}
                 </p>
               </div>
