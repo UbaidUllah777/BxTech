@@ -1,5 +1,13 @@
-.imprintpage h1,
-h3,
+.headerContainer {
+  background-color: #135382;
+  height: 500px;
+  width: 100%;
+}
+.impritText{
+  font-weight: 900;
+  font-size: 5rem;
+}
+.imprintpage h3,
 h5 {
   color: #28c23e;
   margin-left: 10px;
@@ -7,6 +15,57 @@ h5 {
   font-size: bold;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+@media only screen and (min-width: 769px) {
+  .HeaderText1 {
+    padding-top: 30%;
+    padding-right: 60px;
+  }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+  .HeaderText1 {
+    padding-top: 15%;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (min-width: 2400px) {
+  .HeaderText1 {
+    padding-top: 10%;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .HeaderText1 {
+    padding-top: 20%;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+
+
+
+.HeaderText1 p {
+  font-size: 24px;
+  font-weight: 300;
+  color: #dee8ec;
+}
+
+.HeaderText1 h1 {
+  color: #eaecea;
+  font-weight: bolder;
+}
+
+.HeaderText1 h1,
+.HeaderText1 p {
+  animation: 1s ease-out 0s 1 slideInLeft;
 }
 
 .bxTechLogo img {
