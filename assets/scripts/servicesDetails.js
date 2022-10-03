@@ -74,8 +74,8 @@ if (ElServicerowGrid && ElRowServiceDetailsRight && ElDevelopmentHeadingText) {
       }
       ElRowServiceDetailsRight.innerHTML = `
         <div class="row ">
-        <div class="col-12 pb-5">
-          <span>
+        <div class="col-12 pb-5 pt-5 ">
+          <span class="pt-5">
             ${singleserviceGrid.serviceHeading}
           </span>
         </div>
