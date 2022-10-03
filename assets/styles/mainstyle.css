@@ -333,7 +333,7 @@ ul.whyUsListHeadings p {
   padding-bottom: 10px;
 }
 .bxLogo {
-  height: 70px;
+  height: 100px;
   width: 100px;
   display: block;
   max-width: 100px;
@@ -384,18 +384,18 @@ ul.whyUsListHeadings p {
 
 .contacttLeft {
   background-color: #011945;
-  height: 80vh;
+  max-height: 80vh;
   box-shadow: 0px -15px 10px -15px #111;
 }
 
 @media only screen and (min-width: 600px) {
   .contacttLeft {
-    height: 80vh;
+    max-height: 80vh;
   }
 }
 @media only screen and (max-width: 600px) {
   .contacttLeft {
-    height: 60vh;
+    max-height: 73vh;
   }
 }
 
