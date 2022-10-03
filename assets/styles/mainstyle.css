@@ -287,7 +287,9 @@ a {
 .Allfooter {
   padding-top: 20px;
 }
-
+.contacttRight h1 {
+  color: #28c23e;
+}
 ul.whyUsListHeadings li {
   font-weight: bolder;
 }
